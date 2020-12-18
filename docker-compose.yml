@@ -4,8 +4,8 @@ services:
     container_name: home-assistant
     image: homeassistant/home-assistant:stable
     volumes:
-      - /home/home-assistant:/config
+      - /home/home-assistant/config:/config
     environment:
-      - TZ=America/New_York
+      - TZ=America/Los_Angeles
     restart: always
     network_mode: host
