@@ -1,0 +1,2854 @@
+{
+  "version": 1,
+  "minor_version": 11,
+  "key": "core.entity_registry",
+  "data": {
+    "entities": [
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "df4a5a00c573771225579ac4d2bfce30",
+        "device_class": null,
+        "device_id": "323558a08385603a16c4ee260347336f",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.sun_next_dawn",
+        "hidden_by": null,
+        "icon": null,
+        "id": "480f156239f3c43708f3fd773065208e",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "timestamp",
+        "original_icon": "mdi:sun-clock",
+        "original_name": "Next dawn",
+        "platform": "sun",
+        "supported_features": 0,
+        "translation_key": "next_dawn",
+        "unique_id": "df4a5a00c573771225579ac4d2bfce30-next_dawn",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "df4a5a00c573771225579ac4d2bfce30",
+        "device_class": null,
+        "device_id": "323558a08385603a16c4ee260347336f",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.sun_next_dusk",
+        "hidden_by": null,
+        "icon": null,
+        "id": "8a9999bed05ac4ff98dca048ed335786",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "timestamp",
+        "original_icon": "mdi:sun-clock",
+        "original_name": "Next dusk",
+        "platform": "sun",
+        "supported_features": 0,
+        "translation_key": "next_dusk",
+        "unique_id": "df4a5a00c573771225579ac4d2bfce30-next_dusk",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "df4a5a00c573771225579ac4d2bfce30",
+        "device_class": null,
+        "device_id": "323558a08385603a16c4ee260347336f",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.sun_next_midnight",
+        "hidden_by": null,
+        "icon": null,
+        "id": "e036ad4089a688db32e16d62a392fb18",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "timestamp",
+        "original_icon": "mdi:sun-clock",
+        "original_name": "Next midnight",
+        "platform": "sun",
+        "supported_features": 0,
+        "translation_key": "next_midnight",
+        "unique_id": "df4a5a00c573771225579ac4d2bfce30-next_midnight",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "df4a5a00c573771225579ac4d2bfce30",
+        "device_class": null,
+        "device_id": "323558a08385603a16c4ee260347336f",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.sun_next_noon",
+        "hidden_by": null,
+        "icon": null,
+        "id": "c546e07e0470e412ae0637eb7b134841",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "timestamp",
+        "original_icon": "mdi:sun-clock",
+        "original_name": "Next noon",
+        "platform": "sun",
+        "supported_features": 0,
+        "translation_key": "next_noon",
+        "unique_id": "df4a5a00c573771225579ac4d2bfce30-next_noon",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "df4a5a00c573771225579ac4d2bfce30",
+        "device_class": null,
+        "device_id": "323558a08385603a16c4ee260347336f",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.sun_next_rising",
+        "hidden_by": null,
+        "icon": null,
+        "id": "d836dbd1cd557528b77f2bd004906812",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "timestamp",
+        "original_icon": "mdi:sun-clock",
+        "original_name": "Next rising",
+        "platform": "sun",
+        "supported_features": 0,
+        "translation_key": "next_rising",
+        "unique_id": "df4a5a00c573771225579ac4d2bfce30-next_rising",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "df4a5a00c573771225579ac4d2bfce30",
+        "device_class": null,
+        "device_id": "323558a08385603a16c4ee260347336f",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.sun_next_setting",
+        "hidden_by": null,
+        "icon": null,
+        "id": "5e7472fdaf519a691ad5134149c15283",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "timestamp",
+        "original_icon": "mdi:sun-clock",
+        "original_name": "Next setting",
+        "platform": "sun",
+        "supported_features": 0,
+        "translation_key": "next_setting",
+        "unique_id": "df4a5a00c573771225579ac4d2bfce30-next_setting",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "df4a5a00c573771225579ac4d2bfce30",
+        "device_class": null,
+        "device_id": "323558a08385603a16c4ee260347336f",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.sun_solar_elevation",
+        "hidden_by": null,
+        "icon": null,
+        "id": "c509f309e4dd95dc7ef914ea3071663e",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:theme-light-dark",
+        "original_name": "Solar elevation",
+        "platform": "sun",
+        "supported_features": 0,
+        "translation_key": "solar_elevation",
+        "unique_id": "df4a5a00c573771225579ac4d2bfce30-solar_elevation",
+        "unit_of_measurement": "°"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "df4a5a00c573771225579ac4d2bfce30",
+        "device_class": null,
+        "device_id": "323558a08385603a16c4ee260347336f",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.sun_solar_azimuth",
+        "hidden_by": null,
+        "icon": null,
+        "id": "7e98fcc04e33a2bb66fd124fe6eebb7a",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:sun-angle",
+        "original_name": "Solar azimuth",
+        "platform": "sun",
+        "supported_features": 0,
+        "translation_key": "solar_azimuth",
+        "unique_id": "df4a5a00c573771225579ac4d2bfce30-solar_azimuth",
+        "unit_of_measurement": "°"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": null,
+        "device_class": null,
+        "device_id": null,
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "person.jared",
+        "hidden_by": null,
+        "icon": null,
+        "id": "a9f76029515d04818a4457760702f0c8",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Jared",
+        "platform": "person",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "jared",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "4c85fdb95c0ea0a8e243c737443cd20d",
+        "device_class": null,
+        "device_id": null,
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "tts.google_en_com",
+        "hidden_by": null,
+        "icon": null,
+        "id": "0ba7c4729dd70a41fdfe1bd310d675ce",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Google en com",
+        "platform": "google_translate",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "4c85fdb95c0ea0a8e243c737443cd20d",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "0cb60bb1ab987827c06dac8bf17cd174",
+        "device_class": null,
+        "device_id": "b14230a282a6bade7759dee037c8dd5f",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "weather.forecast_home",
+        "hidden_by": null,
+        "icon": null,
+        "id": "9d748684d643b3f67d53f1484f2c5956",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Home",
+        "platform": "met",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "home",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "0cb60bb1ab987827c06dac8bf17cd174",
+        "device_class": null,
+        "device_id": "b14230a282a6bade7759dee037c8dd5f",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "weather.forecast_home_hourly",
+        "hidden_by": null,
+        "icon": null,
+        "id": "73d7255817a0367f7fc04ff8b0385529",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Home hourly",
+        "platform": "met",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "home-hourly",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "a38ec66335b82c8bb517846eaf3db8f6",
+        "device_class": null,
+        "device_id": "a8f371f551c2fc74b44aa3ba5e0cef01",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "switch.back_living_room_light",
+        "hidden_by": null,
+        "icon": null,
+        "id": "d4acef24232fe1148ccf5d24effb828a",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": true
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Back Living Room Light",
+        "platform": "tplink",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "48:22:54:DD:51:06",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "a38ec66335b82c8bb517846eaf3db8f6",
+        "device_class": null,
+        "device_id": "a8f371f551c2fc74b44aa3ba5e0cef01",
+        "disabled_by": null,
+        "entity_category": "config",
+        "entity_id": "switch.back_living_room_light_led",
+        "hidden_by": null,
+        "icon": null,
+        "id": "ca43d487aa6b3323635db30b8925cf7b",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:led-on",
+        "original_name": "Back Living Room Light LED",
+        "platform": "tplink",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "48:22:54:DD:51:06_led",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "b35763592b156964e43eb72e8d8c7f48",
+        "device_class": null,
+        "device_id": "d021b3bac4a6faa35f8bd28239cbe60b",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "switch.ac_plug",
+        "hidden_by": null,
+        "icon": null,
+        "id": "6632baa65d35dad943014eb7d276c6d5",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": true
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "AC Plug",
+        "platform": "tplink",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "48:22:54:A0:18:98",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "b35763592b156964e43eb72e8d8c7f48",
+        "device_class": null,
+        "device_id": "d021b3bac4a6faa35f8bd28239cbe60b",
+        "disabled_by": null,
+        "entity_category": "config",
+        "entity_id": "switch.ac_plug_led",
+        "hidden_by": null,
+        "icon": null,
+        "id": "cf185b1a01e1033d2fe21b02af0c16f6",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:led-on",
+        "original_name": "AC Plug LED",
+        "platform": "tplink",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "48:22:54:A0:18:98_led",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "462fd91968e309f51f20d639766ec0f5",
+        "device_class": null,
+        "device_id": "fbd67764da61f0db7a1dca1c78efb073",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "switch.bathroom_fan_light",
+        "hidden_by": null,
+        "icon": null,
+        "id": "061701e0405f63ee147a9d408a4e6147",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": true
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Bathroom Fan Light",
+        "platform": "tplink",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "9C:53:22:00:96:B4",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "462fd91968e309f51f20d639766ec0f5",
+        "device_class": null,
+        "device_id": "fbd67764da61f0db7a1dca1c78efb073",
+        "disabled_by": null,
+        "entity_category": "config",
+        "entity_id": "switch.bathroom_fan_light_led",
+        "hidden_by": null,
+        "icon": null,
+        "id": "337d4534a3fc46d9cb133f5b253e66ef",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:led-on",
+        "original_name": "Bathroom Fan Light LED",
+        "platform": "tplink",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "9C:53:22:00:96:B4_led",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "67613457b053bdf9750cf90f2307a999",
+        "device_class": null,
+        "device_id": "861be6962ec8cbcd256fc8ebcf1f6b51",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "switch.bathroom_lamp_light",
+        "hidden_by": null,
+        "icon": null,
+        "id": "e0b4baf7dfa54a54c1b25fbcb0e4d65c",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": true
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Bathroom Lamp Light",
+        "platform": "tplink",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "48:22:54:DD:72:9F",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "67613457b053bdf9750cf90f2307a999",
+        "device_class": null,
+        "device_id": "861be6962ec8cbcd256fc8ebcf1f6b51",
+        "disabled_by": null,
+        "entity_category": "config",
+        "entity_id": "switch.bathroom_lamp_light_led",
+        "hidden_by": null,
+        "icon": null,
+        "id": "afcee3e7914e3273d8c0004fac7d258d",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:led-on",
+        "original_name": "Bathroom Lamp Light LED",
+        "platform": "tplink",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "48:22:54:DD:72:9F_led",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "d70d251bc0d19c84459262ac5067828d",
+        "device_class": null,
+        "device_id": "6a6e2a06209b9d55aeb128498a1f1cb1",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "switch.bathroom_light",
+        "hidden_by": null,
+        "icon": null,
+        "id": "cb38a31e23a724744cb9a4356a92278c",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": true
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Bathroom Light",
+        "platform": "tplink",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "9C:53:22:00:A3:60",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "d70d251bc0d19c84459262ac5067828d",
+        "device_class": null,
+        "device_id": "6a6e2a06209b9d55aeb128498a1f1cb1",
+        "disabled_by": null,
+        "entity_category": "config",
+        "entity_id": "switch.bathroom_light_led",
+        "hidden_by": null,
+        "icon": null,
+        "id": "e4567472cf943887c72dc5b738c53467",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:led-on",
+        "original_name": "Bathroom Light LED",
+        "platform": "tplink",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "9C:53:22:00:A3:60_led",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "f203c4c9a1a3cd56220273bf932bcc44",
+        "device_class": null,
+        "device_id": "f2557c1eb637c99a9ab4753f0a98d706",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "switch.bedroom_light",
+        "hidden_by": null,
+        "icon": null,
+        "id": "63982d8556c11de4f138e3f207a1bf1e",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": true
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Bedroom Light",
+        "platform": "tplink",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "48:22:54:A0:16:F2",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "f203c4c9a1a3cd56220273bf932bcc44",
+        "device_class": null,
+        "device_id": "f2557c1eb637c99a9ab4753f0a98d706",
+        "disabled_by": null,
+        "entity_category": "config",
+        "entity_id": "switch.bedroom_light_led",
+        "hidden_by": null,
+        "icon": null,
+        "id": "26e23e208eaf0238db9888eb11dd8b07",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:led-on",
+        "original_name": "Bedroom Light LED",
+        "platform": "tplink",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "48:22:54:A0:16:F2_led",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "baa9ffbf7de4038a232243961860a3e1",
+        "device_class": null,
+        "device_id": "5d5383bccf2c6489cb1a4f9e606d45fd",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "switch.closet_light",
+        "hidden_by": null,
+        "icon": null,
+        "id": "7df55c584fa005b85c13c126508e9c2e",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": true
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Closet Light",
+        "platform": "tplink",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "3C:84:6A:38:9C:26",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "baa9ffbf7de4038a232243961860a3e1",
+        "device_class": null,
+        "device_id": "5d5383bccf2c6489cb1a4f9e606d45fd",
+        "disabled_by": null,
+        "entity_category": "config",
+        "entity_id": "switch.closet_light_led",
+        "hidden_by": null,
+        "icon": null,
+        "id": "32b8b4a4da6b28970e3feefd222b3510",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:led-on",
+        "original_name": "Closet Light LED",
+        "platform": "tplink",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "3C:84:6A:38:9C:26_led",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "9f2acf0bf2a27d81ecf8c75664dc135e",
+        "device_class": null,
+        "device_id": "763bc7b57828667de8165dc2ca65f776",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "switch.front_living_room_light",
+        "hidden_by": null,
+        "icon": null,
+        "id": "69181f2e1d1d19e465147287adb6824b",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": true
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Front Living Room Light",
+        "platform": "tplink",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "48:22:54:A0:17:5B",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "9f2acf0bf2a27d81ecf8c75664dc135e",
+        "device_class": null,
+        "device_id": "763bc7b57828667de8165dc2ca65f776",
+        "disabled_by": null,
+        "entity_category": "config",
+        "entity_id": "switch.front_living_room_light_led",
+        "hidden_by": null,
+        "icon": null,
+        "id": "bb87c13e9f4e3aac1554c87a4841dc1d",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:led-on",
+        "original_name": "Front Living Room Light LED",
+        "platform": "tplink",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "48:22:54:A0:17:5B_led",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "1ba769f51a2b0a9a28998773a64e41b9",
+        "device_class": null,
+        "device_id": "60222bb04dc68289ac2d67329bc7fb01",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "switch.kitchen_fan_light",
+        "hidden_by": null,
+        "icon": null,
+        "id": "03f04dc62fe7e45719662a207c51a047",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": true
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Kitchen Fan Light",
+        "platform": "tplink",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "3C:84:6A:38:94:29",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "1ba769f51a2b0a9a28998773a64e41b9",
+        "device_class": null,
+        "device_id": "60222bb04dc68289ac2d67329bc7fb01",
+        "disabled_by": null,
+        "entity_category": "config",
+        "entity_id": "switch.kitchen_fan_light_led",
+        "hidden_by": null,
+        "icon": null,
+        "id": "4b1198de6cc4dd3f28c6622ed414c5f4",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:led-on",
+        "original_name": "Kitchen Fan Light LED",
+        "platform": "tplink",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "3C:84:6A:38:94:29_led",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "47ddfe8fcd3bfa1a0b86468280d195a8",
+        "device_class": null,
+        "device_id": "dfff7c7476e932991e0fe2b99c379f50",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "switch.kitchen_light",
+        "hidden_by": null,
+        "icon": null,
+        "id": "d09058baae1b92fc90132b6e0f834e38",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": true
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Kitchen Light",
+        "platform": "tplink",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "3C:84:6A:38:94:3F",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "47ddfe8fcd3bfa1a0b86468280d195a8",
+        "device_class": null,
+        "device_id": "dfff7c7476e932991e0fe2b99c379f50",
+        "disabled_by": null,
+        "entity_category": "config",
+        "entity_id": "switch.kitchen_light_led",
+        "hidden_by": null,
+        "icon": null,
+        "id": "11c33ff2fd0427cabf2eaa72d6894b32",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:led-off",
+        "original_name": "Kitchen Light LED",
+        "platform": "tplink",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "3C:84:6A:38:94:3F_led",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "e48a27d60ed34dd8d2f11d2743ba4b5f",
+        "device_class": null,
+        "device_id": "337e5c5ca4b651488d5bf33c368cebaf",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.lumi_lumi_remote_b1acn01_battery",
+        "hidden_by": null,
+        "icon": null,
+        "id": "5ab130efa1da4af3df35cd1da71771c6",
+        "has_entity_name": true,
+        "name": "Living Room Front Light Button Battery",
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "battery",
+        "original_icon": null,
+        "original_name": "Battery",
+        "platform": "zha",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "00:15:8d:00:09:46:49:96-1-1",
+        "unit_of_measurement": "%"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "e48a27d60ed34dd8d2f11d2743ba4b5f",
+        "device_class": null,
+        "device_id": "337e5c5ca4b651488d5bf33c368cebaf",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.lumi_lumi_remote_b1acn01_rssi",
+        "hidden_by": null,
+        "icon": null,
+        "id": "bbdee75f6a207d10b843059c4330b80a",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "signal_strength",
+        "original_icon": null,
+        "original_name": "RSSI",
+        "platform": "zha",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "00:15:8d:00:09:46:49:96-1-0-rssi",
+        "unit_of_measurement": "dBm"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "e48a27d60ed34dd8d2f11d2743ba4b5f",
+        "device_class": null,
+        "device_id": "337e5c5ca4b651488d5bf33c368cebaf",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.lumi_lumi_remote_b1acn01_lqi",
+        "hidden_by": null,
+        "icon": null,
+        "id": "9317566299e12f0b2cb33fc5c7c3ea86",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "LQI",
+        "platform": "zha",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "00:15:8d:00:09:46:49:96-1-0-lqi",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "e48a27d60ed34dd8d2f11d2743ba4b5f",
+        "device_class": null,
+        "device_id": "27b7195188337d0ccf48e1477d71cb65",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.lumi_lumi_remote_b1acn01_battery_2",
+        "hidden_by": null,
+        "icon": null,
+        "id": "ee797c00f49869b6e63e944d67665b9f",
+        "has_entity_name": true,
+        "name": "Bedroom Light Button Battery",
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "battery",
+        "original_icon": null,
+        "original_name": "Battery",
+        "platform": "zha",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "00:15:8d:00:09:f4:9e:35-1-1",
+        "unit_of_measurement": "%"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "e48a27d60ed34dd8d2f11d2743ba4b5f",
+        "device_class": null,
+        "device_id": "27b7195188337d0ccf48e1477d71cb65",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.lumi_lumi_remote_b1acn01_rssi_2",
+        "hidden_by": null,
+        "icon": null,
+        "id": "c5ed4811abf66884f3e570b8e70ea7de",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "signal_strength",
+        "original_icon": null,
+        "original_name": "RSSI",
+        "platform": "zha",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "00:15:8d:00:09:f4:9e:35-1-0-rssi",
+        "unit_of_measurement": "dBm"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "e48a27d60ed34dd8d2f11d2743ba4b5f",
+        "device_class": null,
+        "device_id": "27b7195188337d0ccf48e1477d71cb65",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.lumi_lumi_remote_b1acn01_lqi_2",
+        "hidden_by": null,
+        "icon": null,
+        "id": "8a74f24039e6fb15189a86af6c0c22f0",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "LQI",
+        "platform": "zha",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "00:15:8d:00:09:f4:9e:35-1-0-lqi",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "e48a27d60ed34dd8d2f11d2743ba4b5f",
+        "device_class": null,
+        "device_id": "306f507b5f864d595458ae58ab5b4f23",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.lumi_lumi_sensor_magnet_aq2_battery",
+        "hidden_by": null,
+        "icon": null,
+        "id": "de042ac4e6977d1ed01273e5c542816b",
+        "has_entity_name": true,
+        "name": "Dog Gate Senor Battery",
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "battery",
+        "original_icon": null,
+        "original_name": "Battery",
+        "platform": "zha",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "00:15:8d:00:09:3e:22:44-1-1",
+        "unit_of_measurement": "%"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "e48a27d60ed34dd8d2f11d2743ba4b5f",
+        "device_class": null,
+        "device_id": "306f507b5f864d595458ae58ab5b4f23",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.lumi_lumi_sensor_magnet_aq2_device_temperature",
+        "hidden_by": null,
+        "icon": null,
+        "id": "2dcf96ee48799bb68b37807730747602",
+        "has_entity_name": true,
+        "name": "Dog Gate Senor Device temperature",
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "temperature",
+        "original_icon": null,
+        "original_name": "Device temperature",
+        "platform": "zha",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "00:15:8d:00:09:3e:22:44-1-2",
+        "unit_of_measurement": "°F"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "e48a27d60ed34dd8d2f11d2743ba4b5f",
+        "device_class": null,
+        "device_id": "306f507b5f864d595458ae58ab5b4f23",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.lumi_lumi_sensor_magnet_aq2_rssi",
+        "hidden_by": null,
+        "icon": null,
+        "id": "deec62bf7616134c4f1955c81dde998d",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "signal_strength",
+        "original_icon": null,
+        "original_name": "RSSI",
+        "platform": "zha",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "00:15:8d:00:09:3e:22:44-1-0-rssi",
+        "unit_of_measurement": "dBm"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "e48a27d60ed34dd8d2f11d2743ba4b5f",
+        "device_class": null,
+        "device_id": "306f507b5f864d595458ae58ab5b4f23",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.lumi_lumi_sensor_magnet_aq2_lqi",
+        "hidden_by": null,
+        "icon": null,
+        "id": "d027f43364de98070d5083cc9e0c7969",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "LQI",
+        "platform": "zha",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "00:15:8d:00:09:3e:22:44-1-0-lqi",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "e48a27d60ed34dd8d2f11d2743ba4b5f",
+        "device_class": null,
+        "device_id": "306f507b5f864d595458ae58ab5b4f23",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "binary_sensor.lumi_lumi_sensor_magnet_aq2_opening",
+        "hidden_by": null,
+        "icon": null,
+        "id": "936b0e57c584f15d223942956a862682",
+        "has_entity_name": true,
+        "name": "Dog Gate Senor Opening",
+        "options": {
+          "conversation": {
+            "should_expose": true
+          }
+        },
+        "original_device_class": "opening",
+        "original_icon": null,
+        "original_name": "Opening",
+        "platform": "zha",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "00:15:8d:00:09:3e:22:44-1-6",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "e48a27d60ed34dd8d2f11d2743ba4b5f",
+        "device_class": null,
+        "device_id": "306f507b5f864d595458ae58ab5b4f23",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "button.lumi_lumi_sensor_magnet_aq2_identify",
+        "hidden_by": null,
+        "icon": null,
+        "id": "dc7edbd5403c63384714b89ded698ce9",
+        "has_entity_name": true,
+        "name": "Dog Gate Senor Identify",
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "identify",
+        "original_icon": null,
+        "original_name": "Identify",
+        "platform": "zha",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "00:15:8d:00:09:3e:22:44-1-3",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "e48a27d60ed34dd8d2f11d2743ba4b5f",
+        "device_class": null,
+        "device_id": "a22e589da09cbccb89a6e82b89711633",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.lumi_lumi_remote_b1acn01_battery_3",
+        "hidden_by": null,
+        "icon": null,
+        "id": "57db4709b047211871addbc88b4e89ff",
+        "has_entity_name": true,
+        "name": "Bathroom Lamp Light Button Battery",
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "battery",
+        "original_icon": null,
+        "original_name": "Battery",
+        "platform": "zha",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "00:15:8d:00:09:26:fb:bb-1-1",
+        "unit_of_measurement": "%"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "e48a27d60ed34dd8d2f11d2743ba4b5f",
+        "device_class": null,
+        "device_id": "a22e589da09cbccb89a6e82b89711633",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.lumi_lumi_remote_b1acn01_rssi_3",
+        "hidden_by": null,
+        "icon": null,
+        "id": "ef33e5338ba250cd1d6d484abee53bf4",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "signal_strength",
+        "original_icon": null,
+        "original_name": "RSSI",
+        "platform": "zha",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "00:15:8d:00:09:26:fb:bb-1-0-rssi",
+        "unit_of_measurement": "dBm"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "e48a27d60ed34dd8d2f11d2743ba4b5f",
+        "device_class": null,
+        "device_id": "a22e589da09cbccb89a6e82b89711633",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.lumi_lumi_remote_b1acn01_lqi_3",
+        "hidden_by": null,
+        "icon": null,
+        "id": "d59d11d9fc3daf537bd6927ac2d94d01",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "LQI",
+        "platform": "zha",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "00:15:8d:00:09:26:fb:bb-1-0-lqi",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "e48a27d60ed34dd8d2f11d2743ba4b5f",
+        "device_class": null,
+        "device_id": "78054f3eb3dbdea96ed0ff1a20e303d8",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.lumi_lumi_weather_battery",
+        "hidden_by": null,
+        "icon": null,
+        "id": "21d969228aefc2c721dcb7176d393117",
+        "has_entity_name": true,
+        "name": "Temperature Senor Battery",
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "battery",
+        "original_icon": null,
+        "original_name": "Battery",
+        "platform": "zha",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "00:15:8d:00:09:13:a2:1d-1-1",
+        "unit_of_measurement": "%"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "e48a27d60ed34dd8d2f11d2743ba4b5f",
+        "device_class": null,
+        "device_id": "78054f3eb3dbdea96ed0ff1a20e303d8",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.lumi_lumi_weather_pressure",
+        "hidden_by": null,
+        "icon": null,
+        "id": "864062a5796234b0bec6c39b5d36b326",
+        "has_entity_name": true,
+        "name": "Temperature Senor Pressure",
+        "options": {
+          "sensor.private": {
+            "suggested_unit_of_measurement": "psi"
+          },
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "pressure",
+        "original_icon": null,
+        "original_name": "Pressure",
+        "platform": "zha",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "00:15:8d:00:09:13:a2:1d-1-1027",
+        "unit_of_measurement": "psi"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "e48a27d60ed34dd8d2f11d2743ba4b5f",
+        "device_class": null,
+        "device_id": "78054f3eb3dbdea96ed0ff1a20e303d8",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.lumi_lumi_weather_temperature",
+        "hidden_by": null,
+        "icon": null,
+        "id": "99ef5aa28265ca483de3e81a1880de98",
+        "has_entity_name": true,
+        "name": "Temperature Senor Temperature",
+        "options": {
+          "conversation": {
+            "should_expose": true
+          }
+        },
+        "original_device_class": "temperature",
+        "original_icon": null,
+        "original_name": "Temperature",
+        "platform": "zha",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "00:15:8d:00:09:13:a2:1d-1-1026",
+        "unit_of_measurement": "°F"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "e48a27d60ed34dd8d2f11d2743ba4b5f",
+        "device_class": null,
+        "device_id": "78054f3eb3dbdea96ed0ff1a20e303d8",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.lumi_lumi_weather_rssi",
+        "hidden_by": null,
+        "icon": null,
+        "id": "0ec6e31ef756f81702a783be75be6e36",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "signal_strength",
+        "original_icon": null,
+        "original_name": "RSSI",
+        "platform": "zha",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "00:15:8d:00:09:13:a2:1d-1-0-rssi",
+        "unit_of_measurement": "dBm"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "e48a27d60ed34dd8d2f11d2743ba4b5f",
+        "device_class": null,
+        "device_id": "78054f3eb3dbdea96ed0ff1a20e303d8",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.lumi_lumi_weather_lqi",
+        "hidden_by": null,
+        "icon": null,
+        "id": "583a2228481902706d1892b10be355a0",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "LQI",
+        "platform": "zha",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "00:15:8d:00:09:13:a2:1d-1-0-lqi",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "e48a27d60ed34dd8d2f11d2743ba4b5f",
+        "device_class": null,
+        "device_id": "78054f3eb3dbdea96ed0ff1a20e303d8",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.lumi_lumi_weather_humidity",
+        "hidden_by": null,
+        "icon": null,
+        "id": "1731351c7ab204488c1d0f149fec3e73",
+        "has_entity_name": true,
+        "name": "Temperature Senor Humidity",
+        "options": {
+          "conversation": {
+            "should_expose": true
+          }
+        },
+        "original_device_class": "humidity",
+        "original_icon": null,
+        "original_name": "Humidity",
+        "platform": "zha",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "00:15:8d:00:09:13:a2:1d-1-1029",
+        "unit_of_measurement": "%"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "e48a27d60ed34dd8d2f11d2743ba4b5f",
+        "device_class": null,
+        "device_id": "78054f3eb3dbdea96ed0ff1a20e303d8",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "button.lumi_lumi_weather_identify",
+        "hidden_by": null,
+        "icon": null,
+        "id": "e03c078c7a42c7ea62198ed2f0d74164",
+        "has_entity_name": true,
+        "name": "Temperature Senor Identify",
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "identify",
+        "original_icon": null,
+        "original_name": "Identify",
+        "platform": "zha",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "00:15:8d:00:09:13:a2:1d-1-3",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "4cafb4e6e7be4f282f85c3dd5572c05a",
+        "device_class": null,
+        "device_id": "68cf9c1e99d9bc3f77449953b027eb1c",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.hacs",
+        "hidden_by": null,
+        "icon": null,
+        "id": "abd23f565b95d2ab3fdb842508f28cb4",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "hacs:hacs",
+        "original_name": "hacs",
+        "platform": "hacs",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "0717a0cd-745c-48fd-9b16-c8534c9704f9-bc944b0f-fd42-4a58-a072-ade38d1444cd",
+        "unit_of_measurement": "pending update(s)"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "id": "1690008367348"
+        },
+        "config_entry_id": null,
+        "device_class": null,
+        "device_id": null,
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "automation.bathroom_lamp_light_button",
+        "hidden_by": null,
+        "icon": null,
+        "id": "f951d23d011ca5a4c92422bffa551560",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Bathroom Lamp Light Button",
+        "platform": "automation",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "1690008367348",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "id": "1690008412276"
+        },
+        "config_entry_id": null,
+        "device_class": null,
+        "device_id": null,
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "automation.living_room_front_light_button",
+        "hidden_by": null,
+        "icon": null,
+        "id": "b2c9a86d6a479c32476d388cee6397a5",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Living Room Front Light Button",
+        "platform": "automation",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "1690008412276",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "id": "1690008450276"
+        },
+        "config_entry_id": null,
+        "device_class": null,
+        "device_id": null,
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "automation.bedroom_light_button",
+        "hidden_by": null,
+        "icon": null,
+        "id": "d33b8f4bc88c766a49676bcad4a82f8e",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Bedroom Light Button",
+        "platform": "automation",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "1690008450276",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {},
+        "config_entry_id": "e15343a0805d3e6cb9a7ae37c569d784",
+        "device_class": null,
+        "device_id": "07c54a4dbb9e41c49d4af73d6bf9f685",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "media_player.living_room_speaker",
+        "hidden_by": null,
+        "icon": null,
+        "id": "b591f1b91d12357c52df844eb14426cd",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "speaker",
+        "original_icon": null,
+        "original_name": null,
+        "platform": "cast",
+        "supported_features": 131968,
+        "translation_key": null,
+        "unique_id": "2eabe95a-f60b-3dc3-ddb6-75c34424fb28",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {},
+        "config_entry_id": "e15343a0805d3e6cb9a7ae37c569d784",
+        "device_class": null,
+        "device_id": "d81ebbcf1836d9eddcd8f87676ee8ee4",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "media_player.bedroom_speaker",
+        "hidden_by": null,
+        "icon": null,
+        "id": "a477696ccbc522d4488b6352fbc98ce8",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "speaker",
+        "original_icon": null,
+        "original_name": null,
+        "platform": "cast",
+        "supported_features": 131968,
+        "translation_key": null,
+        "unique_id": "0e60fe64-ea78-3786-2735-525503b56b93",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {},
+        "config_entry_id": "e15343a0805d3e6cb9a7ae37c569d784",
+        "device_class": null,
+        "device_id": "09d2185a19ebdb01728527919bfe061b",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "media_player.all_speakers",
+        "hidden_by": null,
+        "icon": null,
+        "id": "b67b9c63149b7e7a66fe08ff4d40ca94",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "speaker",
+        "original_icon": null,
+        "original_name": null,
+        "platform": "cast",
+        "supported_features": 131968,
+        "translation_key": null,
+        "unique_id": "8ef0a6d1-599d-4495-a03e-39d86bf8d8a8",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "id": "1690008585480"
+        },
+        "config_entry_id": null,
+        "device_class": null,
+        "device_id": null,
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "automation.dog_gate_timer",
+        "hidden_by": null,
+        "icon": null,
+        "id": "15ba5e98a8e2b3476155d46e6d3d9d84",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Dog Gate Timer",
+        "platform": "automation",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "1690008585480",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {},
+        "config_entry_id": "f5ed2e80bb51f6f1a85eb86db844586a",
+        "device_class": null,
+        "device_id": "1f960866185e0138825adef0239dc29e",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "media_player.living_room_apple_tv",
+        "hidden_by": null,
+        "icon": null,
+        "id": "ac31bfcc2869a97324b7d5dd5fc8dae8",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Living Room Apple TV",
+        "platform": "apple_tv",
+        "supported_features": 448439,
+        "translation_key": null,
+        "unique_id": "A4:CF:99:EA:C3:5B",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "f5ed2e80bb51f6f1a85eb86db844586a",
+        "device_class": null,
+        "device_id": "1f960866185e0138825adef0239dc29e",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "remote.living_room_apple_tv",
+        "hidden_by": null,
+        "icon": null,
+        "id": "50077ca4fff5edcc707a299ad7e8e18e",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Living Room Apple TV",
+        "platform": "apple_tv",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "A4:CF:99:EA:C3:5B",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "a26dc77a43892218d8b7c206f9d5e795",
+        "device_class": null,
+        "device_id": "2332e4f837c5ae53e37869fe5d378975",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "binary_sensor.frans_roku_streambar_headphones_connected",
+        "hidden_by": null,
+        "icon": null,
+        "id": "e10c6e24bad5b98299b70718491c3133",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:headphones",
+        "original_name": "Headphones connected",
+        "platform": "roku",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "YL00F1905846_headphones_connected",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "a26dc77a43892218d8b7c206f9d5e795",
+        "device_class": null,
+        "device_id": "2332e4f837c5ae53e37869fe5d378975",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "binary_sensor.frans_roku_streambar_supports_airplay",
+        "hidden_by": null,
+        "icon": null,
+        "id": "6957aa875940d1a69c1b4393041900fb",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:cast-variant",
+        "original_name": "Supports AirPlay",
+        "platform": "roku",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "YL00F1905846_supports_airplay",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "a26dc77a43892218d8b7c206f9d5e795",
+        "device_class": null,
+        "device_id": "2332e4f837c5ae53e37869fe5d378975",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "binary_sensor.frans_roku_streambar_supports_ethernet",
+        "hidden_by": null,
+        "icon": null,
+        "id": "b1deaa9206eb8981ab9879d2883927bf",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:ethernet",
+        "original_name": "Supports ethernet",
+        "platform": "roku",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "YL00F1905846_supports_ethernet",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "a26dc77a43892218d8b7c206f9d5e795",
+        "device_class": null,
+        "device_id": "2332e4f837c5ae53e37869fe5d378975",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "binary_sensor.frans_roku_streambar_supports_find_remote",
+        "hidden_by": null,
+        "icon": null,
+        "id": "17817b6450c228744122779ec5dbeb7f",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:remote",
+        "original_name": "Supports find remote",
+        "platform": "roku",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "YL00F1905846_supports_find_remote",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "source_list": [
+            "Home",
+            "ABC 10 News San Diego KGTV",
+            "Apple TV",
+            "Bluetooth Audio",
+            "Boomerang",
+            "Cartoon Network",
+            "Crunchyroll",
+            "Disney Plus",
+            "DisneyNOW",
+            "ESPN",
+            "FOX NOW",
+            "Fireplace.TV",
+            "Getreel Fireplaces",
+            "HGTV GO",
+            "Haystack Local & World News",
+            "Hulu",
+            "ID GO - Watch with TV Provider",
+            "Kids & Family on The Roku Channel",
+            "Live TV on The Roku Channel",
+            "MLB",
+            "Max",
+            "NBC",
+            "Nebula",
+            "Netflix",
+            "Only Dogs",
+            "Pandora",
+            "Paramount Plus",
+            "Peacock TV",
+            "Pluto TV - It's Free TV",
+            "PrendeTV: TV GRATIS en Español",
+            "Prime Video",
+            "QVC+ and HSN+",
+            "RelaxTube",
+            "Roku Media Player",
+            "Roku | Cinematic Sound",
+            "Roku | Getting Started",
+            "Sling TV - Live Sports, News, Shows + Freestream",
+            "Spotify Music",
+            "The Roku Channel",
+            "Tubi - Free Movies & TV",
+            "Vevo: Music Videos and Live Channels",
+            "ViX: Cine, TV, Deportes Gratis",
+            "Vudu",
+            "Vudu Movie & TV Store",
+            "XITE",
+            "YouTube",
+            "YouTube TV",
+            "adult swim",
+            "fubo Watch Live Sports & TV",
+            "iHeart",
+            "truTV"
+          ]
+        },
+        "config_entry_id": "a26dc77a43892218d8b7c206f9d5e795",
+        "device_class": null,
+        "device_id": "2332e4f837c5ae53e37869fe5d378975",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "media_player.frans_roku_streambar",
+        "hidden_by": null,
+        "icon": null,
+        "id": "5b8c2062139a07bdbb5241207ed9a93e",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "receiver",
+        "original_icon": null,
+        "original_name": null,
+        "platform": "roku",
+        "supported_features": 151481,
+        "translation_key": null,
+        "unique_id": "YL00F1905846",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "a26dc77a43892218d8b7c206f9d5e795",
+        "device_class": null,
+        "device_id": "2332e4f837c5ae53e37869fe5d378975",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "remote.frans_roku_streambar",
+        "hidden_by": null,
+        "icon": null,
+        "id": "fc979bbe2c3d8a0f0c3f7fe0c434b0c1",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": null,
+        "platform": "roku",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "YL00F1905846",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "options": [
+            "Home",
+            "ABC 10 News San Diego KGTV",
+            "Apple TV",
+            "Bluetooth Audio",
+            "Boomerang",
+            "Cartoon Network",
+            "Crunchyroll",
+            "Disney Plus",
+            "DisneyNOW",
+            "ESPN",
+            "FOX NOW",
+            "Fireplace.TV",
+            "Getreel Fireplaces",
+            "HGTV GO",
+            "Haystack Local & World News",
+            "Hulu",
+            "ID GO - Watch with TV Provider",
+            "Kids & Family on The Roku Channel",
+            "Live TV on The Roku Channel",
+            "MLB",
+            "Max",
+            "NBC",
+            "Nebula",
+            "Netflix",
+            "Only Dogs",
+            "Pandora",
+            "Paramount Plus",
+            "Peacock TV",
+            "Pluto TV - It's Free TV",
+            "PrendeTV: TV GRATIS en Español",
+            "Prime Video",
+            "QVC+ and HSN+",
+            "RelaxTube",
+            "Roku Media Player",
+            "Roku | Cinematic Sound",
+            "Roku | Getting Started",
+            "Sling TV - Live Sports, News, Shows + Freestream",
+            "Spotify Music",
+            "The Roku Channel",
+            "Tubi - Free Movies & TV",
+            "Vevo: Music Videos and Live Channels",
+            "ViX: Cine, TV, Deportes Gratis",
+            "Vudu",
+            "Vudu Movie & TV Store",
+            "XITE",
+            "YouTube",
+            "YouTube TV",
+            "adult swim",
+            "fubo Watch Live Sports & TV",
+            "iHeart",
+            "truTV"
+          ]
+        },
+        "config_entry_id": "a26dc77a43892218d8b7c206f9d5e795",
+        "device_class": null,
+        "device_id": "2332e4f837c5ae53e37869fe5d378975",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "select.frans_roku_streambar_application",
+        "hidden_by": null,
+        "icon": null,
+        "id": "c71bb561e1557aa3f33ac398ab0c9119",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:application",
+        "original_name": "Application",
+        "platform": "roku",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "YL00F1905846_application",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "a26dc77a43892218d8b7c206f9d5e795",
+        "device_class": null,
+        "device_id": "2332e4f837c5ae53e37869fe5d378975",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.frans_roku_streambar_active_app",
+        "hidden_by": null,
+        "icon": null,
+        "id": "1b54385c5773340876deb856f0e1f007",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:application",
+        "original_name": "Active App",
+        "platform": "roku",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "YL00F1905846_active_app",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "a26dc77a43892218d8b7c206f9d5e795",
+        "device_class": null,
+        "device_id": "2332e4f837c5ae53e37869fe5d378975",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.frans_roku_streambar_active_app_id",
+        "hidden_by": null,
+        "icon": null,
+        "id": "aa293695be974203b6f84478e6c77f11",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:application-cog",
+        "original_name": "Active App ID",
+        "platform": "roku",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "YL00F1905846_active_app_id",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "source_list": [
+            "Amazon Alexa",
+            "Apple OTT",
+            "Apple TV",
+            "Apps",
+            "Disney+",
+            "Explore Google Assistant",
+            "Freevee",
+            "HDMI 3",
+            "Home Dashboard",
+            "Hulu",
+            "LG Channels",
+            "Live TV",
+            "Max",
+            "Media Player",
+            "Netflix",
+            "PS5 Game Console",
+            "Prime Video",
+            "Shop Time",
+            "Sling TV + Freestream",
+            "Sports Alert",
+            "TikTok TV",
+            "Tubi",
+            "Web Browser",
+            "Who.Where.What?",
+            "YouTube",
+            "YouTube TV",
+            "fuboTV"
+          ]
+        },
+        "config_entry_id": "b4f3f88a4c6fd3c4ce465ab79aae8994",
+        "device_class": null,
+        "device_id": "97fb0db15f1624fad9baa4a63a3b6924",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "media_player.living_room_lg_tv",
+        "hidden_by": null,
+        "icon": null,
+        "id": "0a5d6625e6ae405bb20adc712b264d8e",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "tv",
+        "original_icon": null,
+        "original_name": null,
+        "platform": "webostv",
+        "supported_features": 24381,
+        "translation_key": null,
+        "unique_id": "119fd634-262e-21e8-71bd-3747e7780df0",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "db3840899ab9816a58c2bca0952cb774",
+        "device_class": null,
+        "device_id": "81ea7291624cccac8c88342d733200af",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "binary_sensor.arris_tg1682g_wan_status",
+        "hidden_by": null,
+        "icon": null,
+        "id": "6c19b519aba292d323b17983032879c2",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "connectivity",
+        "original_icon": null,
+        "original_name": "Arris TG1682G wan status",
+        "platform": "upnp",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "uuid:ebf5a0a0-1dd1-11b2-a90f-909d7db732d4_wan_status",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "total_increasing"
+        },
+        "config_entry_id": "db3840899ab9816a58c2bca0952cb774",
+        "device_class": null,
+        "device_id": "81ea7291624cccac8c88342d733200af",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "sensor.arris_tg1682g_b_received",
+        "hidden_by": null,
+        "icon": null,
+        "id": "3c18d8786566c435e7f2a6b05bd9dd6f",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "data_size",
+        "original_icon": "mdi:server-network",
+        "original_name": "Arris TG1682G B received",
+        "platform": "upnp",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "uuid:ebf5a0a0-1dd1-11b2-a90f-909d7db732d4_bytes_received",
+        "unit_of_measurement": "B"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "total_increasing"
+        },
+        "config_entry_id": "db3840899ab9816a58c2bca0952cb774",
+        "device_class": null,
+        "device_id": "81ea7291624cccac8c88342d733200af",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "sensor.arris_tg1682g_b_sent",
+        "hidden_by": null,
+        "icon": null,
+        "id": "db36c6432e8e75712fc28d115e5456b5",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "data_size",
+        "original_icon": "mdi:server-network",
+        "original_name": "Arris TG1682G B sent",
+        "platform": "upnp",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "uuid:ebf5a0a0-1dd1-11b2-a90f-909d7db732d4_bytes_sent",
+        "unit_of_measurement": "B"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "total_increasing"
+        },
+        "config_entry_id": "db3840899ab9816a58c2bca0952cb774",
+        "device_class": null,
+        "device_id": "81ea7291624cccac8c88342d733200af",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "sensor.arris_tg1682g_packets_received",
+        "hidden_by": null,
+        "icon": null,
+        "id": "d7e8095df7cb78774f123e1834891414",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:server-network",
+        "original_name": "Arris TG1682G packets received",
+        "platform": "upnp",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "uuid:ebf5a0a0-1dd1-11b2-a90f-909d7db732d4_packets_received",
+        "unit_of_measurement": "packets"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "total_increasing"
+        },
+        "config_entry_id": "db3840899ab9816a58c2bca0952cb774",
+        "device_class": null,
+        "device_id": "81ea7291624cccac8c88342d733200af",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "sensor.arris_tg1682g_packets_sent",
+        "hidden_by": null,
+        "icon": null,
+        "id": "fa3a026af61d444c897f558d41bb8943",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:server-network",
+        "original_name": "Arris TG1682G packets sent",
+        "platform": "upnp",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "uuid:ebf5a0a0-1dd1-11b2-a90f-909d7db732d4_packets_sent",
+        "unit_of_measurement": "packets"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "db3840899ab9816a58c2bca0952cb774",
+        "device_class": null,
+        "device_id": "81ea7291624cccac8c88342d733200af",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.arris_tg1682g_external_ip",
+        "hidden_by": null,
+        "icon": null,
+        "id": "ac30fd9535654e94ad89a51809a6fa1f",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:server-network",
+        "original_name": "Arris TG1682G External IP",
+        "platform": "upnp",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "uuid:ebf5a0a0-1dd1-11b2-a90f-909d7db732d4_ip",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "db3840899ab9816a58c2bca0952cb774",
+        "device_class": null,
+        "device_id": "81ea7291624cccac8c88342d733200af",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.arris_tg1682g_uptime",
+        "hidden_by": null,
+        "icon": null,
+        "id": "9d2d1009d325b0cd6baa3efbd34a3c3a",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:server-network",
+        "original_name": "Arris TG1682G Uptime",
+        "platform": "upnp",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "uuid:ebf5a0a0-1dd1-11b2-a90f-909d7db732d4_uptime",
+        "unit_of_measurement": "s"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "db3840899ab9816a58c2bca0952cb774",
+        "device_class": null,
+        "device_id": "81ea7291624cccac8c88342d733200af",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.arris_tg1682g_wan_status",
+        "hidden_by": null,
+        "icon": null,
+        "id": "6130d6039d85c21cce1031f6b2069343",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:server-network",
+        "original_name": "Arris TG1682G wan status",
+        "platform": "upnp",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "uuid:ebf5a0a0-1dd1-11b2-a90f-909d7db732d4_wan_status",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "db3840899ab9816a58c2bca0952cb774",
+        "device_class": null,
+        "device_id": "81ea7291624cccac8c88342d733200af",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.arris_tg1682g_kib_s_received",
+        "hidden_by": null,
+        "icon": null,
+        "id": "e445546dfdb67ee1c2121c710f22e620",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "sensor": {
+            "suggested_display_precision": 1
+          },
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "data_rate",
+        "original_icon": "mdi:server-network",
+        "original_name": "Arris TG1682G KiB/s received",
+        "platform": "upnp",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "uuid:ebf5a0a0-1dd1-11b2-a90f-909d7db732d4_KiB/sec_received",
+        "unit_of_measurement": "KiB/s"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "db3840899ab9816a58c2bca0952cb774",
+        "device_class": null,
+        "device_id": "81ea7291624cccac8c88342d733200af",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.arris_tg1682g_kib_s_sent",
+        "hidden_by": null,
+        "icon": null,
+        "id": "68b3d1f6621b0ced3d1950842ee52937",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "sensor": {
+            "suggested_display_precision": 1
+          },
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "data_rate",
+        "original_icon": "mdi:server-network",
+        "original_name": "Arris TG1682G KiB/s sent",
+        "platform": "upnp",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "uuid:ebf5a0a0-1dd1-11b2-a90f-909d7db732d4_KiB/sec_sent",
+        "unit_of_measurement": "KiB/s"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "db3840899ab9816a58c2bca0952cb774",
+        "device_class": null,
+        "device_id": "81ea7291624cccac8c88342d733200af",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "sensor.arris_tg1682g_packets_s_received",
+        "hidden_by": null,
+        "icon": null,
+        "id": "f9be2d1cfa6b22d5cbde040f6a3b0e22",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:server-network",
+        "original_name": "Arris TG1682G packets/s received",
+        "platform": "upnp",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "uuid:ebf5a0a0-1dd1-11b2-a90f-909d7db732d4_packets/sec_received",
+        "unit_of_measurement": "packets/s"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "db3840899ab9816a58c2bca0952cb774",
+        "device_class": null,
+        "device_id": "81ea7291624cccac8c88342d733200af",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "sensor.arris_tg1682g_packets_s_sent",
+        "hidden_by": null,
+        "icon": null,
+        "id": "5fd42bcdf93ebe7003e3790193ec1c6a",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:server-network",
+        "original_name": "Arris TG1682G packets/s sent",
+        "platform": "upnp",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "uuid:ebf5a0a0-1dd1-11b2-a90f-909d7db732d4_packets/sec_sent",
+        "unit_of_measurement": "packets/s"
+      },
+      {
+        "aliases": [],
+        "area_id": "bedroom",
+        "capabilities": {
+          "preset_modes": null
+        },
+        "config_entry_id": "c08a8743de9b81b32004079a714348cc",
+        "device_class": null,
+        "device_id": null,
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "fan.snooz_216a",
+        "hidden_by": null,
+        "icon": null,
+        "id": "c56f51452771d668da6596262e11bfd1",
+        "has_entity_name": false,
+        "name": "White Noise Machine",
+        "options": {
+          "conversation": {
+            "should_expose": true
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Snooz 216A",
+        "platform": "snooz",
+        "supported_features": 1,
+        "translation_key": null,
+        "unique_id": "40:22:D8:79:21:6A",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "c08a8743de9b81b32004079a714348cc",
+        "device_class": null,
+        "device_id": null,
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.snooz_216a_connection_status",
+        "hidden_by": null,
+        "icon": null,
+        "id": "a32d67900e0998126b3164ba21ee4b8f",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Snooz 216A Connection Status",
+        "platform": "snooz",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "40:22:D8:79:21:6A.connection_status",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "c08a8743de9b81b32004079a714348cc",
+        "device_class": null,
+        "device_id": "fa945ff1426b49e8d2c6d63900935f94",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.snooz_216a_signal_strength",
+        "hidden_by": null,
+        "icon": null,
+        "id": "dd9c1703ccdaabb8f614968de744199b",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "signal_strength",
+        "original_icon": null,
+        "original_name": "Signal Strength",
+        "platform": "snooz",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "40:22:D8:79:21:6A-signal_strength",
+        "unit_of_measurement": "dBm"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {},
+        "config_entry_id": "e15343a0805d3e6cb9a7ae37c569d784",
+        "device_class": null,
+        "device_id": "24d40a403290dc22f79d661dd240e1e7",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "media_player.bedroom_tv",
+        "hidden_by": null,
+        "icon": null,
+        "id": "06be32104173e02491a7d4652220982e",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": null,
+        "platform": "cast",
+        "supported_features": 131968,
+        "translation_key": null,
+        "unique_id": "d9bbaf1a-31ca-d85c-1f42-505b1ed762ec",
+        "unit_of_measurement": null
+      }
+    ],
+    "deleted_entities": [
+      {
+        "config_entry_id": null,
+        "entity_id": "fan.bedroom_fan",
+        "id": "a289703da906aff1156cfdb02976963f",
+        "orphaned_timestamp": 1690079123.0880642,
+        "platform": "dreo",
+        "unique_id": "1582290393341964289-64784d3396036baf:001:0000000000b"
+      },
+      {
+        "config_entry_id": null,
+        "entity_id": "fan.living_room_fan",
+        "id": "075a9558e39a96432871c5d457c371e5",
+        "orphaned_timestamp": 1690079123.0880642,
+        "platform": "dreo",
+        "unique_id": "1582290393341964289-b090125df12ebbca:001:0000000000b"
+      }
+    ]
+  }
+}

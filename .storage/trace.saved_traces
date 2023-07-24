@@ -1,0 +1,2100 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "trace.saved_traces",
+  "data": {
+    "automation.1690008585480": [
+      {
+        "extended_dict": {
+          "last_step": "action/0",
+          "run_id": "4bde2ccfb1dbf39fc61e27e51a69e873",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2023-07-24T03:52:45.850173+00:00",
+            "finish": "2023-07-24T03:52:45.851651+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1690008585480",
+          "trigger": "state of binary_sensor.lumi_lumi_sensor_magnet_aq2_opening",
+          "trace": {
+            "trigger/0": [
+              {
+                "path": "trigger/0",
+                "timestamp": "2023-07-24T03:52:45.850258+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "automation.dog_gate_timer",
+                    "state": "on",
+                    "attributes": {
+                      "id": "1690008585480",
+                      "last_triggered": "2023-07-24T00:29:42.024853+00:00",
+                      "mode": "single",
+                      "current": 0,
+                      "friendly_name": "Dog Gate Timer"
+                    },
+                    "last_changed": "2023-07-22T09:24:57.229121+00:00",
+                    "last_updated": "2023-07-24T00:29:42.025715+00:00",
+                    "context": {
+                      "id": "01H62MTJ88P759D5FFJWYX8ZH8",
+                      "parent_id": "01H62MHD951Z803JBDGXW2TXPK",
+                      "user_id": null
+                    }
+                  },
+                  "trigger": {
+                    "id": "0",
+                    "idx": "0",
+                    "alias": null,
+                    "platform": "device",
+                    "entity_id": "binary_sensor.lumi_lumi_sensor_magnet_aq2_opening",
+                    "from_state": {
+                      "entity_id": "binary_sensor.lumi_lumi_sensor_magnet_aq2_opening",
+                      "state": "off",
+                      "attributes": {
+                        "device_class": "opening",
+                        "friendly_name": "Dog Gate Senor Opening"
+                      },
+                      "last_changed": "2023-07-24T03:46:31.315572+00:00",
+                      "last_updated": "2023-07-24T03:46:31.315572+00:00",
+                      "context": {
+                        "id": "01H6302YRKVJWBQC66YS0F3EH7",
+                        "parent_id": null,
+                        "user_id": null
+                      }
+                    },
+                    "to_state": {
+                      "entity_id": "binary_sensor.lumi_lumi_sensor_magnet_aq2_opening",
+                      "state": "on",
+                      "attributes": {
+                        "device_class": "opening",
+                        "friendly_name": "Dog Gate Senor Opening"
+                      },
+                      "last_changed": "2023-07-24T03:47:45.848499+00:00",
+                      "last_updated": "2023-07-24T03:47:45.848499+00:00",
+                      "context": {
+                        "id": "01H63057HR0QS787V75G141TC4",
+                        "parent_id": null,
+                        "user_id": null
+                      }
+                    },
+                    "for": {
+                      "__type": "<class 'datetime.timedelta'>",
+                      "total_seconds": 300.0
+                    },
+                    "attribute": null,
+                    "description": "state of binary_sensor.lumi_lumi_sensor_magnet_aq2_opening"
+                  }
+                }
+              }
+            ],
+            "action/0": [
+              {
+                "path": "action/0",
+                "timestamp": "2023-07-24T03:52:45.850672+00:00",
+                "changed_variables": {
+                  "context": {
+                    "id": "01H630ECGT2YFES4T3Q2H7S1DQ",
+                    "parent_id": "01H63057HR0QS787V75G141TC4",
+                    "user_id": null
+                  }
+                },
+                "result": {
+                  "params": {
+                    "domain": "media_player",
+                    "service": "play_media",
+                    "service_data": {
+                      "media_content_id": "media-source://tts/tts.google_en_com?message=The+dog+gate+is+open.&language=en-us",
+                      "media_content_type": "provider",
+                      "entity_id": [
+                        "media_player.all_speakers"
+                      ]
+                    },
+                    "target": {
+                      "entity_id": [
+                        "media_player.all_speakers"
+                      ]
+                    }
+                  },
+                  "running_script": false
+                }
+              }
+            ]
+          },
+          "config": {
+            "id": "1690008585480",
+            "alias": "Dog Gate Timer",
+            "description": "",
+            "trigger": [
+              {
+                "type": "opened",
+                "platform": "device",
+                "device_id": "306f507b5f864d595458ae58ab5b4f23",
+                "entity_id": "936b0e57c584f15d223942956a862682",
+                "domain": "binary_sensor",
+                "for": {
+                  "hours": 0,
+                  "minutes": 5,
+                  "seconds": 0
+                }
+              }
+            ],
+            "condition": [],
+            "action": [
+              {
+                "service": "media_player.play_media",
+                "target": {
+                  "entity_id": "media_player.all_speakers"
+                },
+                "data": {
+                  "media_content_id": "media-source://tts/tts.google_en_com?message=The+dog+gate+is+open.&language=en-us",
+                  "media_content_type": "provider"
+                },
+                "metadata": {
+                  "title": "The dog gate is open.",
+                  "thumbnail": "https://brands.home-assistant.io/_/tts/logo.png",
+                  "media_class": "app",
+                  "children_media_class": null,
+                  "navigateIds": [
+                    {},
+                    {
+                      "media_content_type": "app",
+                      "media_content_id": "media-source://tts"
+                    },
+                    {
+                      "media_content_type": "provider",
+                      "media_content_id": "media-source://tts/tts.google_en_com?message=The+dog+gate+is+open.&language=en-us"
+                    }
+                  ]
+                }
+              }
+            ],
+            "mode": "single"
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01H630ECGT2YFES4T3Q2H7S1DQ",
+            "parent_id": "01H63057HR0QS787V75G141TC4",
+            "user_id": null
+          }
+        },
+        "short_dict": {
+          "last_step": "action/0",
+          "run_id": "4bde2ccfb1dbf39fc61e27e51a69e873",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2023-07-24T03:52:45.850173+00:00",
+            "finish": "2023-07-24T03:52:45.851651+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1690008585480",
+          "trigger": "state of binary_sensor.lumi_lumi_sensor_magnet_aq2_opening"
+        }
+      },
+      {
+        "extended_dict": {
+          "last_step": "action/0",
+          "run_id": "f7671d1c727fdb738a9c7dee57b59c91",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2023-07-24T06:45:10.846971+00:00",
+            "finish": "2023-07-24T06:45:10.848383+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1690008585480",
+          "trigger": "state of binary_sensor.lumi_lumi_sensor_magnet_aq2_opening",
+          "trace": {
+            "trigger/0": [
+              {
+                "path": "trigger/0",
+                "timestamp": "2023-07-24T06:45:10.847049+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "automation.dog_gate_timer",
+                    "state": "on",
+                    "attributes": {
+                      "id": "1690008585480",
+                      "last_triggered": "2023-07-24T03:52:45.850393+00:00",
+                      "mode": "single",
+                      "current": 0,
+                      "friendly_name": "Dog Gate Timer"
+                    },
+                    "last_changed": "2023-07-22T09:24:57.229121+00:00",
+                    "last_updated": "2023-07-24T03:52:45.851532+00:00",
+                    "context": {
+                      "id": "01H630ECGT2YFES4T3Q2H7S1DQ",
+                      "parent_id": "01H63057HR0QS787V75G141TC4",
+                      "user_id": null
+                    }
+                  },
+                  "trigger": {
+                    "id": "0",
+                    "idx": "0",
+                    "alias": null,
+                    "platform": "device",
+                    "entity_id": "binary_sensor.lumi_lumi_sensor_magnet_aq2_opening",
+                    "from_state": {
+                      "entity_id": "binary_sensor.lumi_lumi_sensor_magnet_aq2_opening",
+                      "state": "off",
+                      "attributes": {
+                        "device_class": "opening",
+                        "friendly_name": "Dog Gate Senor Opening"
+                      },
+                      "last_changed": "2023-07-24T06:37:23.414880+00:00",
+                      "last_updated": "2023-07-24T06:37:23.414880+00:00",
+                      "context": {
+                        "id": "01H639VTJPT04WMBR0JV4QTJR2",
+                        "parent_id": null,
+                        "user_id": null
+                      }
+                    },
+                    "to_state": {
+                      "entity_id": "binary_sensor.lumi_lumi_sensor_magnet_aq2_opening",
+                      "state": "on",
+                      "attributes": {
+                        "device_class": "opening",
+                        "friendly_name": "Dog Gate Senor Opening"
+                      },
+                      "last_changed": "2023-07-24T06:40:10.845424+00:00",
+                      "last_updated": "2023-07-24T06:40:10.845424+00:00",
+                      "context": {
+                        "id": "01H63A0Y2XKVP28RWFCGFNPDJ5",
+                        "parent_id": null,
+                        "user_id": null
+                      }
+                    },
+                    "for": {
+                      "__type": "<class 'datetime.timedelta'>",
+                      "total_seconds": 300.0
+                    },
+                    "attribute": null,
+                    "description": "state of binary_sensor.lumi_lumi_sensor_magnet_aq2_opening"
+                  }
+                }
+              }
+            ],
+            "action/0": [
+              {
+                "path": "action/0",
+                "timestamp": "2023-07-24T06:45:10.847414+00:00",
+                "changed_variables": {
+                  "context": {
+                    "id": "01H63AA31YGBMDJA5DJYJNCNR9",
+                    "parent_id": "01H63A0Y2XKVP28RWFCGFNPDJ5",
+                    "user_id": null
+                  }
+                },
+                "result": {
+                  "params": {
+                    "domain": "media_player",
+                    "service": "play_media",
+                    "service_data": {
+                      "media_content_id": "media-source://tts/tts.google_en_com?message=The+dog+gate+is+open.&language=en-us",
+                      "media_content_type": "provider",
+                      "entity_id": [
+                        "media_player.all_speakers"
+                      ]
+                    },
+                    "target": {
+                      "entity_id": [
+                        "media_player.all_speakers"
+                      ]
+                    }
+                  },
+                  "running_script": false
+                }
+              }
+            ]
+          },
+          "config": {
+            "id": "1690008585480",
+            "alias": "Dog Gate Timer",
+            "description": "",
+            "trigger": [
+              {
+                "type": "opened",
+                "platform": "device",
+                "device_id": "306f507b5f864d595458ae58ab5b4f23",
+                "entity_id": "936b0e57c584f15d223942956a862682",
+                "domain": "binary_sensor",
+                "for": {
+                  "hours": 0,
+                  "minutes": 5,
+                  "seconds": 0
+                }
+              }
+            ],
+            "condition": [],
+            "action": [
+              {
+                "service": "media_player.play_media",
+                "target": {
+                  "entity_id": "media_player.all_speakers"
+                },
+                "data": {
+                  "media_content_id": "media-source://tts/tts.google_en_com?message=The+dog+gate+is+open.&language=en-us",
+                  "media_content_type": "provider"
+                },
+                "metadata": {
+                  "title": "The dog gate is open.",
+                  "thumbnail": "https://brands.home-assistant.io/_/tts/logo.png",
+                  "media_class": "app",
+                  "children_media_class": null,
+                  "navigateIds": [
+                    {},
+                    {
+                      "media_content_type": "app",
+                      "media_content_id": "media-source://tts"
+                    },
+                    {
+                      "media_content_type": "provider",
+                      "media_content_id": "media-source://tts/tts.google_en_com?message=The+dog+gate+is+open.&language=en-us"
+                    }
+                  ]
+                }
+              }
+            ],
+            "mode": "single"
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01H63AA31YGBMDJA5DJYJNCNR9",
+            "parent_id": "01H63A0Y2XKVP28RWFCGFNPDJ5",
+            "user_id": null
+          }
+        },
+        "short_dict": {
+          "last_step": "action/0",
+          "run_id": "f7671d1c727fdb738a9c7dee57b59c91",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2023-07-24T06:45:10.846971+00:00",
+            "finish": "2023-07-24T06:45:10.848383+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1690008585480",
+          "trigger": "state of binary_sensor.lumi_lumi_sensor_magnet_aq2_opening"
+        }
+      },
+      {
+        "extended_dict": {
+          "last_step": "action/0",
+          "run_id": "6e25a8f134019935b35a8ab0e354c05f",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2023-07-24T09:51:55.131946+00:00",
+            "finish": "2023-07-24T09:51:55.133314+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1690008585480",
+          "trigger": "state of binary_sensor.lumi_lumi_sensor_magnet_aq2_opening",
+          "trace": {
+            "trigger/0": [
+              {
+                "path": "trigger/0",
+                "timestamp": "2023-07-24T09:51:55.132028+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "automation.dog_gate_timer",
+                    "state": "on",
+                    "attributes": {
+                      "id": "1690008585480",
+                      "last_triggered": "2023-07-24T06:45:10.847178+00:00",
+                      "mode": "single",
+                      "current": 0,
+                      "friendly_name": "Dog Gate Timer"
+                    },
+                    "last_changed": "2023-07-22T09:24:57.229121+00:00",
+                    "last_updated": "2023-07-24T06:45:10.848262+00:00",
+                    "context": {
+                      "id": "01H63AA31YGBMDJA5DJYJNCNR9",
+                      "parent_id": "01H63A0Y2XKVP28RWFCGFNPDJ5",
+                      "user_id": null
+                    }
+                  },
+                  "trigger": {
+                    "id": "0",
+                    "idx": "0",
+                    "alias": null,
+                    "platform": "device",
+                    "entity_id": "binary_sensor.lumi_lumi_sensor_magnet_aq2_opening",
+                    "from_state": {
+                      "entity_id": "binary_sensor.lumi_lumi_sensor_magnet_aq2_opening",
+                      "state": "off",
+                      "attributes": {
+                        "device_class": "opening",
+                        "friendly_name": "Dog Gate Senor Opening"
+                      },
+                      "last_changed": "2023-07-24T09:20:31.952629+00:00",
+                      "last_updated": "2023-07-24T09:20:31.952629+00:00",
+                      "context": {
+                        "id": "01H63K6HPGF1B8QF8P0V5KKRB8",
+                        "parent_id": null,
+                        "user_id": null
+                      }
+                    },
+                    "to_state": {
+                      "entity_id": "binary_sensor.lumi_lumi_sensor_magnet_aq2_opening",
+                      "state": "on",
+                      "attributes": {
+                        "device_class": "opening",
+                        "friendly_name": "Dog Gate Senor Opening"
+                      },
+                      "last_changed": "2023-07-24T09:46:55.130657+00:00",
+                      "last_updated": "2023-07-24T09:46:55.130657+00:00",
+                      "context": {
+                        "id": "01H63MPVRT7J9GS94P7MXF4WT9",
+                        "parent_id": null,
+                        "user_id": null
+                      }
+                    },
+                    "for": {
+                      "__type": "<class 'datetime.timedelta'>",
+                      "total_seconds": 300.0
+                    },
+                    "attribute": null,
+                    "description": "state of binary_sensor.lumi_lumi_sensor_magnet_aq2_opening"
+                  }
+                }
+              }
+            ],
+            "action/0": [
+              {
+                "path": "action/0",
+                "timestamp": "2023-07-24T09:51:55.132389+00:00",
+                "changed_variables": {
+                  "context": {
+                    "id": "01H63N00QV63G7420MJEM6PMBY",
+                    "parent_id": "01H63MPVRT7J9GS94P7MXF4WT9",
+                    "user_id": null
+                  }
+                },
+                "result": {
+                  "params": {
+                    "domain": "media_player",
+                    "service": "play_media",
+                    "service_data": {
+                      "media_content_id": "media-source://tts/tts.google_en_com?message=The+dog+gate+is+open.&language=en-us",
+                      "media_content_type": "provider",
+                      "entity_id": [
+                        "media_player.all_speakers"
+                      ]
+                    },
+                    "target": {
+                      "entity_id": [
+                        "media_player.all_speakers"
+                      ]
+                    }
+                  },
+                  "running_script": false
+                }
+              }
+            ]
+          },
+          "config": {
+            "id": "1690008585480",
+            "alias": "Dog Gate Timer",
+            "description": "",
+            "trigger": [
+              {
+                "type": "opened",
+                "platform": "device",
+                "device_id": "306f507b5f864d595458ae58ab5b4f23",
+                "entity_id": "936b0e57c584f15d223942956a862682",
+                "domain": "binary_sensor",
+                "for": {
+                  "hours": 0,
+                  "minutes": 5,
+                  "seconds": 0
+                }
+              }
+            ],
+            "condition": [],
+            "action": [
+              {
+                "service": "media_player.play_media",
+                "target": {
+                  "entity_id": "media_player.all_speakers"
+                },
+                "data": {
+                  "media_content_id": "media-source://tts/tts.google_en_com?message=The+dog+gate+is+open.&language=en-us",
+                  "media_content_type": "provider"
+                },
+                "metadata": {
+                  "title": "The dog gate is open.",
+                  "thumbnail": "https://brands.home-assistant.io/_/tts/logo.png",
+                  "media_class": "app",
+                  "children_media_class": null,
+                  "navigateIds": [
+                    {},
+                    {
+                      "media_content_type": "app",
+                      "media_content_id": "media-source://tts"
+                    },
+                    {
+                      "media_content_type": "provider",
+                      "media_content_id": "media-source://tts/tts.google_en_com?message=The+dog+gate+is+open.&language=en-us"
+                    }
+                  ]
+                }
+              }
+            ],
+            "mode": "single"
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01H63N00QV63G7420MJEM6PMBY",
+            "parent_id": "01H63MPVRT7J9GS94P7MXF4WT9",
+            "user_id": null
+          }
+        },
+        "short_dict": {
+          "last_step": "action/0",
+          "run_id": "6e25a8f134019935b35a8ab0e354c05f",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2023-07-24T09:51:55.131946+00:00",
+            "finish": "2023-07-24T09:51:55.133314+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1690008585480",
+          "trigger": "state of binary_sensor.lumi_lumi_sensor_magnet_aq2_opening"
+        }
+      },
+      {
+        "extended_dict": {
+          "last_step": "action/0",
+          "run_id": "04b9647be217092156094b283cb0761c",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2023-07-24T16:59:30.246969+00:00",
+            "finish": "2023-07-24T16:59:30.249427+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1690008585480",
+          "trigger": "state of binary_sensor.lumi_lumi_sensor_magnet_aq2_opening",
+          "trace": {
+            "trigger/0": [
+              {
+                "path": "trigger/0",
+                "timestamp": "2023-07-24T16:59:30.247051+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "automation.dog_gate_timer",
+                    "state": "on",
+                    "attributes": {
+                      "id": "1690008585480",
+                      "last_triggered": "2023-07-24T09:51:55.132155+00:00",
+                      "mode": "single",
+                      "current": 0,
+                      "friendly_name": "Dog Gate Timer"
+                    },
+                    "last_changed": "2023-07-22T09:24:57.229121+00:00",
+                    "last_updated": "2023-07-24T09:51:55.133198+00:00",
+                    "context": {
+                      "id": "01H63N00QV63G7420MJEM6PMBY",
+                      "parent_id": "01H63MPVRT7J9GS94P7MXF4WT9",
+                      "user_id": null
+                    }
+                  },
+                  "trigger": {
+                    "id": "0",
+                    "idx": "0",
+                    "alias": null,
+                    "platform": "device",
+                    "entity_id": "binary_sensor.lumi_lumi_sensor_magnet_aq2_opening",
+                    "from_state": {
+                      "entity_id": "binary_sensor.lumi_lumi_sensor_magnet_aq2_opening",
+                      "state": "off",
+                      "attributes": {
+                        "device_class": "opening",
+                        "friendly_name": "Dog Gate Senor Opening"
+                      },
+                      "last_changed": "2023-07-24T16:05:52.599339+00:00",
+                      "last_updated": "2023-07-24T16:05:52.599339+00:00",
+                      "context": {
+                        "id": "01H64ACRAQQQQ3ACZ8441K96SP",
+                        "parent_id": null,
+                        "user_id": null
+                      }
+                    },
+                    "to_state": {
+                      "entity_id": "binary_sensor.lumi_lumi_sensor_magnet_aq2_opening",
+                      "state": "on",
+                      "attributes": {
+                        "device_class": "opening",
+                        "friendly_name": "Dog Gate Senor Opening"
+                      },
+                      "last_changed": "2023-07-24T16:54:30.245971+00:00",
+                      "last_updated": "2023-07-24T16:54:30.245971+00:00",
+                      "context": {
+                        "id": "01H64D5SK5XCW3E9RWT6B695DD",
+                        "parent_id": null,
+                        "user_id": null
+                      }
+                    },
+                    "for": {
+                      "__type": "<class 'datetime.timedelta'>",
+                      "total_seconds": 300.0
+                    },
+                    "attribute": null,
+                    "description": "state of binary_sensor.lumi_lumi_sensor_magnet_aq2_opening"
+                  }
+                }
+              }
+            ],
+            "action/0": [
+              {
+                "path": "action/0",
+                "timestamp": "2023-07-24T16:59:30.247432+00:00",
+                "changed_variables": {
+                  "context": {
+                    "id": "01H64DEYJ681ZVSCA29XXN4EA8",
+                    "parent_id": "01H64D5SK5XCW3E9RWT6B695DD",
+                    "user_id": null
+                  }
+                },
+                "result": {
+                  "params": {
+                    "domain": "media_player",
+                    "service": "play_media",
+                    "service_data": {
+                      "media_content_id": "media-source://tts/tts.google_en_com?message=The+dog+gate+is+open.&language=en-us",
+                      "media_content_type": "provider",
+                      "entity_id": [
+                        "media_player.all_speakers"
+                      ]
+                    },
+                    "target": {
+                      "entity_id": [
+                        "media_player.all_speakers"
+                      ]
+                    }
+                  },
+                  "running_script": false
+                }
+              }
+            ]
+          },
+          "config": {
+            "id": "1690008585480",
+            "alias": "Dog Gate Timer",
+            "description": "",
+            "trigger": [
+              {
+                "type": "opened",
+                "platform": "device",
+                "device_id": "306f507b5f864d595458ae58ab5b4f23",
+                "entity_id": "936b0e57c584f15d223942956a862682",
+                "domain": "binary_sensor",
+                "for": {
+                  "hours": 0,
+                  "minutes": 5,
+                  "seconds": 0
+                }
+              }
+            ],
+            "condition": [],
+            "action": [
+              {
+                "service": "media_player.play_media",
+                "target": {
+                  "entity_id": "media_player.all_speakers"
+                },
+                "data": {
+                  "media_content_id": "media-source://tts/tts.google_en_com?message=The+dog+gate+is+open.&language=en-us",
+                  "media_content_type": "provider"
+                },
+                "metadata": {
+                  "title": "The dog gate is open.",
+                  "thumbnail": "https://brands.home-assistant.io/_/tts/logo.png",
+                  "media_class": "app",
+                  "children_media_class": null,
+                  "navigateIds": [
+                    {},
+                    {
+                      "media_content_type": "app",
+                      "media_content_id": "media-source://tts"
+                    },
+                    {
+                      "media_content_type": "provider",
+                      "media_content_id": "media-source://tts/tts.google_en_com?message=The+dog+gate+is+open.&language=en-us"
+                    }
+                  ]
+                }
+              }
+            ],
+            "mode": "single"
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01H64DEYJ681ZVSCA29XXN4EA8",
+            "parent_id": "01H64D5SK5XCW3E9RWT6B695DD",
+            "user_id": null
+          }
+        },
+        "short_dict": {
+          "last_step": "action/0",
+          "run_id": "04b9647be217092156094b283cb0761c",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2023-07-24T16:59:30.246969+00:00",
+            "finish": "2023-07-24T16:59:30.249427+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1690008585480",
+          "trigger": "state of binary_sensor.lumi_lumi_sensor_magnet_aq2_opening"
+        }
+      },
+      {
+        "extended_dict": {
+          "last_step": "action/0",
+          "run_id": "68e6c41ea2d34a9c6a995dcffa9629db",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2023-07-24T17:26:27.042199+00:00",
+            "finish": "2023-07-24T17:26:27.043834+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1690008585480",
+          "trigger": "state of binary_sensor.lumi_lumi_sensor_magnet_aq2_opening",
+          "trace": {
+            "trigger/0": [
+              {
+                "path": "trigger/0",
+                "timestamp": "2023-07-24T17:26:27.042292+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "automation.dog_gate_timer",
+                    "state": "on",
+                    "attributes": {
+                      "id": "1690008585480",
+                      "last_triggered": "2023-07-24T16:59:30.247184+00:00",
+                      "mode": "single",
+                      "current": 0,
+                      "friendly_name": "Dog Gate Timer"
+                    },
+                    "last_changed": "2023-07-22T09:24:57.229121+00:00",
+                    "last_updated": "2023-07-24T16:59:30.249306+00:00",
+                    "context": {
+                      "id": "01H64DEYJ681ZVSCA29XXN4EA8",
+                      "parent_id": "01H64D5SK5XCW3E9RWT6B695DD",
+                      "user_id": null
+                    }
+                  },
+                  "trigger": {
+                    "id": "0",
+                    "idx": "0",
+                    "alias": null,
+                    "platform": "device",
+                    "entity_id": "binary_sensor.lumi_lumi_sensor_magnet_aq2_opening",
+                    "from_state": {
+                      "entity_id": "binary_sensor.lumi_lumi_sensor_magnet_aq2_opening",
+                      "state": "off",
+                      "attributes": {
+                        "device_class": "opening",
+                        "friendly_name": "Dog Gate Senor Opening"
+                      },
+                      "last_changed": "2023-07-24T17:16:35.683822+00:00",
+                      "last_updated": "2023-07-24T17:16:35.683822+00:00",
+                      "context": {
+                        "id": "01H64EE7Z33QG3N3WQ2Y9B0PYR",
+                        "parent_id": null,
+                        "user_id": null
+                      }
+                    },
+                    "to_state": {
+                      "entity_id": "binary_sensor.lumi_lumi_sensor_magnet_aq2_opening",
+                      "state": "on",
+                      "attributes": {
+                        "device_class": "opening",
+                        "friendly_name": "Dog Gate Senor Opening"
+                      },
+                      "last_changed": "2023-07-24T17:21:27.040812+00:00",
+                      "last_updated": "2023-07-24T17:21:27.040812+00:00",
+                      "context": {
+                        "id": "01H64EQ4G0Z8BHFQ3D5A036WB1",
+                        "parent_id": null,
+                        "user_id": null
+                      }
+                    },
+                    "for": {
+                      "__type": "<class 'datetime.timedelta'>",
+                      "total_seconds": 300.0
+                    },
+                    "attribute": null,
+                    "description": "state of binary_sensor.lumi_lumi_sensor_magnet_aq2_opening"
+                  }
+                }
+              }
+            ],
+            "action/0": [
+              {
+                "path": "action/0",
+                "timestamp": "2023-07-24T17:26:27.042759+00:00",
+                "changed_variables": {
+                  "context": {
+                    "id": "01H64F09F2X2T4GR6JS5Q7NEN7",
+                    "parent_id": "01H64EQ4G0Z8BHFQ3D5A036WB1",
+                    "user_id": null
+                  }
+                },
+                "result": {
+                  "params": {
+                    "domain": "media_player",
+                    "service": "play_media",
+                    "service_data": {
+                      "media_content_id": "media-source://tts/tts.google_en_com?message=The+dog+gate+is+open.&language=en-us",
+                      "media_content_type": "provider",
+                      "entity_id": [
+                        "media_player.all_speakers"
+                      ]
+                    },
+                    "target": {
+                      "entity_id": [
+                        "media_player.all_speakers"
+                      ]
+                    }
+                  },
+                  "running_script": false
+                }
+              }
+            ]
+          },
+          "config": {
+            "id": "1690008585480",
+            "alias": "Dog Gate Timer",
+            "description": "",
+            "trigger": [
+              {
+                "type": "opened",
+                "platform": "device",
+                "device_id": "306f507b5f864d595458ae58ab5b4f23",
+                "entity_id": "936b0e57c584f15d223942956a862682",
+                "domain": "binary_sensor",
+                "for": {
+                  "hours": 0,
+                  "minutes": 5,
+                  "seconds": 0
+                }
+              }
+            ],
+            "condition": [],
+            "action": [
+              {
+                "service": "media_player.play_media",
+                "target": {
+                  "entity_id": "media_player.all_speakers"
+                },
+                "data": {
+                  "media_content_id": "media-source://tts/tts.google_en_com?message=The+dog+gate+is+open.&language=en-us",
+                  "media_content_type": "provider"
+                },
+                "metadata": {
+                  "title": "The dog gate is open.",
+                  "thumbnail": "https://brands.home-assistant.io/_/tts/logo.png",
+                  "media_class": "app",
+                  "children_media_class": null,
+                  "navigateIds": [
+                    {},
+                    {
+                      "media_content_type": "app",
+                      "media_content_id": "media-source://tts"
+                    },
+                    {
+                      "media_content_type": "provider",
+                      "media_content_id": "media-source://tts/tts.google_en_com?message=The+dog+gate+is+open.&language=en-us"
+                    }
+                  ]
+                }
+              }
+            ],
+            "mode": "single"
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01H64F09F2X2T4GR6JS5Q7NEN7",
+            "parent_id": "01H64EQ4G0Z8BHFQ3D5A036WB1",
+            "user_id": null
+          }
+        },
+        "short_dict": {
+          "last_step": "action/0",
+          "run_id": "68e6c41ea2d34a9c6a995dcffa9629db",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2023-07-24T17:26:27.042199+00:00",
+            "finish": "2023-07-24T17:26:27.043834+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1690008585480",
+          "trigger": "state of binary_sensor.lumi_lumi_sensor_magnet_aq2_opening"
+        }
+      }
+    ],
+    "automation.1690008367348": [
+      {
+        "extended_dict": {
+          "last_step": "action/0",
+          "run_id": "1c9f9bc25b4a7b7309cebbdf3750013f",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2023-07-24T08:28:55.650075+00:00",
+            "finish": "2023-07-24T08:28:55.662778+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1690008367348",
+          "trigger": "event 'zha_event'",
+          "trace": {
+            "trigger/0": [
+              {
+                "path": "trigger/0",
+                "timestamp": "2023-07-24T08:28:55.650132+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "automation.bathroom_lamp_light_button",
+                    "state": "on",
+                    "attributes": {
+                      "id": "1690008367348",
+                      "last_triggered": "2023-07-24T02:28:59.624710+00:00",
+                      "mode": "single",
+                      "current": 0,
+                      "friendly_name": "Bathroom Lamp Light Button"
+                    },
+                    "last_changed": "2023-07-22T09:24:57.228824+00:00",
+                    "last_updated": "2023-07-24T02:28:59.636177+00:00",
+                    "context": {
+                      "id": "01H62VN038YFM33259RVFS12GH",
+                      "parent_id": "01H62VN037C7Z9ABGK4HWG2CKQ",
+                      "user_id": null
+                    }
+                  },
+                  "trigger": {
+                    "id": "0",
+                    "idx": "0",
+                    "alias": null,
+                    "platform": "device",
+                    "event": {
+                      "event_type": "zha_event",
+                      "data": {
+                        "device_ieee": "00:15:8d:00:09:26:fb:bb",
+                        "unique_id": "00:15:8d:00:09:26:fb:bb:1:0x0012",
+                        "device_id": "a22e589da09cbccb89a6e82b89711633",
+                        "endpoint_id": 1,
+                        "cluster_id": 18,
+                        "command": "single",
+                        "args": {
+                          "value": 1.0
+                        },
+                        "params": {}
+                      },
+                      "origin": "LOCAL",
+                      "time_fired": "2023-07-24T08:28:55.649556+00:00",
+                      "context": {
+                        "id": "01H63G81Z10NDVZTXZ5CARSRWR",
+                        "parent_id": null,
+                        "user_id": null
+                      }
+                    },
+                    "description": "event 'zha_event'"
+                  }
+                }
+              }
+            ],
+            "action/0": [
+              {
+                "path": "action/0",
+                "timestamp": "2023-07-24T08:28:55.650555+00:00",
+                "changed_variables": {
+                  "context": {
+                    "id": "01H63G81Z2AKHDPQFX8QABBPC6",
+                    "parent_id": "01H63G81Z10NDVZTXZ5CARSRWR",
+                    "user_id": null
+                  }
+                }
+              }
+            ]
+          },
+          "config": {
+            "id": "1690008367348",
+            "alias": "Bathroom Lamp Light Button",
+            "description": "",
+            "trigger": [
+              {
+                "device_id": "a22e589da09cbccb89a6e82b89711633",
+                "domain": "zha",
+                "platform": "device",
+                "type": "remote_button_short_press",
+                "subtype": "remote_button_short_press"
+              }
+            ],
+            "condition": [],
+            "action": [
+              {
+                "type": "toggle",
+                "device_id": "861be6962ec8cbcd256fc8ebcf1f6b51",
+                "entity_id": "e0b4baf7dfa54a54c1b25fbcb0e4d65c",
+                "domain": "switch"
+              }
+            ],
+            "mode": "single"
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01H63G81Z2AKHDPQFX8QABBPC6",
+            "parent_id": "01H63G81Z10NDVZTXZ5CARSRWR",
+            "user_id": null
+          }
+        },
+        "short_dict": {
+          "last_step": "action/0",
+          "run_id": "1c9f9bc25b4a7b7309cebbdf3750013f",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2023-07-24T08:28:55.650075+00:00",
+            "finish": "2023-07-24T08:28:55.662778+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1690008367348",
+          "trigger": "event 'zha_event'"
+        }
+      },
+      {
+        "extended_dict": {
+          "last_step": "action/0",
+          "run_id": "9cb7887fe7adde62ceb5c497db88f2fe",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2023-07-24T08:30:45.693868+00:00",
+            "finish": "2023-07-24T08:30:45.705694+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1690008367348",
+          "trigger": "event 'zha_event'",
+          "trace": {
+            "trigger/0": [
+              {
+                "path": "trigger/0",
+                "timestamp": "2023-07-24T08:30:45.693960+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "automation.bathroom_lamp_light_button",
+                    "state": "on",
+                    "attributes": {
+                      "id": "1690008367348",
+                      "last_triggered": "2023-07-24T08:28:55.650232+00:00",
+                      "mode": "single",
+                      "current": 0,
+                      "friendly_name": "Bathroom Lamp Light Button"
+                    },
+                    "last_changed": "2023-07-22T09:24:57.228824+00:00",
+                    "last_updated": "2023-07-24T08:28:55.662678+00:00",
+                    "context": {
+                      "id": "01H63G81Z2AKHDPQFX8QABBPC6",
+                      "parent_id": "01H63G81Z10NDVZTXZ5CARSRWR",
+                      "user_id": null
+                    }
+                  },
+                  "trigger": {
+                    "id": "0",
+                    "idx": "0",
+                    "alias": null,
+                    "platform": "device",
+                    "event": {
+                      "event_type": "zha_event",
+                      "data": {
+                        "device_ieee": "00:15:8d:00:09:26:fb:bb",
+                        "unique_id": "00:15:8d:00:09:26:fb:bb:1:0x0012",
+                        "device_id": "a22e589da09cbccb89a6e82b89711633",
+                        "endpoint_id": 1,
+                        "cluster_id": 18,
+                        "command": "single",
+                        "args": {
+                          "value": 1.0
+                        },
+                        "params": {}
+                      },
+                      "origin": "LOCAL",
+                      "time_fired": "2023-07-24T08:30:45.693351+00:00",
+                      "context": {
+                        "id": "01H63GBDDXHXRV7V7PHE48FS5H",
+                        "parent_id": null,
+                        "user_id": null
+                      }
+                    },
+                    "description": "event 'zha_event'"
+                  }
+                }
+              }
+            ],
+            "action/0": [
+              {
+                "path": "action/0",
+                "timestamp": "2023-07-24T08:30:45.694269+00:00",
+                "changed_variables": {
+                  "context": {
+                    "id": "01H63GBDDX0T36M3MSPFH5TR3M",
+                    "parent_id": "01H63GBDDXHXRV7V7PHE48FS5H",
+                    "user_id": null
+                  }
+                }
+              }
+            ]
+          },
+          "config": {
+            "id": "1690008367348",
+            "alias": "Bathroom Lamp Light Button",
+            "description": "",
+            "trigger": [
+              {
+                "device_id": "a22e589da09cbccb89a6e82b89711633",
+                "domain": "zha",
+                "platform": "device",
+                "type": "remote_button_short_press",
+                "subtype": "remote_button_short_press"
+              }
+            ],
+            "condition": [],
+            "action": [
+              {
+                "type": "toggle",
+                "device_id": "861be6962ec8cbcd256fc8ebcf1f6b51",
+                "entity_id": "e0b4baf7dfa54a54c1b25fbcb0e4d65c",
+                "domain": "switch"
+              }
+            ],
+            "mode": "single"
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01H63GBDDX0T36M3MSPFH5TR3M",
+            "parent_id": "01H63GBDDXHXRV7V7PHE48FS5H",
+            "user_id": null
+          }
+        },
+        "short_dict": {
+          "last_step": "action/0",
+          "run_id": "9cb7887fe7adde62ceb5c497db88f2fe",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2023-07-24T08:30:45.693868+00:00",
+            "finish": "2023-07-24T08:30:45.705694+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1690008367348",
+          "trigger": "event 'zha_event'"
+        }
+      },
+      {
+        "extended_dict": {
+          "last_step": "action/0",
+          "run_id": "6641fdcba476ec11ea758ccf86373067",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2023-07-24T08:31:16.587958+00:00",
+            "finish": "2023-07-24T08:31:16.603966+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1690008367348",
+          "trigger": "event 'zha_event'",
+          "trace": {
+            "trigger/0": [
+              {
+                "path": "trigger/0",
+                "timestamp": "2023-07-24T08:31:16.588061+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "automation.bathroom_lamp_light_button",
+                    "state": "on",
+                    "attributes": {
+                      "id": "1690008367348",
+                      "last_triggered": "2023-07-24T08:30:45.694060+00:00",
+                      "mode": "single",
+                      "current": 0,
+                      "friendly_name": "Bathroom Lamp Light Button"
+                    },
+                    "last_changed": "2023-07-22T09:24:57.228824+00:00",
+                    "last_updated": "2023-07-24T08:30:45.705593+00:00",
+                    "context": {
+                      "id": "01H63GBDDX0T36M3MSPFH5TR3M",
+                      "parent_id": "01H63GBDDXHXRV7V7PHE48FS5H",
+                      "user_id": null
+                    }
+                  },
+                  "trigger": {
+                    "id": "0",
+                    "idx": "0",
+                    "alias": null,
+                    "platform": "device",
+                    "event": {
+                      "event_type": "zha_event",
+                      "data": {
+                        "device_ieee": "00:15:8d:00:09:26:fb:bb",
+                        "unique_id": "00:15:8d:00:09:26:fb:bb:1:0x0012",
+                        "device_id": "a22e589da09cbccb89a6e82b89711633",
+                        "endpoint_id": 1,
+                        "cluster_id": 18,
+                        "command": "single",
+                        "args": {
+                          "value": 1.0
+                        },
+                        "params": {}
+                      },
+                      "origin": "LOCAL",
+                      "time_fired": "2023-07-24T08:31:16.587371+00:00",
+                      "context": {
+                        "id": "01H63GCBKBF4VG7NHG6S4Q7EG2",
+                        "parent_id": null,
+                        "user_id": null
+                      }
+                    },
+                    "description": "event 'zha_event'"
+                  }
+                }
+              }
+            ],
+            "action/0": [
+              {
+                "path": "action/0",
+                "timestamp": "2023-07-24T08:31:16.588410+00:00",
+                "changed_variables": {
+                  "context": {
+                    "id": "01H63GCBKBC1K8BGP9JJGGEA3R",
+                    "parent_id": "01H63GCBKBF4VG7NHG6S4Q7EG2",
+                    "user_id": null
+                  }
+                }
+              }
+            ]
+          },
+          "config": {
+            "id": "1690008367348",
+            "alias": "Bathroom Lamp Light Button",
+            "description": "",
+            "trigger": [
+              {
+                "device_id": "a22e589da09cbccb89a6e82b89711633",
+                "domain": "zha",
+                "platform": "device",
+                "type": "remote_button_short_press",
+                "subtype": "remote_button_short_press"
+              }
+            ],
+            "condition": [],
+            "action": [
+              {
+                "type": "toggle",
+                "device_id": "861be6962ec8cbcd256fc8ebcf1f6b51",
+                "entity_id": "e0b4baf7dfa54a54c1b25fbcb0e4d65c",
+                "domain": "switch"
+              }
+            ],
+            "mode": "single"
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01H63GCBKBC1K8BGP9JJGGEA3R",
+            "parent_id": "01H63GCBKBF4VG7NHG6S4Q7EG2",
+            "user_id": null
+          }
+        },
+        "short_dict": {
+          "last_step": "action/0",
+          "run_id": "6641fdcba476ec11ea758ccf86373067",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2023-07-24T08:31:16.587958+00:00",
+            "finish": "2023-07-24T08:31:16.603966+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1690008367348",
+          "trigger": "event 'zha_event'"
+        }
+      },
+      {
+        "extended_dict": {
+          "last_step": "action/0",
+          "run_id": "e7f8adcd8e1bc2b569ba95196983950d",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2023-07-24T10:34:29.780984+00:00",
+            "finish": "2023-07-24T10:34:29.791756+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1690008367348",
+          "trigger": "event 'zha_event'",
+          "trace": {
+            "trigger/0": [
+              {
+                "path": "trigger/0",
+                "timestamp": "2023-07-24T10:34:29.781045+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "automation.bathroom_lamp_light_button",
+                    "state": "on",
+                    "attributes": {
+                      "id": "1690008367348",
+                      "last_triggered": "2023-07-24T08:31:16.588176+00:00",
+                      "mode": "single",
+                      "current": 0,
+                      "friendly_name": "Bathroom Lamp Light Button"
+                    },
+                    "last_changed": "2023-07-22T09:24:57.228824+00:00",
+                    "last_updated": "2023-07-24T08:31:16.603846+00:00",
+                    "context": {
+                      "id": "01H63GCBKBC1K8BGP9JJGGEA3R",
+                      "parent_id": "01H63GCBKBF4VG7NHG6S4Q7EG2",
+                      "user_id": null
+                    }
+                  },
+                  "trigger": {
+                    "id": "0",
+                    "idx": "0",
+                    "alias": null,
+                    "platform": "device",
+                    "event": {
+                      "event_type": "zha_event",
+                      "data": {
+                        "device_ieee": "00:15:8d:00:09:26:fb:bb",
+                        "unique_id": "00:15:8d:00:09:26:fb:bb:1:0x0012",
+                        "device_id": "a22e589da09cbccb89a6e82b89711633",
+                        "endpoint_id": 1,
+                        "cluster_id": 18,
+                        "command": "single",
+                        "args": {
+                          "value": 1.0
+                        },
+                        "params": {}
+                      },
+                      "origin": "LOCAL",
+                      "time_fired": "2023-07-24T10:34:29.779192+00:00",
+                      "context": {
+                        "id": "01H63QDZGK0Q3SFP2F3GZ0CAWH",
+                        "parent_id": null,
+                        "user_id": null
+                      }
+                    },
+                    "description": "event 'zha_event'"
+                  }
+                }
+              }
+            ],
+            "action/0": [
+              {
+                "path": "action/0",
+                "timestamp": "2023-07-24T10:34:29.781421+00:00",
+                "changed_variables": {
+                  "context": {
+                    "id": "01H63QDZGMAARB88YBYMGNB6SA",
+                    "parent_id": "01H63QDZGK0Q3SFP2F3GZ0CAWH",
+                    "user_id": null
+                  }
+                }
+              }
+            ]
+          },
+          "config": {
+            "id": "1690008367348",
+            "alias": "Bathroom Lamp Light Button",
+            "description": "",
+            "trigger": [
+              {
+                "device_id": "a22e589da09cbccb89a6e82b89711633",
+                "domain": "zha",
+                "platform": "device",
+                "type": "remote_button_short_press",
+                "subtype": "remote_button_short_press"
+              }
+            ],
+            "condition": [],
+            "action": [
+              {
+                "type": "toggle",
+                "device_id": "861be6962ec8cbcd256fc8ebcf1f6b51",
+                "entity_id": "e0b4baf7dfa54a54c1b25fbcb0e4d65c",
+                "domain": "switch"
+              }
+            ],
+            "mode": "single"
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01H63QDZGMAARB88YBYMGNB6SA",
+            "parent_id": "01H63QDZGK0Q3SFP2F3GZ0CAWH",
+            "user_id": null
+          }
+        },
+        "short_dict": {
+          "last_step": "action/0",
+          "run_id": "e7f8adcd8e1bc2b569ba95196983950d",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2023-07-24T10:34:29.780984+00:00",
+            "finish": "2023-07-24T10:34:29.791756+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1690008367348",
+          "trigger": "event 'zha_event'"
+        }
+      },
+      {
+        "extended_dict": {
+          "last_step": "action/0",
+          "run_id": "a4bdb9116c126b71e9ec2197669ee40d",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2023-07-24T10:36:02.834931+00:00",
+            "finish": "2023-07-24T10:36:02.845077+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1690008367348",
+          "trigger": "event 'zha_event'",
+          "trace": {
+            "trigger/0": [
+              {
+                "path": "trigger/0",
+                "timestamp": "2023-07-24T10:36:02.835020+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "automation.bathroom_lamp_light_button",
+                    "state": "on",
+                    "attributes": {
+                      "id": "1690008367348",
+                      "last_triggered": "2023-07-24T10:34:29.781160+00:00",
+                      "mode": "single",
+                      "current": 0,
+                      "friendly_name": "Bathroom Lamp Light Button"
+                    },
+                    "last_changed": "2023-07-22T09:24:57.228824+00:00",
+                    "last_updated": "2023-07-24T10:34:29.791693+00:00",
+                    "context": {
+                      "id": "01H63QDZGMAARB88YBYMGNB6SA",
+                      "parent_id": "01H63QDZGK0Q3SFP2F3GZ0CAWH",
+                      "user_id": null
+                    }
+                  },
+                  "trigger": {
+                    "id": "0",
+                    "idx": "0",
+                    "alias": null,
+                    "platform": "device",
+                    "event": {
+                      "event_type": "zha_event",
+                      "data": {
+                        "device_ieee": "00:15:8d:00:09:26:fb:bb",
+                        "unique_id": "00:15:8d:00:09:26:fb:bb:1:0x0012",
+                        "device_id": "a22e589da09cbccb89a6e82b89711633",
+                        "endpoint_id": 1,
+                        "cluster_id": 18,
+                        "command": "single",
+                        "args": {
+                          "value": 1.0
+                        },
+                        "params": {}
+                      },
+                      "origin": "LOCAL",
+                      "time_fired": "2023-07-24T10:36:02.834322+00:00",
+                      "context": {
+                        "id": "01H63QGTCJ7DWYHVYE2VDVB33Z",
+                        "parent_id": null,
+                        "user_id": null
+                      }
+                    },
+                    "description": "event 'zha_event'"
+                  }
+                }
+              }
+            ],
+            "action/0": [
+              {
+                "path": "action/0",
+                "timestamp": "2023-07-24T10:36:02.835360+00:00",
+                "changed_variables": {
+                  "context": {
+                    "id": "01H63QGTCJZATRRYFM4YBQ3J9F",
+                    "parent_id": "01H63QGTCJ7DWYHVYE2VDVB33Z",
+                    "user_id": null
+                  }
+                }
+              }
+            ]
+          },
+          "config": {
+            "id": "1690008367348",
+            "alias": "Bathroom Lamp Light Button",
+            "description": "",
+            "trigger": [
+              {
+                "device_id": "a22e589da09cbccb89a6e82b89711633",
+                "domain": "zha",
+                "platform": "device",
+                "type": "remote_button_short_press",
+                "subtype": "remote_button_short_press"
+              }
+            ],
+            "condition": [],
+            "action": [
+              {
+                "type": "toggle",
+                "device_id": "861be6962ec8cbcd256fc8ebcf1f6b51",
+                "entity_id": "e0b4baf7dfa54a54c1b25fbcb0e4d65c",
+                "domain": "switch"
+              }
+            ],
+            "mode": "single"
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01H63QGTCJZATRRYFM4YBQ3J9F",
+            "parent_id": "01H63QGTCJ7DWYHVYE2VDVB33Z",
+            "user_id": null
+          }
+        },
+        "short_dict": {
+          "last_step": "action/0",
+          "run_id": "a4bdb9116c126b71e9ec2197669ee40d",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2023-07-24T10:36:02.834931+00:00",
+            "finish": "2023-07-24T10:36:02.845077+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1690008367348",
+          "trigger": "event 'zha_event'"
+        }
+      }
+    ],
+    "automation.1690008450276": [
+      {
+        "extended_dict": {
+          "last_step": "action/0",
+          "run_id": "2cb627138e67eca4c2bef6d33907e8f4",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2023-07-23T04:29:27.226313+00:00",
+            "finish": "2023-07-23T04:29:27.238939+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1690008450276",
+          "trigger": "event 'zha_event'",
+          "trace": {
+            "trigger/0": [
+              {
+                "path": "trigger/0",
+                "timestamp": "2023-07-23T04:29:27.226375+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "automation.bedroom_light_button",
+                    "state": "on",
+                    "attributes": {
+                      "id": "1690008450276",
+                      "last_triggered": null,
+                      "mode": "single",
+                      "current": 0,
+                      "friendly_name": "Bedroom Light Button"
+                    },
+                    "last_changed": "2023-07-22T09:24:57.229037+00:00",
+                    "last_updated": "2023-07-22T09:24:57.229037+00:00",
+                    "context": {
+                      "id": "01H5YEN6RDTYWZGJSBJ1EW6XEF",
+                      "parent_id": null,
+                      "user_id": null
+                    }
+                  },
+                  "trigger": {
+                    "id": "0",
+                    "idx": "0",
+                    "alias": null,
+                    "platform": "device",
+                    "event": {
+                      "event_type": "zha_event",
+                      "data": {
+                        "device_ieee": "00:15:8d:00:09:f4:9e:35",
+                        "unique_id": "00:15:8d:00:09:f4:9e:35:1:0x0012",
+                        "device_id": "27b7195188337d0ccf48e1477d71cb65",
+                        "endpoint_id": 1,
+                        "cluster_id": 18,
+                        "command": "single",
+                        "args": {
+                          "value": 1.0
+                        },
+                        "params": {}
+                      },
+                      "origin": "LOCAL",
+                      "time_fired": "2023-07-23T04:29:27.225728+00:00",
+                      "context": {
+                        "id": "01H60G4V9S4Z6G7V1BWGJ5P7B1",
+                        "parent_id": null,
+                        "user_id": null
+                      }
+                    },
+                    "description": "event 'zha_event'"
+                  }
+                }
+              }
+            ],
+            "action/0": [
+              {
+                "path": "action/0",
+                "timestamp": "2023-07-23T04:29:27.226755+00:00",
+                "changed_variables": {
+                  "context": {
+                    "id": "01H60G4V9TPT5M0X96TNWXJ4E0",
+                    "parent_id": "01H60G4V9S4Z6G7V1BWGJ5P7B1",
+                    "user_id": null
+                  }
+                }
+              }
+            ]
+          },
+          "config": {
+            "id": "1690008450276",
+            "alias": "Bedroom Light Button",
+            "description": "",
+            "trigger": [
+              {
+                "device_id": "27b7195188337d0ccf48e1477d71cb65",
+                "domain": "zha",
+                "platform": "device",
+                "type": "remote_button_short_press",
+                "subtype": "remote_button_short_press"
+              }
+            ],
+            "condition": [],
+            "action": [
+              {
+                "type": "toggle",
+                "device_id": "861be6962ec8cbcd256fc8ebcf1f6b51",
+                "entity_id": "e0b4baf7dfa54a54c1b25fbcb0e4d65c",
+                "domain": "switch"
+              }
+            ],
+            "mode": "single"
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01H60G4V9TPT5M0X96TNWXJ4E0",
+            "parent_id": "01H60G4V9S4Z6G7V1BWGJ5P7B1",
+            "user_id": null
+          }
+        },
+        "short_dict": {
+          "last_step": "action/0",
+          "run_id": "2cb627138e67eca4c2bef6d33907e8f4",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2023-07-23T04:29:27.226313+00:00",
+            "finish": "2023-07-23T04:29:27.238939+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1690008450276",
+          "trigger": "event 'zha_event'"
+        }
+      },
+      {
+        "extended_dict": {
+          "last_step": "action/0",
+          "run_id": "0e3c6924f2511a0b904183929517a776",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2023-07-23T21:08:56.951148+00:00",
+            "finish": "2023-07-23T21:08:56.961374+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1690008450276",
+          "trigger": "event 'zha_event'",
+          "trace": {
+            "trigger/0": [
+              {
+                "path": "trigger/0",
+                "timestamp": "2023-07-23T21:08:56.951192+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "automation.bedroom_light_button",
+                    "state": "on",
+                    "attributes": {
+                      "id": "1690008450276",
+                      "last_triggered": "2023-07-23T04:29:27.226519+00:00",
+                      "mode": "single",
+                      "current": 0,
+                      "friendly_name": "Bedroom Light Button"
+                    },
+                    "last_changed": "2023-07-22T09:24:57.229037+00:00",
+                    "last_updated": "2023-07-23T04:29:27.238852+00:00",
+                    "context": {
+                      "id": "01H60G4V9TPT5M0X96TNWXJ4E0",
+                      "parent_id": "01H60G4V9S4Z6G7V1BWGJ5P7B1",
+                      "user_id": null
+                    }
+                  },
+                  "trigger": {
+                    "id": "0",
+                    "idx": "0",
+                    "alias": null,
+                    "platform": "device",
+                    "event": {
+                      "event_type": "zha_event",
+                      "data": {
+                        "device_ieee": "00:15:8d:00:09:f4:9e:35",
+                        "unique_id": "00:15:8d:00:09:f4:9e:35:1:0x0012",
+                        "device_id": "27b7195188337d0ccf48e1477d71cb65",
+                        "endpoint_id": 1,
+                        "cluster_id": 18,
+                        "command": "single",
+                        "args": {
+                          "value": 1.0
+                        },
+                        "params": {}
+                      },
+                      "origin": "LOCAL",
+                      "time_fired": "2023-07-23T21:08:56.950593+00:00",
+                      "context": {
+                        "id": "01H629AZFP3M1NSDNXW05P0X0H",
+                        "parent_id": null,
+                        "user_id": null
+                      }
+                    },
+                    "description": "event 'zha_event'"
+                  }
+                }
+              }
+            ],
+            "action/0": [
+              {
+                "path": "action/0",
+                "timestamp": "2023-07-23T21:08:56.951520+00:00",
+                "changed_variables": {
+                  "context": {
+                    "id": "01H629AZFQGCSEQ3XTMKP90RS6",
+                    "parent_id": "01H629AZFP3M1NSDNXW05P0X0H",
+                    "user_id": null
+                  }
+                }
+              }
+            ]
+          },
+          "config": {
+            "id": "1690008450276",
+            "alias": "Bedroom Light Button",
+            "description": "",
+            "trigger": [
+              {
+                "device_id": "27b7195188337d0ccf48e1477d71cb65",
+                "domain": "zha",
+                "platform": "device",
+                "type": "remote_button_short_press",
+                "subtype": "remote_button_short_press"
+              }
+            ],
+            "condition": [],
+            "action": [
+              {
+                "type": "toggle",
+                "device_id": "861be6962ec8cbcd256fc8ebcf1f6b51",
+                "entity_id": "e0b4baf7dfa54a54c1b25fbcb0e4d65c",
+                "domain": "switch"
+              }
+            ],
+            "mode": "single"
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01H629AZFQGCSEQ3XTMKP90RS6",
+            "parent_id": "01H629AZFP3M1NSDNXW05P0X0H",
+            "user_id": null
+          }
+        },
+        "short_dict": {
+          "last_step": "action/0",
+          "run_id": "0e3c6924f2511a0b904183929517a776",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2023-07-23T21:08:56.951148+00:00",
+            "finish": "2023-07-23T21:08:56.961374+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1690008450276",
+          "trigger": "event 'zha_event'"
+        }
+      },
+      {
+        "extended_dict": {
+          "last_step": "action/0",
+          "run_id": "d4bad377cf702437aec730753e023409",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2023-07-23T21:08:59.635131+00:00",
+            "finish": "2023-07-23T21:08:59.647094+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1690008450276",
+          "trigger": "event 'zha_event'",
+          "trace": {
+            "trigger/0": [
+              {
+                "path": "trigger/0",
+                "timestamp": "2023-07-23T21:08:59.635208+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "automation.bedroom_light_button",
+                    "state": "on",
+                    "attributes": {
+                      "id": "1690008450276",
+                      "last_triggered": "2023-07-23T21:08:56.951300+00:00",
+                      "mode": "single",
+                      "current": 0,
+                      "friendly_name": "Bedroom Light Button"
+                    },
+                    "last_changed": "2023-07-22T09:24:57.229037+00:00",
+                    "last_updated": "2023-07-23T21:08:56.961263+00:00",
+                    "context": {
+                      "id": "01H629AZFQGCSEQ3XTMKP90RS6",
+                      "parent_id": "01H629AZFP3M1NSDNXW05P0X0H",
+                      "user_id": null
+                    }
+                  },
+                  "trigger": {
+                    "id": "0",
+                    "idx": "0",
+                    "alias": null,
+                    "platform": "device",
+                    "event": {
+                      "event_type": "zha_event",
+                      "data": {
+                        "device_ieee": "00:15:8d:00:09:f4:9e:35",
+                        "unique_id": "00:15:8d:00:09:f4:9e:35:1:0x0012",
+                        "device_id": "27b7195188337d0ccf48e1477d71cb65",
+                        "endpoint_id": 1,
+                        "cluster_id": 18,
+                        "command": "single",
+                        "args": {
+                          "value": 1.0
+                        },
+                        "params": {}
+                      },
+                      "origin": "LOCAL",
+                      "time_fired": "2023-07-23T21:08:59.634595+00:00",
+                      "context": {
+                        "id": "01H629B23JBHM6F3AATPM4MX1Q",
+                        "parent_id": null,
+                        "user_id": null
+                      }
+                    },
+                    "description": "event 'zha_event'"
+                  }
+                }
+              }
+            ],
+            "action/0": [
+              {
+                "path": "action/0",
+                "timestamp": "2023-07-23T21:08:59.637002+00:00",
+                "changed_variables": {
+                  "context": {
+                    "id": "01H629B23K1HS1PGZ0GW9ZEW68",
+                    "parent_id": "01H629B23JBHM6F3AATPM4MX1Q",
+                    "user_id": null
+                  }
+                }
+              }
+            ]
+          },
+          "config": {
+            "id": "1690008450276",
+            "alias": "Bedroom Light Button",
+            "description": "",
+            "trigger": [
+              {
+                "device_id": "27b7195188337d0ccf48e1477d71cb65",
+                "domain": "zha",
+                "platform": "device",
+                "type": "remote_button_short_press",
+                "subtype": "remote_button_short_press"
+              }
+            ],
+            "condition": [],
+            "action": [
+              {
+                "type": "toggle",
+                "device_id": "861be6962ec8cbcd256fc8ebcf1f6b51",
+                "entity_id": "e0b4baf7dfa54a54c1b25fbcb0e4d65c",
+                "domain": "switch"
+              }
+            ],
+            "mode": "single"
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01H629B23K1HS1PGZ0GW9ZEW68",
+            "parent_id": "01H629B23JBHM6F3AATPM4MX1Q",
+            "user_id": null
+          }
+        },
+        "short_dict": {
+          "last_step": "action/0",
+          "run_id": "d4bad377cf702437aec730753e023409",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2023-07-23T21:08:59.635131+00:00",
+            "finish": "2023-07-23T21:08:59.647094+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1690008450276",
+          "trigger": "event 'zha_event'"
+        }
+      },
+      {
+        "extended_dict": {
+          "last_step": "action/0",
+          "run_id": "1802beed0975bac9d5cfc8dee54a892d",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2023-07-23T21:09:00.854913+00:00",
+            "finish": "2023-07-23T21:09:00.865935+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1690008450276",
+          "trigger": "event 'zha_event'",
+          "trace": {
+            "trigger/0": [
+              {
+                "path": "trigger/0",
+                "timestamp": "2023-07-23T21:09:00.855007+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "automation.bedroom_light_button",
+                    "state": "on",
+                    "attributes": {
+                      "id": "1690008450276",
+                      "last_triggered": "2023-07-23T21:08:59.635306+00:00",
+                      "mode": "single",
+                      "current": 0,
+                      "friendly_name": "Bedroom Light Button"
+                    },
+                    "last_changed": "2023-07-22T09:24:57.229037+00:00",
+                    "last_updated": "2023-07-23T21:08:59.646994+00:00",
+                    "context": {
+                      "id": "01H629B23K1HS1PGZ0GW9ZEW68",
+                      "parent_id": "01H629B23JBHM6F3AATPM4MX1Q",
+                      "user_id": null
+                    }
+                  },
+                  "trigger": {
+                    "id": "0",
+                    "idx": "0",
+                    "alias": null,
+                    "platform": "device",
+                    "event": {
+                      "event_type": "zha_event",
+                      "data": {
+                        "device_ieee": "00:15:8d:00:09:f4:9e:35",
+                        "unique_id": "00:15:8d:00:09:f4:9e:35:1:0x0012",
+                        "device_id": "27b7195188337d0ccf48e1477d71cb65",
+                        "endpoint_id": 1,
+                        "cluster_id": 18,
+                        "command": "single",
+                        "args": {
+                          "value": 1.0
+                        },
+                        "params": {}
+                      },
+                      "origin": "LOCAL",
+                      "time_fired": "2023-07-23T21:09:00.853697+00:00",
+                      "context": {
+                        "id": "01H629B39NSKZ6FB6HR19XT521",
+                        "parent_id": null,
+                        "user_id": null
+                      }
+                    },
+                    "description": "event 'zha_event'"
+                  }
+                }
+              }
+            ],
+            "action/0": [
+              {
+                "path": "action/0",
+                "timestamp": "2023-07-23T21:09:00.855367+00:00",
+                "changed_variables": {
+                  "context": {
+                    "id": "01H629B39P8Y91H7JN742S3PZ6",
+                    "parent_id": "01H629B39NSKZ6FB6HR19XT521",
+                    "user_id": null
+                  }
+                }
+              }
+            ]
+          },
+          "config": {
+            "id": "1690008450276",
+            "alias": "Bedroom Light Button",
+            "description": "",
+            "trigger": [
+              {
+                "device_id": "27b7195188337d0ccf48e1477d71cb65",
+                "domain": "zha",
+                "platform": "device",
+                "type": "remote_button_short_press",
+                "subtype": "remote_button_short_press"
+              }
+            ],
+            "condition": [],
+            "action": [
+              {
+                "type": "toggle",
+                "device_id": "861be6962ec8cbcd256fc8ebcf1f6b51",
+                "entity_id": "e0b4baf7dfa54a54c1b25fbcb0e4d65c",
+                "domain": "switch"
+              }
+            ],
+            "mode": "single"
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01H629B39P8Y91H7JN742S3PZ6",
+            "parent_id": "01H629B39NSKZ6FB6HR19XT521",
+            "user_id": null
+          }
+        },
+        "short_dict": {
+          "last_step": "action/0",
+          "run_id": "1802beed0975bac9d5cfc8dee54a892d",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2023-07-23T21:09:00.854913+00:00",
+            "finish": "2023-07-23T21:09:00.865935+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1690008450276",
+          "trigger": "event 'zha_event'"
+        }
+      }
+    ]
+  }
+}
