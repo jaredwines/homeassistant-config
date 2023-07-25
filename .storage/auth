@@ -25,17 +25,6 @@
         "name": "Jared",
         "system_generated": false,
         "local_only": false
-      },
-      {
-        "id": "022497d4fb3143fdac5e37b17ff40879",
-        "group_ids": [
-          "system-admin"
-        ],
-        "is_owner": false,
-        "is_active": true,
-        "name": "Home Assistant Cast",
-        "system_generated": true,
-        "local_only": false
       }
     ],
     "groups": [
@@ -113,19 +102,19 @@
         "version": "2023.7.3"
       },
       {
-        "id": "63b32200d4474d47ab4efd6ba52acdae",
-        "user_id": "022497d4fb3143fdac5e37b17ff40879",
-        "client_id": null,
+        "id": "fdc89be503c54fb2ad16db88e3f01b8a",
+        "user_id": "5d92a1fdd2ab47c697b14519e7551ab6",
+        "client_id": "http://192.168.0.216:8123/",
         "client_name": null,
         "client_icon": null,
-        "token_type": "system",
-        "created_at": "2023-07-22T06:48:46.454182+00:00",
+        "token_type": "normal",
+        "created_at": "2023-07-25T07:13:05.268771+00:00",
         "access_token_expiration": 1800.0,
-        "token": "8e88cea7d4d7f37c37c806d07fe7a099b8abb7e5a3d218a6d03c26f53527ffc7c8efb548d27017cfdcb3a6548eeb54de4782f804a1a7e5011d0aee3b974bea0a",
-        "jwt_key": "f20107775c8b1e2b4fbe953ff1cdeec1a91a9458ebacb7ed817ae9a12084a78f2ed1bf899bb9c2c734afcc91a221182da840c6ab80b2f22872a7245dcf438c4d",
-        "last_used_at": null,
-        "last_used_ip": null,
-        "credential_id": null,
+        "token": "3527d56d31f6ff8fd7e2f2b7da00207f1a2ea7185585f87e7a2d9c980ce81c6760679586e74c28b9cd940156b5495fc7f2e9202a44442b3eec4591be8347f255",
+        "jwt_key": "ac83bfdd5f7b15617d469a0fcbb56d7924d122d20e32a66bc310cdde153e416a0d68a3e38a858f6297ad372d1c68cdc12a81b786717c5b901c988aef4c57e9a2",
+        "last_used_at": "2023-07-25T16:41:26.309042+00:00",
+        "last_used_ip": "192.168.0.107",
+        "credential_id": "61f99ec595734336a81dde7ba199c599",
         "version": "2023.7.3"
       }
     ]

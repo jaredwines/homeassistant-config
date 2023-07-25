@@ -928,7 +928,7 @@
           }
         },
         "original_device_class": null,
-        "original_icon": "mdi:led-off",
+        "original_icon": "mdi:led-on",
         "original_name": "Kitchen Light LED",
         "platform": "tplink",
         "supported_features": 0,
@@ -1740,93 +1740,6 @@
       {
         "aliases": [],
         "area_id": null,
-        "capabilities": {},
-        "config_entry_id": "e15343a0805d3e6cb9a7ae37c569d784",
-        "device_class": null,
-        "device_id": "07c54a4dbb9e41c49d4af73d6bf9f685",
-        "disabled_by": null,
-        "entity_category": null,
-        "entity_id": "media_player.living_room_speaker",
-        "hidden_by": null,
-        "icon": null,
-        "id": "b591f1b91d12357c52df844eb14426cd",
-        "has_entity_name": true,
-        "name": null,
-        "options": {
-          "conversation": {
-            "should_expose": false
-          }
-        },
-        "original_device_class": "speaker",
-        "original_icon": null,
-        "original_name": null,
-        "platform": "cast",
-        "supported_features": 131968,
-        "translation_key": null,
-        "unique_id": "2eabe95a-f60b-3dc3-ddb6-75c34424fb28",
-        "unit_of_measurement": null
-      },
-      {
-        "aliases": [],
-        "area_id": null,
-        "capabilities": {},
-        "config_entry_id": "e15343a0805d3e6cb9a7ae37c569d784",
-        "device_class": null,
-        "device_id": "d81ebbcf1836d9eddcd8f87676ee8ee4",
-        "disabled_by": null,
-        "entity_category": null,
-        "entity_id": "media_player.bedroom_speaker",
-        "hidden_by": null,
-        "icon": null,
-        "id": "a477696ccbc522d4488b6352fbc98ce8",
-        "has_entity_name": true,
-        "name": null,
-        "options": {
-          "conversation": {
-            "should_expose": false
-          }
-        },
-        "original_device_class": "speaker",
-        "original_icon": null,
-        "original_name": null,
-        "platform": "cast",
-        "supported_features": 131968,
-        "translation_key": null,
-        "unique_id": "0e60fe64-ea78-3786-2735-525503b56b93",
-        "unit_of_measurement": null
-      },
-      {
-        "aliases": [],
-        "area_id": null,
-        "capabilities": {},
-        "config_entry_id": "e15343a0805d3e6cb9a7ae37c569d784",
-        "device_class": null,
-        "device_id": "09d2185a19ebdb01728527919bfe061b",
-        "disabled_by": null,
-        "entity_category": null,
-        "entity_id": "media_player.all_speakers",
-        "hidden_by": null,
-        "icon": null,
-        "id": "b67b9c63149b7e7a66fe08ff4d40ca94",
-        "has_entity_name": true,
-        "name": null,
-        "options": {
-          "conversation": {
-            "should_expose": false
-          }
-        },
-        "original_device_class": "speaker",
-        "original_icon": null,
-        "original_name": null,
-        "platform": "cast",
-        "supported_features": 131968,
-        "translation_key": null,
-        "unique_id": "8ef0a6d1-599d-4495-a03e-39d86bf8d8a8",
-        "unit_of_measurement": null
-      },
-      {
-        "aliases": [],
-        "area_id": null,
         "capabilities": {
           "id": "1690008585480"
         },
@@ -2287,33 +2200,7 @@
         "area_id": null,
         "capabilities": {
           "source_list": [
-            "Amazon Alexa",
-            "Apple OTT",
-            "Apple TV",
-            "Apps",
-            "Disney+",
-            "Explore Google Assistant",
-            "Freevee",
-            "HDMI 3",
-            "Home Dashboard",
-            "Hulu",
-            "LG Channels",
-            "Live TV",
-            "Max",
-            "Media Player",
-            "Netflix",
-            "PS5 Game Console",
-            "Prime Video",
-            "Shop Time",
-            "Sling TV + Freestream",
-            "Sports Alert",
-            "TikTok TV",
-            "Tubi",
-            "Web Browser",
-            "Who.Where.What?",
-            "YouTube",
-            "YouTube TV",
-            "fuboTV"
+            "Live TV"
           ]
         },
         "config_entry_id": "b4f3f88a4c6fd3c4ce465ab79aae8994",
@@ -2806,16 +2693,16 @@
         "aliases": [],
         "area_id": null,
         "capabilities": {},
-        "config_entry_id": "e15343a0805d3e6cb9a7ae37c569d784",
+        "config_entry_id": "dd636b1bfeb8c97314368970a1362566",
         "device_class": null,
-        "device_id": "24d40a403290dc22f79d661dd240e1e7",
+        "device_id": "d98ddf494864d0adefe1976f9ec946af",
         "disabled_by": null,
         "entity_category": null,
-        "entity_id": "media_player.bedroom_tv",
+        "entity_id": "media_player.living_room",
         "hidden_by": null,
         "icon": null,
-        "id": "06be32104173e02491a7d4652220982e",
-        "has_entity_name": true,
+        "id": "c1cecd88f67104d31f90fb1de96795dc",
+        "has_entity_name": false,
         "name": null,
         "options": {
           "conversation": {
@@ -2824,11 +2711,40 @@
         },
         "original_device_class": null,
         "original_icon": null,
-        "original_name": null,
-        "platform": "cast",
-        "supported_features": 131968,
+        "original_name": "Living Room",
+        "platform": "apple_tv",
+        "supported_features": 448439,
         "translation_key": null,
-        "unique_id": "d9bbaf1a-31ca-d85c-1f42-505b1ed762ec",
+        "unique_id": "04:99:B9:86:89:33",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "dd636b1bfeb8c97314368970a1362566",
+        "device_class": null,
+        "device_id": "d98ddf494864d0adefe1976f9ec946af",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "remote.living_room",
+        "hidden_by": null,
+        "icon": null,
+        "id": "54ed49bdf1003f55e11631037051cba8",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Living Room",
+        "platform": "apple_tv",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "04:99:B9:86:89:33",
         "unit_of_measurement": null
       }
     ],
@@ -2848,6 +2764,38 @@
         "orphaned_timestamp": 1690079123.0880642,
         "platform": "dreo",
         "unique_id": "1582290393341964289-b090125df12ebbca:001:0000000000b"
+      },
+      {
+        "config_entry_id": null,
+        "entity_id": "media_player.living_room_speaker",
+        "id": "b591f1b91d12357c52df844eb14426cd",
+        "orphaned_timestamp": 1690269599.7054899,
+        "platform": "cast",
+        "unique_id": "2eabe95a-f60b-3dc3-ddb6-75c34424fb28"
+      },
+      {
+        "config_entry_id": null,
+        "entity_id": "media_player.bedroom_speaker",
+        "id": "a477696ccbc522d4488b6352fbc98ce8",
+        "orphaned_timestamp": 1690269599.7054899,
+        "platform": "cast",
+        "unique_id": "0e60fe64-ea78-3786-2735-525503b56b93"
+      },
+      {
+        "config_entry_id": null,
+        "entity_id": "media_player.all_speakers",
+        "id": "b67b9c63149b7e7a66fe08ff4d40ca94",
+        "orphaned_timestamp": 1690269599.7054899,
+        "platform": "cast",
+        "unique_id": "8ef0a6d1-599d-4495-a03e-39d86bf8d8a8"
+      },
+      {
+        "config_entry_id": null,
+        "entity_id": "media_player.bedroom_tv",
+        "id": "06be32104173e02491a7d4652220982e",
+        "orphaned_timestamp": 1690269599.7054899,
+        "platform": "cast",
+        "unique_id": "d9bbaf1a-31ca-d85c-1f42-505b1ed762ec"
       }
     ]
   }

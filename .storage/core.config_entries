@@ -235,31 +235,13 @@
         "domain": "hacs",
         "title": "",
         "data": {
-          "token": "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"
+          "token": "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"
         },
         "options": {},
         "pref_disable_new_entities": false,
         "pref_disable_polling": false,
         "source": "user",
         "unique_id": null,
-        "disabled_by": null
-      },
-      {
-        "entry_id": "e15343a0805d3e6cb9a7ae37c569d784",
-        "version": 1,
-        "domain": "cast",
-        "title": "Google Cast",
-        "data": {
-          "ignore_cec": [],
-          "known_hosts": [],
-          "uuid": [],
-          "user_id": "022497d4fb3143fdac5e37b17ff40879"
-        },
-        "options": {},
-        "pref_disable_new_entities": false,
-        "pref_disable_polling": false,
-        "source": "zeroconf",
-        "unique_id": "cast",
         "disabled_by": null
       },
       {
@@ -434,6 +416,30 @@
         "pref_disable_polling": false,
         "source": "bluetooth",
         "unique_id": "40:22:D8:79:21:6A",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "dd636b1bfeb8c97314368970a1362566",
+        "version": 1,
+        "domain": "apple_tv",
+        "title": "Living Room",
+        "data": {
+          "name": "Living Room",
+          "credentials": {
+            "3": null,
+            "5": null
+          },
+          "address": "192.168.0.168",
+          "identifiers": [
+            "04:99:B9:86:89:33",
+            "0499B9868933"
+          ]
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "zeroconf",
+        "unique_id": "04:99:B9:86:89:33",
         "disabled_by": null
       }
     ]
