@@ -28,7 +28,3 @@ Thumbs.db
 # Common
 *~
 __pycache__
-
-#Project
-.storage/auth
-.storage/homekit*
