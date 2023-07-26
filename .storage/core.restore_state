@@ -14,16 +14,16 @@
           "device_trackers": [],
           "friendly_name": "Jared"
         },
-        "last_changed": "2023-07-25T23:47:22.419655+00:00",
-        "last_updated": "2023-07-25T23:47:29.821472+00:00",
+        "last_changed": "2023-07-26T01:36:01.303502+00:00",
+        "last_updated": "2023-07-26T01:36:08.777198+00:00",
         "context": {
-          "id": "01H67Q6QCX3JBAGEXT5NGZXC8D",
+          "id": "01H67XDNJ93JBAGEXT5NGZXC8D",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-07-26T00:02:29.822842+00:00"
+      "last_seen": "2023-07-26T01:36:08.777577+00:00"
     },
     {
       "state": {
@@ -48,16 +48,34 @@
           "friendly_name": "Thermostat",
           "supported_features": 17
         },
-        "last_changed": "2023-07-25T23:47:24.593128+00:00",
-        "last_updated": "2023-07-25T23:49:35.617179+00:00",
+        "last_changed": "2023-07-26T01:36:03.531115+00:00",
+        "last_updated": "2023-07-26T01:36:08.727666+00:00",
         "context": {
-          "id": "01H67QAJ819HQPH8YP18XSJCAZ",
+          "id": "01H67XDNGQMA0GGHC97E9K2193",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-07-26T00:02:29.822842+00:00"
+      "last_seen": "2023-07-26T01:36:08.777577+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "tts.google_en_com",
+        "state": "2023-07-22T09:35:59.139444+00:00",
+        "attributes": {
+          "friendly_name": "Google en com"
+        },
+        "last_changed": "2023-07-26T01:36:03.535436+00:00",
+        "last_updated": "2023-07-26T01:36:03.535436+00:00",
+        "context": {
+          "id": "01H67XDGEF06277HRES2VDQCJY",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-07-26T01:36:08.777577+00:00"
     },
     {
       "state": {
@@ -73,34 +91,16 @@
           "friendly_name": "White Noise Machine",
           "supported_features": 1
         },
-        "last_changed": "2023-07-25T23:47:24.593433+00:00",
-        "last_updated": "2023-07-25T23:47:24.593433+00:00",
+        "last_changed": "2023-07-26T01:36:03.538787+00:00",
+        "last_updated": "2023-07-26T01:36:03.538787+00:00",
         "context": {
-          "id": "01H67Q6J9HKJXG1JETDP9QA7P4",
+          "id": "01H67XDGEJJZM5CRG3H07AVBY6",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-07-26T00:02:29.822842+00:00"
-    },
-    {
-      "state": {
-        "entity_id": "tts.google_en_com",
-        "state": "2023-07-22T09:35:59.139444+00:00",
-        "attributes": {
-          "friendly_name": "Google en com"
-        },
-        "last_changed": "2023-07-25T23:47:24.603540+00:00",
-        "last_updated": "2023-07-25T23:47:24.603540+00:00",
-        "context": {
-          "id": "01H67Q6J9VV2A6B8VCZ2GES24R",
-          "parent_id": null,
-          "user_id": null
-        }
-      },
-      "extra_data": null,
-      "last_seen": "2023-07-26T00:02:29.822842+00:00"
+      "last_seen": "2023-07-26T01:36:08.777577+00:00"
     },
     {
       "state": {
@@ -115,35 +115,35 @@
           "friendly_name": "Living Room LG TV",
           "supported_features": 24381
         },
-        "last_changed": "2023-07-25T23:47:25.433776+00:00",
-        "last_updated": "2023-07-25T23:47:25.433776+00:00",
+        "last_changed": "2023-07-26T01:36:04.232609+00:00",
+        "last_updated": "2023-07-26T01:36:04.232609+00:00",
         "context": {
-          "id": "01H67Q6K3SEWDJHWGYGHBGCBT8",
+          "id": "01H67XDH48WNV245TYTTBQ0C6R",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-07-26T00:02:29.822842+00:00"
+      "last_seen": "2023-07-26T01:36:08.777577+00:00"
     },
     {
       "state": {
         "entity_id": "binary_sensor.lumi_lumi_sensor_magnet_aq2_opening",
-        "state": "off",
+        "state": "on",
         "attributes": {
           "device_class": "opening",
           "friendly_name": "Dog Gate Senor Opening"
         },
-        "last_changed": "2023-07-26T00:01:10.772611+00:00",
-        "last_updated": "2023-07-26T00:01:10.772611+00:00",
+        "last_changed": "2023-07-26T01:36:08.622279+00:00",
+        "last_updated": "2023-07-26T01:36:08.622279+00:00",
         "context": {
-          "id": "01H67QZS3MKFTW09GXENDWJEW0",
+          "id": "01H67XDNDEPKGJF0A8PQ5M4MBR",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-07-26T00:02:29.822842+00:00"
+      "last_seen": "2023-07-26T01:36:08.777577+00:00"
     },
     {
       "state": {
@@ -158,16 +158,16 @@
           "device_class": "battery",
           "friendly_name": "Living Room Front Light Button Battery"
         },
-        "last_changed": "2023-07-25T23:47:29.776483+00:00",
-        "last_updated": "2023-07-25T23:47:29.776483+00:00",
+        "last_changed": "2023-07-26T01:36:08.624030+00:00",
+        "last_updated": "2023-07-26T01:36:08.624030+00:00",
         "context": {
-          "id": "01H67Q6QBGSJSNQYEAZ7JYSC2K",
+          "id": "01H67XDNDGSJSNQYEAZ7JYSC2K",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-07-26T00:02:29.822842+00:00"
+      "last_seen": "2023-07-26T01:36:08.777577+00:00"
     },
     {
       "state": {
@@ -182,16 +182,16 @@
           "device_class": "battery",
           "friendly_name": "Bedroom Light Button Battery"
         },
-        "last_changed": "2023-07-25T23:47:29.777424+00:00",
-        "last_updated": "2023-07-25T23:47:29.777424+00:00",
+        "last_changed": "2023-07-26T01:36:08.624742+00:00",
+        "last_updated": "2023-07-26T01:36:08.624742+00:00",
         "context": {
-          "id": "01H67Q6QBH4S1P61C4Z89DCM2K",
+          "id": "01H67XDNDG4S1P61C4Z89DCM2K",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-07-26T00:02:29.822842+00:00"
+      "last_seen": "2023-07-26T01:36:08.777577+00:00"
     },
     {
       "state": {
@@ -206,16 +206,16 @@
           "device_class": "battery",
           "friendly_name": "Dog Gate Senor Battery"
         },
-        "last_changed": "2023-07-25T23:47:29.778080+00:00",
-        "last_updated": "2023-07-25T23:47:29.778080+00:00",
+        "last_changed": "2023-07-26T01:36:08.625340+00:00",
+        "last_updated": "2023-07-26T01:36:08.625340+00:00",
         "context": {
-          "id": "01H67Q6QBJE79BG74C3ET60NFX",
+          "id": "01H67XDNDHE79BG74C3ET60NFX",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-07-26T00:02:29.822842+00:00"
+      "last_seen": "2023-07-26T01:36:08.777577+00:00"
     },
     {
       "state": {
@@ -227,16 +227,16 @@
           "device_class": "temperature",
           "friendly_name": "Dog Gate Senor Device temperature"
         },
-        "last_changed": "2023-07-25T23:47:29.778542+00:00",
-        "last_updated": "2023-07-25T23:47:29.778542+00:00",
+        "last_changed": "2023-07-26T01:36:08.625797+00:00",
+        "last_updated": "2023-07-26T01:36:08.625797+00:00",
         "context": {
-          "id": "01H67Q6QBJXSZMQ34SG8RZV93V",
+          "id": "01H67XDNDHXSZMQ34SG8RZV93V",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-07-26T00:02:29.822842+00:00"
+      "last_seen": "2023-07-26T01:36:08.777577+00:00"
     },
     {
       "state": {
@@ -251,16 +251,16 @@
           "device_class": "battery",
           "friendly_name": "Bathroom Lamp Light Button Battery"
         },
-        "last_changed": "2023-07-25T23:47:29.779199+00:00",
-        "last_updated": "2023-07-25T23:47:29.779199+00:00",
+        "last_changed": "2023-07-26T01:36:08.626408+00:00",
+        "last_updated": "2023-07-26T01:36:08.626408+00:00",
         "context": {
-          "id": "01H67Q6QBKXQ7G4NQJDF76TTVH",
+          "id": "01H67XDNDJXQ7G4NQJDF76TTVH",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-07-26T00:02:29.822842+00:00"
+      "last_seen": "2023-07-26T01:36:08.777577+00:00"
     },
     {
       "state": {
@@ -275,16 +275,16 @@
           "device_class": "battery",
           "friendly_name": "Temperature Senor Battery"
         },
-        "last_changed": "2023-07-25T23:47:29.779849+00:00",
-        "last_updated": "2023-07-25T23:47:29.779849+00:00",
+        "last_changed": "2023-07-26T01:36:08.627016+00:00",
+        "last_updated": "2023-07-26T01:36:08.627016+00:00",
         "context": {
-          "id": "01H67Q6QBK76TP9HC55MA0HJHE",
+          "id": "01H67XDNDK76TP9HC55MA0HJHE",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-07-26T00:02:29.822842+00:00"
+      "last_seen": "2023-07-26T01:36:08.777577+00:00"
     },
     {
       "state": {
@@ -296,16 +296,16 @@
           "device_class": "pressure",
           "friendly_name": "Temperature Senor Pressure"
         },
-        "last_changed": "2023-07-25T23:47:29.780238+00:00",
-        "last_updated": "2023-07-25T23:47:29.780238+00:00",
+        "last_changed": "2023-07-26T01:36:08.627395+00:00",
+        "last_updated": "2023-07-26T01:36:08.627395+00:00",
         "context": {
-          "id": "01H67Q6QBM680W9GBFAJH9ASES",
+          "id": "01H67XDNDK680W9GBFAJH9ASES",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-07-26T00:02:29.822842+00:00"
+      "last_seen": "2023-07-26T01:36:08.777577+00:00"
     },
     {
       "state": {
@@ -317,16 +317,16 @@
           "device_class": "temperature",
           "friendly_name": "Temperature Senor Temperature"
         },
-        "last_changed": "2023-07-25T23:49:35.614218+00:00",
-        "last_updated": "2023-07-25T23:49:35.614218+00:00",
+        "last_changed": "2023-07-26T01:36:08.627745+00:00",
+        "last_updated": "2023-07-26T01:36:08.627745+00:00",
         "context": {
-          "id": "01H67QAJ7YRSX0G8XY1EQPRR00",
+          "id": "01H67XDNDK66FWJM3DSC5K7ZG0",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-07-26T00:02:29.822842+00:00"
+      "last_seen": "2023-07-26T01:36:08.777577+00:00"
     },
     {
       "state": {
@@ -338,16 +338,16 @@
           "device_class": "humidity",
           "friendly_name": "Temperature Senor Humidity"
         },
-        "last_changed": "2023-07-25T23:49:35.614695+00:00",
-        "last_updated": "2023-07-25T23:49:35.614695+00:00",
+        "last_changed": "2023-07-26T01:36:08.628335+00:00",
+        "last_updated": "2023-07-26T01:36:08.628335+00:00",
         "context": {
-          "id": "01H67QAJ7Y90P81WF6C9PW0T34",
+          "id": "01H67XDNDMRASHVFFAN0FZQMCB",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-07-26T00:02:29.822842+00:00"
+      "last_seen": "2023-07-26T01:36:08.777577+00:00"
     },
     {
       "state": {
@@ -357,16 +357,16 @@
           "device_class": "identify",
           "friendly_name": "Dog Gate Senor Identify"
         },
-        "last_changed": "2023-07-25T23:47:29.781593+00:00",
-        "last_updated": "2023-07-25T23:47:29.781593+00:00",
+        "last_changed": "2023-07-26T01:36:08.628648+00:00",
+        "last_updated": "2023-07-26T01:36:08.628648+00:00",
         "context": {
-          "id": "01H67Q6QBNFCS836DRMGVW5Q7X",
+          "id": "01H67XDNDMFCS836DRMGVW5Q7X",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-07-26T00:02:29.822842+00:00"
+      "last_seen": "2023-07-26T01:36:08.777577+00:00"
     },
     {
       "state": {
@@ -376,16 +376,16 @@
           "device_class": "identify",
           "friendly_name": "Temperature Senor Identify"
         },
-        "last_changed": "2023-07-25T23:47:29.781899+00:00",
-        "last_updated": "2023-07-25T23:47:29.781899+00:00",
+        "last_changed": "2023-07-26T01:36:08.628935+00:00",
+        "last_updated": "2023-07-26T01:36:08.628935+00:00",
         "context": {
-          "id": "01H67Q6QBN3YTYMZDEBCW3ZK0G",
+          "id": "01H67XDNDM3YTYMZDEBCW3ZK0G",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-07-26T00:02:29.822842+00:00"
+      "last_seen": "2023-07-26T01:36:08.777577+00:00"
     },
     {
       "state": {
@@ -398,16 +398,16 @@
           "current": 0,
           "friendly_name": "Bathroom Lamp Light Button"
         },
-        "last_changed": "2023-07-25T23:47:29.786449+00:00",
-        "last_updated": "2023-07-25T23:47:29.786449+00:00",
+        "last_changed": "2023-07-26T01:36:08.732526+00:00",
+        "last_updated": "2023-07-26T01:36:08.732526+00:00",
         "context": {
-          "id": "01H67Q6QBT8HEAGBPMFQG40G2R",
+          "id": "01H67XDNGW8HEAGBPMFQG40G2R",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-07-26T00:02:29.822842+00:00"
+      "last_seen": "2023-07-26T01:36:08.777577+00:00"
     },
     {
       "state": {
@@ -420,16 +420,16 @@
           "current": 0,
           "friendly_name": "Living Room Front Light Button"
         },
-        "last_changed": "2023-07-25T23:47:29.786578+00:00",
-        "last_updated": "2023-07-25T23:47:29.786578+00:00",
+        "last_changed": "2023-07-26T01:36:08.732676+00:00",
+        "last_updated": "2023-07-26T01:36:08.732676+00:00",
         "context": {
-          "id": "01H67Q6QBTQ8PCN6MMVWNFMDFN",
+          "id": "01H67XDNGWQ8PCN6MMVWNFMDFN",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-07-26T00:02:29.822842+00:00"
+      "last_seen": "2023-07-26T01:36:08.777577+00:00"
     },
     {
       "state": {
@@ -442,16 +442,16 @@
           "current": 0,
           "friendly_name": "Bedroom Light Button"
         },
-        "last_changed": "2023-07-25T23:47:29.786673+00:00",
-        "last_updated": "2023-07-25T23:47:29.786673+00:00",
+        "last_changed": "2023-07-26T01:36:08.732799+00:00",
+        "last_updated": "2023-07-26T01:36:08.732799+00:00",
         "context": {
-          "id": "01H67Q6QBTRSGA3TN666RR4BWJ",
+          "id": "01H67XDNGWRSGA3TN666RR4BWJ",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-07-26T00:02:29.822842+00:00"
+      "last_seen": "2023-07-26T01:36:08.777577+00:00"
     },
     {
       "state": {
@@ -459,21 +459,21 @@
         "state": "on",
         "attributes": {
           "id": "1690008585480",
-          "last_triggered": "2023-07-25T23:43:29.025308+00:00",
+          "last_triggered": "2023-07-26T01:31:52.041386+00:00",
           "mode": "single",
           "current": 0,
           "friendly_name": "Dog Gate Timer"
         },
-        "last_changed": "2023-07-25T23:47:29.786767+00:00",
-        "last_updated": "2023-07-25T23:47:29.786767+00:00",
+        "last_changed": "2023-07-26T01:36:08.732917+00:00",
+        "last_updated": "2023-07-26T01:36:08.732917+00:00",
         "context": {
-          "id": "01H67Q6QBT93TNH9G2KCNEGRGD",
+          "id": "01H67XDNGW93TNH9G2KCNEGRGD",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-07-26T00:02:29.822842+00:00"
+      "last_seen": "2023-07-26T01:36:08.777577+00:00"
     }
   ]
 }

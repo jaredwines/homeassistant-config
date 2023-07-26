@@ -643,16 +643,16 @@
         "id": "81ea7291624cccac8c88342d733200af",
         "identifiers": [
           [
-            "upnp_serial_number",
-            "76A2C26B2B41528"
-          ],
-          [
             "upnp_host",
             "192.168.0.1"
           ],
           [
             "upnp",
             "uuid:ebf5a0a0-1dd1-11b2-a90f-909d7db732d4::urn:schemas-upnp-org:device:InternetGatewayDevice:1"
+          ],
+          [
+            "upnp_serial_number",
+            "76A2C26B2B41528"
           ]
         ],
         "manufacturer": "Arris Group, Inc",
