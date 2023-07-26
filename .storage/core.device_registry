@@ -643,16 +643,16 @@
         "id": "81ea7291624cccac8c88342d733200af",
         "identifiers": [
           [
-            "upnp",
-            "uuid:ebf5a0a0-1dd1-11b2-a90f-909d7db732d4::urn:schemas-upnp-org:device:InternetGatewayDevice:1"
+            "upnp_serial_number",
+            "76A2C26B2B41528"
           ],
           [
             "upnp_host",
             "192.168.0.1"
           ],
           [
-            "upnp_serial_number",
-            "76A2C26B2B41528"
+            "upnp",
+            "uuid:ebf5a0a0-1dd1-11b2-a90f-909d7db732d4::urn:schemas-upnp-org:device:InternetGatewayDevice:1"
           ]
         ],
         "manufacturer": "Arris Group, Inc",
@@ -768,6 +768,35 @@
         "name": "Living Room",
         "sw_version": "16.6",
         "via_device_id": null
+      },
+      {
+        "area_id": "bedroom",
+        "config_entries": [
+          "2dc567ab613002ffe9650e95617d4aef"
+        ],
+        "configuration_url": null,
+        "connections": [
+          [
+            "mac",
+            "04:99:b9:9b:de:3d"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "2dabe97447fcfc23749f91ae987a7743",
+        "identifiers": [
+          [
+            "apple_tv",
+            "04:99:B9:9B:DE:3D"
+          ]
+        ],
+        "manufacturer": "Apple",
+        "model": "HomePod Mini",
+        "name_by_user": null,
+        "name": "Bedroom",
+        "sw_version": "16.6",
+        "via_device_id": null
       }
     ],
     "deleted_devices": [
@@ -808,7 +837,9 @@
         "orphaned_timestamp": 1690269599.7042994
       },
       {
-        "config_entries": [],
+        "config_entries": [
+          "41718a2cc40839b8f7b50310e16dfa06"
+        ],
         "connections": [],
         "identifiers": [
           [
@@ -817,7 +848,7 @@
           ]
         ],
         "id": "24d40a403290dc22f79d661dd240e1e7",
-        "orphaned_timestamp": 1690269599.7042994
+        "orphaned_timestamp": null
       }
     ]
   }

@@ -2746,6 +2746,93 @@
         "translation_key": null,
         "unique_id": "04:99:B9:86:89:33",
         "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {},
+        "config_entry_id": "2dc567ab613002ffe9650e95617d4aef",
+        "device_class": null,
+        "device_id": "2dabe97447fcfc23749f91ae987a7743",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "media_player.bedroom",
+        "hidden_by": null,
+        "icon": null,
+        "id": "21d69f79c376025da8472431d6f45023",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Bedroom",
+        "platform": "apple_tv",
+        "supported_features": 448439,
+        "translation_key": null,
+        "unique_id": "04:99:B9:9B:DE:3D",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "2dc567ab613002ffe9650e95617d4aef",
+        "device_class": null,
+        "device_id": "2dabe97447fcfc23749f91ae987a7743",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "remote.bedroom",
+        "hidden_by": null,
+        "icon": null,
+        "id": "c8f565c430e10ec9f1c50575da90f79a",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Bedroom",
+        "platform": "apple_tv",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "04:99:B9:9B:DE:3D",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {},
+        "config_entry_id": "194c3011bd2641878b3c83acf7c7152e",
+        "device_class": null,
+        "device_id": null,
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "media_player.all_speakers",
+        "hidden_by": null,
+        "icon": null,
+        "id": "c6b0e6aed55f57a3f9383f27543b2c98",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "All Speakers",
+        "platform": "group",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "194c3011bd2641878b3c83acf7c7152e",
+        "unit_of_measurement": null
       }
     ],
     "deleted_entities": [
@@ -2790,10 +2877,10 @@
         "unique_id": "8ef0a6d1-599d-4495-a03e-39d86bf8d8a8"
       },
       {
-        "config_entry_id": null,
+        "config_entry_id": "41718a2cc40839b8f7b50310e16dfa06",
         "entity_id": "media_player.bedroom_tv",
         "id": "06be32104173e02491a7d4652220982e",
-        "orphaned_timestamp": 1690269599.7054899,
+        "orphaned_timestamp": null,
         "platform": "cast",
         "unique_id": "d9bbaf1a-31ca-d85c-1f42-505b1ed762ec"
       }

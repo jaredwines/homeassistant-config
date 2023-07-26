@@ -7,12 +7,12 @@
       {
         "extended_dict": {
           "last_step": "action/0",
-          "run_id": "e20bbc2304a317fd03889ecb45ed1d2d",
+          "run_id": "79f1d6b7ae2ee8bc73327eab2dc86f85",
           "state": "stopped",
           "script_execution": "finished",
           "timestamp": {
-            "start": "2023-07-25T15:29:33.698047+00:00",
-            "finish": "2023-07-25T15:29:46.153123+00:00"
+            "start": "2023-07-25T17:45:44.619998+00:00",
+            "finish": "2023-07-25T17:45:44.628418+00:00"
           },
           "domain": "automation",
           "item_id": "1690008585480",
@@ -21,22 +21,22 @@
             "trigger/0": [
               {
                 "path": "trigger/0",
-                "timestamp": "2023-07-25T15:29:33.698138+00:00",
+                "timestamp": "2023-07-25T17:45:44.620092+00:00",
                 "changed_variables": {
                   "this": {
                     "entity_id": "automation.dog_gate_timer",
                     "state": "on",
                     "attributes": {
                       "id": "1690008585480",
-                      "last_triggered": "2023-07-25T07:31:38.168698+00:00",
+                      "last_triggered": "2023-07-25T16:00:27.513165+00:00",
                       "mode": "single",
                       "current": 0,
                       "friendly_name": "Dog Gate Timer"
                     },
-                    "last_changed": "2023-07-25T07:41:10.370717+00:00",
-                    "last_updated": "2023-07-25T07:41:10.370717+00:00",
+                    "last_changed": "2023-07-25T16:49:59.671417+00:00",
+                    "last_updated": "2023-07-25T16:49:59.671417+00:00",
                     "context": {
-                      "id": "01H65ZXAV2GG46EC80FM5GVAZJ",
+                      "id": "01H66ZA8BQ9HQPH8YP18XSJCAZ",
                       "parent_id": null,
                       "user_id": null
                     }
@@ -54,10 +54,10 @@
                         "device_class": "opening",
                         "friendly_name": "Dog Gate Senor Opening"
                       },
-                      "last_changed": "2023-07-25T15:24:33.648754+00:00",
-                      "last_updated": "2023-07-25T15:24:33.648754+00:00",
+                      "last_changed": "2023-07-25T17:40:44.574023+00:00",
+                      "last_updated": "2023-07-25T17:40:44.574023+00:00",
                       "context": {
-                        "id": "01H66TDTFG6N4TSPDJ4AKDZFN6",
+                        "id": "01H67275WYB7JFPAZ4405G1G5T",
                         "parent_id": null,
                         "user_id": null
                       }
@@ -69,10 +69,10 @@
                         "device_class": "opening",
                         "friendly_name": "Dog Gate Senor Opening"
                       },
-                      "last_changed": "2023-07-25T15:24:33.696851+00:00",
-                      "last_updated": "2023-07-25T15:24:33.696851+00:00",
+                      "last_changed": "2023-07-25T17:40:44.618616+00:00",
+                      "last_updated": "2023-07-25T17:40:44.618616+00:00",
                       "context": {
-                        "id": "01H66TDTH0P139D8PAD2DKYHK0",
+                        "id": "01H67275YAWGGQ77SJMRZM6H35",
                         "parent_id": null,
                         "user_id": null
                       }
@@ -87,14 +87,35 @@
                 }
               }
             ],
+            "condition/0": [
+              {
+                "path": "condition/0",
+                "timestamp": "2023-07-25T17:45:44.620158+00:00",
+                "result": {
+                  "after": {
+                    "__type": "<class 'datetime.time'>",
+                    "isoformat": "09:00:00"
+                  },
+                  "now_time": {
+                    "__type": "<class 'datetime.time'>",
+                    "isoformat": "10:45:44.620185"
+                  },
+                  "before": {
+                    "__type": "<class 'datetime.time'>",
+                    "isoformat": "21:00:00"
+                  },
+                  "result": true
+                }
+              }
+            ],
             "action/0": [
               {
                 "path": "action/0",
-                "timestamp": "2023-07-25T15:29:33.698657+00:00",
+                "timestamp": "2023-07-25T17:45:44.620673+00:00",
                 "changed_variables": {
                   "context": {
-                    "id": "01H66TPZG1WQ4KDPXCADH5MM4G",
-                    "parent_id": "01H66TDTH0P139D8PAD2DKYHK0",
+                    "id": "01H672GAXBJS3Y6T5T75W5QNS3",
+                    "parent_id": "01H67275YAWGGQ77SJMRZM6H35",
                     "user_id": null
                   }
                 },
@@ -106,12 +127,12 @@
                       "media_content_id": "media-source://tts/tts.google_en_com?message=The+dog+gate+is+open.&language=en-us",
                       "media_content_type": "provider",
                       "entity_id": [
-                        "media_player.living_room"
+                        "media_player.all_speakers"
                       ]
                     },
                     "target": {
                       "entity_id": [
-                        "media_player.living_room"
+                        "media_player.all_speakers"
                       ]
                     }
                   },
@@ -138,12 +159,18 @@
                 }
               }
             ],
-            "condition": [],
+            "condition": [
+              {
+                "condition": "time",
+                "after": "09:00:00",
+                "before": "21:00:00"
+              }
+            ],
             "action": [
               {
                 "service": "media_player.play_media",
                 "target": {
-                  "entity_id": "media_player.living_room"
+                  "entity_id": "media_player.all_speakers"
                 },
                 "data": {
                   "media_content_id": "media-source://tts/tts.google_en_com?message=The+dog+gate+is+open.&language=en-us",
@@ -172,19 +199,19 @@
           },
           "blueprint_inputs": null,
           "context": {
-            "id": "01H66TPZG1WQ4KDPXCADH5MM4G",
-            "parent_id": "01H66TDTH0P139D8PAD2DKYHK0",
+            "id": "01H672GAXBJS3Y6T5T75W5QNS3",
+            "parent_id": "01H67275YAWGGQ77SJMRZM6H35",
             "user_id": null
           }
         },
         "short_dict": {
           "last_step": "action/0",
-          "run_id": "e20bbc2304a317fd03889ecb45ed1d2d",
+          "run_id": "79f1d6b7ae2ee8bc73327eab2dc86f85",
           "state": "stopped",
           "script_execution": "finished",
           "timestamp": {
-            "start": "2023-07-25T15:29:33.698047+00:00",
-            "finish": "2023-07-25T15:29:46.153123+00:00"
+            "start": "2023-07-25T17:45:44.619998+00:00",
+            "finish": "2023-07-25T17:45:44.628418+00:00"
           },
           "domain": "automation",
           "item_id": "1690008585480",
@@ -194,12 +221,12 @@
       {
         "extended_dict": {
           "last_step": "action/0",
-          "run_id": "cfc5825d94d11520ccb639ff8f0207b2",
+          "run_id": "cf83e32a46e2310128e5c610bb375bff",
           "state": "stopped",
           "script_execution": "finished",
           "timestamp": {
-            "start": "2023-07-25T16:00:27.512916+00:00",
-            "finish": "2023-07-25T16:00:39.952337+00:00"
+            "start": "2023-07-25T21:50:45.161051+00:00",
+            "finish": "2023-07-25T21:50:45.164964+00:00"
           },
           "domain": "automation",
           "item_id": "1690008585480",
@@ -208,23 +235,23 @@
             "trigger/0": [
               {
                 "path": "trigger/0",
-                "timestamp": "2023-07-25T16:00:27.512993+00:00",
+                "timestamp": "2023-07-25T21:50:45.161133+00:00",
                 "changed_variables": {
                   "this": {
                     "entity_id": "automation.dog_gate_timer",
                     "state": "on",
                     "attributes": {
                       "id": "1690008585480",
-                      "last_triggered": "2023-07-25T15:29:33.698315+00:00",
+                      "last_triggered": "2023-07-25T17:45:44.620376+00:00",
                       "mode": "single",
                       "current": 0,
                       "friendly_name": "Dog Gate Timer"
                     },
-                    "last_changed": "2023-07-25T07:41:10.370717+00:00",
-                    "last_updated": "2023-07-25T15:29:46.152914+00:00",
+                    "last_changed": "2023-07-25T16:49:59.671417+00:00",
+                    "last_updated": "2023-07-25T17:45:44.628262+00:00",
                     "context": {
-                      "id": "01H66TQBN8J0S14H9V5P0MB96G",
-                      "parent_id": null,
+                      "id": "01H672GAXBJS3Y6T5T75W5QNS3",
+                      "parent_id": "01H67275YAWGGQ77SJMRZM6H35",
                       "user_id": null
                     }
                   },
@@ -241,10 +268,10 @@
                         "device_class": "opening",
                         "friendly_name": "Dog Gate Senor Opening"
                       },
-                      "last_changed": "2023-07-25T15:44:36.878348+00:00",
-                      "last_updated": "2023-07-25T15:44:36.878348+00:00",
+                      "last_changed": "2023-07-25T21:13:09.288798+00:00",
+                      "last_updated": "2023-07-25T21:13:09.288798+00:00",
                       "context": {
-                        "id": "01H66VJHGEEBE90PK1TAHCPWKP",
+                        "id": "01H67EC3X8VNP2Z9G8XT6Y3MK2",
                         "parent_id": null,
                         "user_id": null
                       }
@@ -256,10 +283,10 @@
                         "device_class": "opening",
                         "friendly_name": "Dog Gate Senor Opening"
                       },
-                      "last_changed": "2023-07-25T15:55:27.512122+00:00",
-                      "last_updated": "2023-07-25T15:55:27.512122+00:00",
+                      "last_changed": "2023-07-25T21:45:45.159620+00:00",
+                      "last_updated": "2023-07-25T21:45:45.159620+00:00",
                       "context": {
-                        "id": "01H66W6CWR4J22188SA3402CCW",
+                        "id": "01H67G7SY7H18WSM4WBF2AT1EE",
                         "parent_id": null,
                         "user_id": null
                       }
@@ -274,14 +301,35 @@
                 }
               }
             ],
+            "condition/0": [
+              {
+                "path": "condition/0",
+                "timestamp": "2023-07-25T21:50:45.161197+00:00",
+                "result": {
+                  "after": {
+                    "__type": "<class 'datetime.time'>",
+                    "isoformat": "09:00:00"
+                  },
+                  "now_time": {
+                    "__type": "<class 'datetime.time'>",
+                    "isoformat": "14:50:45.161225"
+                  },
+                  "before": {
+                    "__type": "<class 'datetime.time'>",
+                    "isoformat": "21:00:00"
+                  },
+                  "result": true
+                }
+              }
+            ],
             "action/0": [
               {
                 "path": "action/0",
-                "timestamp": "2023-07-25T16:00:27.513446+00:00",
+                "timestamp": "2023-07-25T21:50:45.161694+00:00",
                 "changed_variables": {
                   "context": {
-                    "id": "01H66WFHVR62CSR5X0G395AP7T",
-                    "parent_id": "01H66W6CWR4J22188SA3402CCW",
+                    "id": "01H67GGYX8P9GTTEM6SH46SQ11",
+                    "parent_id": "01H67G7SY7H18WSM4WBF2AT1EE",
                     "user_id": null
                   }
                 },
@@ -293,12 +341,12 @@
                       "media_content_id": "media-source://tts/tts.google_en_com?message=The+dog+gate+is+open.&language=en-us",
                       "media_content_type": "provider",
                       "entity_id": [
-                        "media_player.living_room"
+                        "media_player.all_speakers"
                       ]
                     },
                     "target": {
                       "entity_id": [
-                        "media_player.living_room"
+                        "media_player.all_speakers"
                       ]
                     }
                   },
@@ -325,12 +373,18 @@
                 }
               }
             ],
-            "condition": [],
+            "condition": [
+              {
+                "condition": "time",
+                "after": "09:00:00",
+                "before": "21:00:00"
+              }
+            ],
             "action": [
               {
                 "service": "media_player.play_media",
                 "target": {
-                  "entity_id": "media_player.living_room"
+                  "entity_id": "media_player.all_speakers"
                 },
                 "data": {
                   "media_content_id": "media-source://tts/tts.google_en_com?message=The+dog+gate+is+open.&language=en-us",
@@ -359,19 +413,447 @@
           },
           "blueprint_inputs": null,
           "context": {
-            "id": "01H66WFHVR62CSR5X0G395AP7T",
-            "parent_id": "01H66W6CWR4J22188SA3402CCW",
+            "id": "01H67GGYX8P9GTTEM6SH46SQ11",
+            "parent_id": "01H67G7SY7H18WSM4WBF2AT1EE",
             "user_id": null
           }
         },
         "short_dict": {
           "last_step": "action/0",
-          "run_id": "cfc5825d94d11520ccb639ff8f0207b2",
+          "run_id": "cf83e32a46e2310128e5c610bb375bff",
           "state": "stopped",
           "script_execution": "finished",
           "timestamp": {
-            "start": "2023-07-25T16:00:27.512916+00:00",
-            "finish": "2023-07-25T16:00:39.952337+00:00"
+            "start": "2023-07-25T21:50:45.161051+00:00",
+            "finish": "2023-07-25T21:50:45.164964+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1690008585480",
+          "trigger": "state of binary_sensor.lumi_lumi_sensor_magnet_aq2_opening"
+        }
+      },
+      {
+        "extended_dict": {
+          "last_step": "action/0",
+          "run_id": "245a2cc5e075a3e8ff987345f331bd59",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2023-07-25T23:07:16.210822+00:00",
+            "finish": "2023-07-25T23:07:16.220688+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1690008585480",
+          "trigger": "state of binary_sensor.lumi_lumi_sensor_magnet_aq2_opening",
+          "trace": {
+            "trigger/0": [
+              {
+                "path": "trigger/0",
+                "timestamp": "2023-07-25T23:07:16.210905+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "automation.dog_gate_timer",
+                    "state": "on",
+                    "attributes": {
+                      "id": "1690008585480",
+                      "last_triggered": "2023-07-25T21:50:45.161411+00:00",
+                      "mode": "single",
+                      "current": 0,
+                      "friendly_name": "Dog Gate Timer"
+                    },
+                    "last_changed": "2023-07-25T22:15:18.406465+00:00",
+                    "last_updated": "2023-07-25T22:15:18.406465+00:00",
+                    "context": {
+                      "id": "01H67HXXM6RASHVFFAN0FZQMCB",
+                      "parent_id": null,
+                      "user_id": null
+                    }
+                  },
+                  "trigger": {
+                    "id": "0",
+                    "idx": "0",
+                    "alias": null,
+                    "platform": "device",
+                    "entity_id": "binary_sensor.lumi_lumi_sensor_magnet_aq2_opening",
+                    "from_state": {
+                      "entity_id": "binary_sensor.lumi_lumi_sensor_magnet_aq2_opening",
+                      "state": "off",
+                      "attributes": {
+                        "device_class": "opening",
+                        "friendly_name": "Dog Gate Senor Opening"
+                      },
+                      "last_changed": "2023-07-25T22:55:29.095696+00:00",
+                      "last_updated": "2023-07-25T22:55:29.095696+00:00",
+                      "context": {
+                        "id": "01H67M7FT76WVN22WPW8NN3VJ3",
+                        "parent_id": null,
+                        "user_id": null
+                      }
+                    },
+                    "to_state": {
+                      "entity_id": "binary_sensor.lumi_lumi_sensor_magnet_aq2_opening",
+                      "state": "on",
+                      "attributes": {
+                        "device_class": "opening",
+                        "friendly_name": "Dog Gate Senor Opening"
+                      },
+                      "last_changed": "2023-07-25T23:02:16.209277+00:00",
+                      "last_updated": "2023-07-25T23:02:16.209277+00:00",
+                      "context": {
+                        "id": "01H67MKXCHBPEJCDQCCJNXCCSP",
+                        "parent_id": null,
+                        "user_id": null
+                      }
+                    },
+                    "for": {
+                      "__type": "<class 'datetime.timedelta'>",
+                      "total_seconds": 300.0
+                    },
+                    "attribute": null,
+                    "description": "state of binary_sensor.lumi_lumi_sensor_magnet_aq2_opening"
+                  }
+                }
+              }
+            ],
+            "condition/0": [
+              {
+                "path": "condition/0",
+                "timestamp": "2023-07-25T23:07:16.210966+00:00",
+                "result": {
+                  "after": {
+                    "__type": "<class 'datetime.time'>",
+                    "isoformat": "09:00:00"
+                  },
+                  "now_time": {
+                    "__type": "<class 'datetime.time'>",
+                    "isoformat": "16:07:16.210991"
+                  },
+                  "before": {
+                    "__type": "<class 'datetime.time'>",
+                    "isoformat": "21:00:00"
+                  },
+                  "result": true
+                }
+              }
+            ],
+            "action/0": [
+              {
+                "path": "action/0",
+                "timestamp": "2023-07-25T23:07:16.212573+00:00",
+                "changed_variables": {
+                  "context": {
+                    "id": "01H67MX2BJY7H0SWVDJYPAKSG8",
+                    "parent_id": "01H67MKXCHBPEJCDQCCJNXCCSP",
+                    "user_id": null
+                  }
+                },
+                "result": {
+                  "params": {
+                    "domain": "media_player",
+                    "service": "play_media",
+                    "service_data": {
+                      "media_content_id": "media-source://tts/tts.google_en_com?message=The+dog+gate+is+open.&language=en-us",
+                      "media_content_type": "provider",
+                      "entity_id": [
+                        "media_player.all_speakers"
+                      ]
+                    },
+                    "target": {
+                      "entity_id": [
+                        "media_player.all_speakers"
+                      ]
+                    }
+                  },
+                  "running_script": false
+                }
+              }
+            ]
+          },
+          "config": {
+            "id": "1690008585480",
+            "alias": "Dog Gate Timer",
+            "description": "",
+            "trigger": [
+              {
+                "type": "opened",
+                "platform": "device",
+                "device_id": "306f507b5f864d595458ae58ab5b4f23",
+                "entity_id": "936b0e57c584f15d223942956a862682",
+                "domain": "binary_sensor",
+                "for": {
+                  "hours": 0,
+                  "minutes": 5,
+                  "seconds": 0
+                }
+              }
+            ],
+            "condition": [
+              {
+                "condition": "time",
+                "after": "09:00:00",
+                "before": "21:00:00"
+              }
+            ],
+            "action": [
+              {
+                "service": "media_player.play_media",
+                "target": {
+                  "entity_id": "media_player.all_speakers"
+                },
+                "data": {
+                  "media_content_id": "media-source://tts/tts.google_en_com?message=The+dog+gate+is+open.&language=en-us",
+                  "media_content_type": "provider"
+                },
+                "metadata": {
+                  "title": "The dog gate is open.",
+                  "thumbnail": "https://brands.home-assistant.io/_/tts/logo.png",
+                  "media_class": "app",
+                  "children_media_class": null,
+                  "navigateIds": [
+                    {},
+                    {
+                      "media_content_type": "app",
+                      "media_content_id": "media-source://tts"
+                    },
+                    {
+                      "media_content_type": "provider",
+                      "media_content_id": "media-source://tts/tts.google_en_com?message=The+dog+gate+is+open.&language=en-us"
+                    }
+                  ]
+                }
+              }
+            ],
+            "mode": "single"
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01H67MX2BJY7H0SWVDJYPAKSG8",
+            "parent_id": "01H67MKXCHBPEJCDQCCJNXCCSP",
+            "user_id": null
+          }
+        },
+        "short_dict": {
+          "last_step": "action/0",
+          "run_id": "245a2cc5e075a3e8ff987345f331bd59",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2023-07-25T23:07:16.210822+00:00",
+            "finish": "2023-07-25T23:07:16.220688+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1690008585480",
+          "trigger": "state of binary_sensor.lumi_lumi_sensor_magnet_aq2_opening"
+        }
+      },
+      {
+        "extended_dict": {
+          "last_step": "action/0",
+          "run_id": "f1280cb777e2cf79b0e1d8da3ecd67d2",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2023-07-25T23:43:29.024986+00:00",
+            "finish": "2023-07-25T23:43:29.029692+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1690008585480",
+          "trigger": "state of binary_sensor.lumi_lumi_sensor_magnet_aq2_opening",
+          "trace": {
+            "trigger/0": [
+              {
+                "path": "trigger/0",
+                "timestamp": "2023-07-25T23:43:29.025057+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "automation.dog_gate_timer",
+                    "state": "on",
+                    "attributes": {
+                      "id": "1690008585480",
+                      "last_triggered": "2023-07-25T23:07:16.211171+00:00",
+                      "mode": "single",
+                      "current": 0,
+                      "friendly_name": "Dog Gate Timer"
+                    },
+                    "last_changed": "2023-07-25T22:15:18.406465+00:00",
+                    "last_updated": "2023-07-25T23:07:16.220539+00:00",
+                    "context": {
+                      "id": "01H67MX2BJY7H0SWVDJYPAKSG8",
+                      "parent_id": "01H67MKXCHBPEJCDQCCJNXCCSP",
+                      "user_id": null
+                    }
+                  },
+                  "trigger": {
+                    "id": "0",
+                    "idx": "0",
+                    "alias": null,
+                    "platform": "device",
+                    "entity_id": "binary_sensor.lumi_lumi_sensor_magnet_aq2_opening",
+                    "from_state": {
+                      "entity_id": "binary_sensor.lumi_lumi_sensor_magnet_aq2_opening",
+                      "state": "off",
+                      "attributes": {
+                        "device_class": "opening",
+                        "friendly_name": "Dog Gate Senor Opening"
+                      },
+                      "last_changed": "2023-07-25T23:38:04.186753+00:00",
+                      "last_updated": "2023-07-25T23:38:04.186753+00:00",
+                      "context": {
+                        "id": "01H67PNF0TCYETG2X30A6QEJYM",
+                        "parent_id": null,
+                        "user_id": null
+                      }
+                    },
+                    "to_state": {
+                      "entity_id": "binary_sensor.lumi_lumi_sensor_magnet_aq2_opening",
+                      "state": "on",
+                      "attributes": {
+                        "device_class": "opening",
+                        "friendly_name": "Dog Gate Senor Opening"
+                      },
+                      "last_changed": "2023-07-25T23:38:29.023702+00:00",
+                      "last_updated": "2023-07-25T23:38:29.023702+00:00",
+                      "context": {
+                        "id": "01H67PP78ZVHPMDAB1A3PFHKXQ",
+                        "parent_id": null,
+                        "user_id": null
+                      }
+                    },
+                    "for": {
+                      "__type": "<class 'datetime.timedelta'>",
+                      "total_seconds": 300.0
+                    },
+                    "attribute": null,
+                    "description": "state of binary_sensor.lumi_lumi_sensor_magnet_aq2_opening"
+                  }
+                }
+              }
+            ],
+            "condition/0": [
+              {
+                "path": "condition/0",
+                "timestamp": "2023-07-25T23:43:29.025118+00:00",
+                "result": {
+                  "after": {
+                    "__type": "<class 'datetime.time'>",
+                    "isoformat": "09:00:00"
+                  },
+                  "now_time": {
+                    "__type": "<class 'datetime.time'>",
+                    "isoformat": "16:43:29.025142"
+                  },
+                  "before": {
+                    "__type": "<class 'datetime.time'>",
+                    "isoformat": "21:00:00"
+                  },
+                  "result": true
+                }
+              }
+            ],
+            "action/0": [
+              {
+                "path": "action/0",
+                "timestamp": "2023-07-25T23:43:29.026459+00:00",
+                "changed_variables": {
+                  "context": {
+                    "id": "01H67PZC804KAH55Q742K1CN7J",
+                    "parent_id": "01H67PP78ZVHPMDAB1A3PFHKXQ",
+                    "user_id": null
+                  }
+                },
+                "result": {
+                  "params": {
+                    "domain": "media_player",
+                    "service": "play_media",
+                    "service_data": {
+                      "media_content_id": "media-source://tts/tts.google_en_com?message=The+dog+gate+is+open.&language=en-us",
+                      "media_content_type": "provider",
+                      "entity_id": [
+                        "media_player.all_speakers"
+                      ]
+                    },
+                    "target": {
+                      "entity_id": [
+                        "media_player.all_speakers"
+                      ]
+                    }
+                  },
+                  "running_script": false
+                }
+              }
+            ]
+          },
+          "config": {
+            "id": "1690008585480",
+            "alias": "Dog Gate Timer",
+            "description": "",
+            "trigger": [
+              {
+                "type": "opened",
+                "platform": "device",
+                "device_id": "306f507b5f864d595458ae58ab5b4f23",
+                "entity_id": "936b0e57c584f15d223942956a862682",
+                "domain": "binary_sensor",
+                "for": {
+                  "hours": 0,
+                  "minutes": 5,
+                  "seconds": 0
+                }
+              }
+            ],
+            "condition": [
+              {
+                "condition": "time",
+                "after": "09:00:00",
+                "before": "21:00:00"
+              }
+            ],
+            "action": [
+              {
+                "service": "media_player.play_media",
+                "target": {
+                  "entity_id": "media_player.all_speakers"
+                },
+                "data": {
+                  "media_content_id": "media-source://tts/tts.google_en_com?message=The+dog+gate+is+open.&language=en-us",
+                  "media_content_type": "provider"
+                },
+                "metadata": {
+                  "title": "The dog gate is open.",
+                  "thumbnail": "https://brands.home-assistant.io/_/tts/logo.png",
+                  "media_class": "app",
+                  "children_media_class": null,
+                  "navigateIds": [
+                    {},
+                    {
+                      "media_content_type": "app",
+                      "media_content_id": "media-source://tts"
+                    },
+                    {
+                      "media_content_type": "provider",
+                      "media_content_id": "media-source://tts/tts.google_en_com?message=The+dog+gate+is+open.&language=en-us"
+                    }
+                  ]
+                }
+              }
+            ],
+            "mode": "single"
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01H67PZC804KAH55Q742K1CN7J",
+            "parent_id": "01H67PP78ZVHPMDAB1A3PFHKXQ",
+            "user_id": null
+          }
+        },
+        "short_dict": {
+          "last_step": "action/0",
+          "run_id": "f1280cb777e2cf79b0e1d8da3ecd67d2",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2023-07-25T23:43:29.024986+00:00",
+            "finish": "2023-07-25T23:43:29.029692+00:00"
           },
           "domain": "automation",
           "item_id": "1690008585480",
@@ -383,12 +865,12 @@
       {
         "extended_dict": {
           "last_step": "action/0",
-          "run_id": "0524196cc73a8e28086b8b9f0fe7bb0b",
+          "run_id": "450ce3b8f0e2f929f978e309fe31e134",
           "state": "stopped",
           "script_execution": "finished",
           "timestamp": {
-            "start": "2023-07-25T15:45:19.737586+00:00",
-            "finish": "2023-07-25T15:45:19.747864+00:00"
+            "start": "2023-07-25T21:45:48.675603+00:00",
+            "finish": "2023-07-25T21:45:48.686252+00:00"
           },
           "domain": "automation",
           "item_id": "1690008450276",
@@ -397,22 +879,22 @@
             "trigger/0": [
               {
                 "path": "trigger/0",
-                "timestamp": "2023-07-25T15:45:19.737662+00:00",
+                "timestamp": "2023-07-25T21:45:48.675691+00:00",
                 "changed_variables": {
                   "this": {
                     "entity_id": "automation.bedroom_light_button",
                     "state": "on",
                     "attributes": {
                       "id": "1690008450276",
-                      "last_triggered": "2023-07-23T21:09:00.855132+00:00",
+                      "last_triggered": "2023-07-25T15:45:19.737802+00:00",
                       "mode": "single",
                       "current": 0,
                       "friendly_name": "Bedroom Light Button"
                     },
-                    "last_changed": "2023-07-25T07:41:10.370630+00:00",
-                    "last_updated": "2023-07-25T07:41:10.370630+00:00",
+                    "last_changed": "2023-07-25T16:46:59.384234+00:00",
+                    "last_updated": "2023-07-25T16:46:59.384234+00:00",
                     "context": {
-                      "id": "01H65ZXAV229T6KXGE0EXSKJWK",
+                      "id": "01H66Z4R9R680W9GBFAJH9ASES",
                       "parent_id": null,
                       "user_id": null
                     }
@@ -437,9 +919,9 @@
                         "params": {}
                       },
                       "origin": "LOCAL",
-                      "time_fired": "2023-07-25T15:45:19.736884+00:00",
+                      "time_fired": "2023-07-25T21:45:48.674920+00:00",
                       "context": {
-                        "id": "01H66VKVBR2EGB7NP2PCH1AMGA",
+                        "id": "01H67G7XC2W91RDJB9XATS6SGK",
                         "parent_id": null,
                         "user_id": null
                       }
@@ -452,11 +934,11 @@
             "action/0": [
               {
                 "path": "action/0",
-                "timestamp": "2023-07-25T15:45:19.738095+00:00",
+                "timestamp": "2023-07-25T21:45:48.676149+00:00",
                 "changed_variables": {
                   "context": {
-                    "id": "01H66VKVBSHX41F1DQGDV7J1WA",
-                    "parent_id": "01H66VKVBR2EGB7NP2PCH1AMGA",
+                    "id": "01H67G7XC3Y2F3QX5VW9VEWCVE",
+                    "parent_id": "01H67G7XC2W91RDJB9XATS6SGK",
                     "user_id": null
                   }
                 }
@@ -480,8 +962,8 @@
             "action": [
               {
                 "type": "toggle",
-                "device_id": "f2557c1eb637c99a9ab4753f0a98d706",
-                "entity_id": "63982d8556c11de4f138e3f207a1bf1e",
+                "device_id": "861be6962ec8cbcd256fc8ebcf1f6b51",
+                "entity_id": "e0b4baf7dfa54a54c1b25fbcb0e4d65c",
                 "domain": "switch"
               }
             ],
@@ -489,19 +971,19 @@
           },
           "blueprint_inputs": null,
           "context": {
-            "id": "01H66VKVBSHX41F1DQGDV7J1WA",
-            "parent_id": "01H66VKVBR2EGB7NP2PCH1AMGA",
+            "id": "01H67G7XC3Y2F3QX5VW9VEWCVE",
+            "parent_id": "01H67G7XC2W91RDJB9XATS6SGK",
             "user_id": null
           }
         },
         "short_dict": {
           "last_step": "action/0",
-          "run_id": "0524196cc73a8e28086b8b9f0fe7bb0b",
+          "run_id": "450ce3b8f0e2f929f978e309fe31e134",
           "state": "stopped",
           "script_execution": "finished",
           "timestamp": {
-            "start": "2023-07-25T15:45:19.737586+00:00",
-            "finish": "2023-07-25T15:45:19.747864+00:00"
+            "start": "2023-07-25T21:45:48.675603+00:00",
+            "finish": "2023-07-25T21:45:48.686252+00:00"
           },
           "domain": "automation",
           "item_id": "1690008450276",

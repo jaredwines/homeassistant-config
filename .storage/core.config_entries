@@ -235,7 +235,7 @@
         "domain": "hacs",
         "title": "",
         "data": {
-          "token": "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"
+          "token": "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"
         },
         "options": {},
         "pref_disable_new_entities": false,
@@ -440,6 +440,51 @@
         "pref_disable_polling": false,
         "source": "zeroconf",
         "unique_id": "04:99:B9:86:89:33",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "2dc567ab613002ffe9650e95617d4aef",
+        "version": 1,
+        "domain": "apple_tv",
+        "title": "Bedroom",
+        "data": {
+          "name": "Bedroom",
+          "credentials": {
+            "3": null,
+            "5": null
+          },
+          "address": "192.168.0.101",
+          "identifiers": [
+            "04:99:B9:9B:DE:3D",
+            "0499B99BDE3D"
+          ]
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "zeroconf",
+        "unique_id": "04:99:B9:9B:DE:3D",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "194c3011bd2641878b3c83acf7c7152e",
+        "version": 1,
+        "domain": "group",
+        "title": "All Speakers",
+        "data": {},
+        "options": {
+          "group_type": "media_player",
+          "name": "All Speakers",
+          "entities": [
+            "media_player.living_room",
+            "media_player.bedroom"
+          ],
+          "hide_members": false
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
         "disabled_by": null
       }
     ]
