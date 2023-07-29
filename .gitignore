@@ -36,3 +36,4 @@ home-assistant.log*
 home-assistant_v2.db*
 wget-log*
 tts
+custom_components
