@@ -1,4 +1,14 @@
-2023-07-29 12:17:24.290 WARNING (SyncWorker_2) [homeassistant.loader] We found a custom integration hacs which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
-2023-07-29 12:17:24.291 WARNING (SyncWorker_2) [homeassistant.loader] We found a custom integration snooz which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
-2023-07-29 12:17:24.291 WARNING (SyncWorker_2) [homeassistant.loader] We found a custom integration dreo which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
-2023-07-29 12:17:29.664 WARNING (MainThread) [homeassistant.config_entries] Config entry 'Fran’s Roku Streambar' for roku integration not ready yet: Invalid response from API: Error occurred while communicating with device; Retrying in background
+2023-07-29 13:06:02.245 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration hacs which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2023-07-29 13:06:02.246 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration snooz which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2023-07-29 13:06:02.246 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration dreo which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2023-07-29 13:06:04.936 ERROR (MainThread) [custom_components.hacs] HACS is disabled - invalid_token
+2023-07-29 13:06:04.939 ERROR (MainThread) [custom_components.hacs] Bad credentials
+Traceback (most recent call last):
+  File "/config/custom_components/hacs/base.py", line 464, in async_can_update
+    response = await self.async_github_api_method(self.githubapi.rate_limit)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/config/custom_components/hacs/base.py", line 522, in async_github_api_method
+    raise HacsException(_exception)
+custom_components.hacs.exceptions.HacsException: Bad credentials
+2023-07-29 13:06:06.688 WARNING (MainThread) [homeassistant.config_entries] Config entry 'Fran’s Roku Streambar' for roku integration not ready yet: Invalid response from API: Error occurred while communicating with device; Retrying in background
+2023-07-29 13:31:07.778 WARNING (MainThread) [zigpy_deconz.api] No response to 'Command.aps_data_indication' command with seq id '0x4c'
