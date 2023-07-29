@@ -629,12 +629,12 @@
         "configuration_url": null,
         "connections": [
           [
-            "mac",
-            "90:9d:7d:b7:32:d4"
-          ],
-          [
             "upnp",
             "uuid:ebf5a0a0-1dd1-11b2-a90f-909d7db732d4"
+          ],
+          [
+            "mac",
+            "90:9d:7d:b7:32:d4"
           ]
         ],
         "disabled_by": null,
@@ -643,16 +643,16 @@
         "id": "81ea7291624cccac8c88342d733200af",
         "identifiers": [
           [
-            "upnp",
-            "uuid:ebf5a0a0-1dd1-11b2-a90f-909d7db732d4::urn:schemas-upnp-org:device:InternetGatewayDevice:1"
-          ],
-          [
             "upnp_host",
             "192.168.0.1"
           ],
           [
             "upnp_serial_number",
             "76A2C26B2B41528"
+          ],
+          [
+            "upnp",
+            "uuid:ebf5a0a0-1dd1-11b2-a90f-909d7db732d4::urn:schemas-upnp-org:device:InternetGatewayDevice:1"
           ]
         ],
         "manufacturer": "Arris Group, Inc",
