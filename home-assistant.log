@@ -47,3 +47,20 @@ custom_components.hacs.exceptions.HacsException: Bad credentials
 2023-07-30 14:30:00.025 ERROR (SyncWorker_9) [roombapy.remote_client] Can't connect to 192.168.0.212, error: [Errno 113] Host is unreachable
 2023-07-30 14:30:03.097 ERROR (SyncWorker_9) [roombapy.remote_client] Can't connect to 192.168.0.212, error: [Errno 113] Host is unreachable
 2023-07-30 14:30:03.098 ERROR (SyncWorker_9) [roombapy.remote_client] Unable to connect to 192.168.0.212
+2023-07-30 14:31:26.425 ERROR (SyncWorker_8) [roombapy.remote_client] Can't connect to 192.168.0.212, error: [Errno 113] Host is unreachable
+2023-07-30 14:31:29.497 ERROR (SyncWorker_8) [roombapy.remote_client] Can't connect to 192.168.0.212, error: [Errno 113] Host is unreachable
+2023-07-30 14:31:32.569 ERROR (SyncWorker_8) [roombapy.remote_client] Can't connect to 192.168.0.212, error: [Errno 113] Host is unreachable
+2023-07-30 14:31:32.571 ERROR (SyncWorker_8) [roombapy.remote_client] Unable to connect to 192.168.0.212
+2023-07-30 14:32:55.993 ERROR (SyncWorker_2) [roombapy.remote_client] Can't connect to 192.168.0.212, error: [Errno 113] Host is unreachable
+2023-07-30 14:32:59.065 ERROR (SyncWorker_2) [roombapy.remote_client] Can't connect to 192.168.0.212, error: [Errno 113] Host is unreachable
+2023-07-30 14:33:02.137 ERROR (SyncWorker_2) [roombapy.remote_client] Can't connect to 192.168.0.212, error: [Errno 113] Host is unreachable
+2023-07-30 14:33:02.139 ERROR (SyncWorker_2) [roombapy.remote_client] Unable to connect to 192.168.0.212
+2023-07-30 14:34:25.305 ERROR (SyncWorker_6) [roombapy.remote_client] Can't connect to 192.168.0.212, error: [Errno 113] Host is unreachable
+2023-07-30 14:34:28.378 ERROR (SyncWorker_6) [roombapy.remote_client] Can't connect to 192.168.0.212, error: [Errno 113] Host is unreachable
+2023-07-30 14:34:31.449 ERROR (SyncWorker_6) [roombapy.remote_client] Can't connect to 192.168.0.212, error: [Errno 113] Host is unreachable
+2023-07-30 14:34:31.450 ERROR (SyncWorker_6) [roombapy.remote_client] Unable to connect to 192.168.0.212
+2023-07-30 14:35:54.777 ERROR (SyncWorker_3) [roombapy.remote_client] Can't connect to 192.168.0.212, error: [Errno 113] Host is unreachable
+2023-07-30 14:35:57.849 ERROR (SyncWorker_3) [roombapy.remote_client] Can't connect to 192.168.0.212, error: [Errno 113] Host is unreachable
+2023-07-30 14:36:00.921 ERROR (SyncWorker_3) [roombapy.remote_client] Can't connect to 192.168.0.212, error: [Errno 113] Host is unreachable
+2023-07-30 14:36:00.922 ERROR (SyncWorker_3) [roombapy.remote_client] Unable to connect to 192.168.0.212
+2023-07-30 14:37:24.441 ERROR (SyncWorker_4) [roombapy.remote_client] Can't connect to 192.168.0.212, error: [Errno 113] Host is unreachable
