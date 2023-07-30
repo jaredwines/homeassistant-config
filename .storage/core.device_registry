@@ -1,0 +1,901 @@
+{
+  "version": 1,
+  "minor_version": 3,
+  "key": "core.device_registry",
+  "data": {
+    "devices": [
+      {
+        "area_id": null,
+        "config_entries": [
+          "df4a5a00c573771225579ac4d2bfce30"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "323558a08385603a16c4ee260347336f",
+        "identifiers": [
+          [
+            "sun",
+            "df4a5a00c573771225579ac4d2bfce30"
+          ]
+        ],
+        "manufacturer": null,
+        "model": null,
+        "name_by_user": null,
+        "name": "Sun",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "0cb60bb1ab987827c06dac8bf17cd174"
+        ],
+        "configuration_url": "https://www.met.no/en",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "b14230a282a6bade7759dee037c8dd5f",
+        "identifiers": [
+          [
+            "met"
+          ]
+        ],
+        "manufacturer": "Met.no",
+        "model": "Forecast",
+        "name_by_user": null,
+        "name": "Forecast",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "e48a27d60ed34dd8d2f11d2743ba4b5f"
+        ],
+        "configuration_url": null,
+        "connections": [
+          [
+            "zigbee",
+            "00:21:2e:ff:ff:07:46:33"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "36b6e0151a70911742b53979a787edee",
+        "identifiers": [
+          [
+            "zha",
+            "00:21:2e:ff:ff:07:46:33"
+          ]
+        ],
+        "manufacturer": "ZHA",
+        "model": "deCONZ = dresden elektronik deCONZ protocol: ConBee I/II, RaspBee I/II",
+        "name_by_user": null,
+        "name": "Zigbee Coordinator",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "living_room",
+        "config_entries": [
+          "a38ec66335b82c8bb517846eaf3db8f6"
+        ],
+        "configuration_url": null,
+        "connections": [
+          [
+            "mac",
+            "48:22:54:dd:51:06"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": "1.0",
+        "id": "a8f371f551c2fc74b44aa3ba5e0cef01",
+        "identifiers": [
+          [
+            "tplink",
+            "48:22:54:DD:51:06"
+          ]
+        ],
+        "manufacturer": "TP-Link",
+        "model": "EP10(US)",
+        "name_by_user": null,
+        "name": "Back Living Room Light",
+        "sw_version": "1.0.5 Build 221021 Rel.183404",
+        "via_device_id": null
+      },
+      {
+        "area_id": "living_room",
+        "config_entries": [
+          "b35763592b156964e43eb72e8d8c7f48"
+        ],
+        "configuration_url": null,
+        "connections": [
+          [
+            "mac",
+            "48:22:54:a0:18:98"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": "1.0",
+        "id": "d021b3bac4a6faa35f8bd28239cbe60b",
+        "identifiers": [
+          [
+            "tplink",
+            "48:22:54:A0:18:98"
+          ]
+        ],
+        "manufacturer": "TP-Link",
+        "model": "EP10(US)",
+        "name_by_user": null,
+        "name": "AC Plug",
+        "sw_version": "1.0.5 Build 221021 Rel.183404",
+        "via_device_id": null
+      },
+      {
+        "area_id": "bathroom",
+        "config_entries": [
+          "462fd91968e309f51f20d639766ec0f5"
+        ],
+        "configuration_url": null,
+        "connections": [
+          [
+            "mac",
+            "9c:53:22:00:96:b4"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": "5.0",
+        "id": "fbd67764da61f0db7a1dca1c78efb073",
+        "identifiers": [
+          [
+            "tplink",
+            "9C:53:22:00:96:B4"
+          ]
+        ],
+        "manufacturer": "TP-Link",
+        "model": "HS200(US)",
+        "name_by_user": null,
+        "name": "Bathroom Fan Light",
+        "sw_version": "1.0.9 Build 221011 Rel.195547",
+        "via_device_id": null
+      },
+      {
+        "area_id": "bathroom",
+        "config_entries": [
+          "67613457b053bdf9750cf90f2307a999"
+        ],
+        "configuration_url": null,
+        "connections": [
+          [
+            "mac",
+            "48:22:54:dd:72:9f"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": "1.0",
+        "id": "861be6962ec8cbcd256fc8ebcf1f6b51",
+        "identifiers": [
+          [
+            "tplink",
+            "48:22:54:DD:72:9F"
+          ]
+        ],
+        "manufacturer": "TP-Link",
+        "model": "EP10(US)",
+        "name_by_user": null,
+        "name": "Bathroom Lamp Light",
+        "sw_version": "1.0.5 Build 221021 Rel.183404",
+        "via_device_id": null
+      },
+      {
+        "area_id": "bathroom",
+        "config_entries": [
+          "d70d251bc0d19c84459262ac5067828d"
+        ],
+        "configuration_url": null,
+        "connections": [
+          [
+            "mac",
+            "9c:53:22:00:a3:60"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": "5.0",
+        "id": "6a6e2a06209b9d55aeb128498a1f1cb1",
+        "identifiers": [
+          [
+            "tplink",
+            "9C:53:22:00:A3:60"
+          ]
+        ],
+        "manufacturer": "TP-Link",
+        "model": "HS200(US)",
+        "name_by_user": null,
+        "name": "Bathroom Light",
+        "sw_version": "1.0.9 Build 221011 Rel.195547",
+        "via_device_id": null
+      },
+      {
+        "area_id": "bedroom",
+        "config_entries": [
+          "f203c4c9a1a3cd56220273bf932bcc44"
+        ],
+        "configuration_url": null,
+        "connections": [
+          [
+            "mac",
+            "48:22:54:a0:16:f2"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": "1.0",
+        "id": "f2557c1eb637c99a9ab4753f0a98d706",
+        "identifiers": [
+          [
+            "tplink",
+            "48:22:54:A0:16:F2"
+          ]
+        ],
+        "manufacturer": "TP-Link",
+        "model": "EP10(US)",
+        "name_by_user": null,
+        "name": "Bedroom Light",
+        "sw_version": "1.0.5 Build 221021 Rel.183404",
+        "via_device_id": null
+      },
+      {
+        "area_id": "closet",
+        "config_entries": [
+          "baa9ffbf7de4038a232243961860a3e1"
+        ],
+        "configuration_url": null,
+        "connections": [
+          [
+            "mac",
+            "3c:84:6a:38:9c:26"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": "3.0",
+        "id": "5d5383bccf2c6489cb1a4f9e606d45fd",
+        "identifiers": [
+          [
+            "tplink",
+            "3C:84:6A:38:9C:26"
+          ]
+        ],
+        "manufacturer": "TP-Link",
+        "model": "HS200(US)",
+        "name_by_user": null,
+        "name": "Closet Light",
+        "sw_version": "1.1.5 Build 210422 Rel.082129",
+        "via_device_id": null
+      },
+      {
+        "area_id": "living_room",
+        "config_entries": [
+          "9f2acf0bf2a27d81ecf8c75664dc135e"
+        ],
+        "configuration_url": null,
+        "connections": [
+          [
+            "mac",
+            "48:22:54:a0:17:5b"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": "1.0",
+        "id": "763bc7b57828667de8165dc2ca65f776",
+        "identifiers": [
+          [
+            "tplink",
+            "48:22:54:A0:17:5B"
+          ]
+        ],
+        "manufacturer": "TP-Link",
+        "model": "EP10(US)",
+        "name_by_user": null,
+        "name": "Front Living Room Light",
+        "sw_version": "1.0.5 Build 221021 Rel.183404",
+        "via_device_id": null
+      },
+      {
+        "area_id": "kitchen",
+        "config_entries": [
+          "1ba769f51a2b0a9a28998773a64e41b9"
+        ],
+        "configuration_url": null,
+        "connections": [
+          [
+            "mac",
+            "3c:84:6a:38:94:29"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": "3.0",
+        "id": "60222bb04dc68289ac2d67329bc7fb01",
+        "identifiers": [
+          [
+            "tplink",
+            "3C:84:6A:38:94:29"
+          ]
+        ],
+        "manufacturer": "TP-Link",
+        "model": "HS200(US)",
+        "name_by_user": null,
+        "name": "Kitchen Fan Light",
+        "sw_version": "1.1.5 Build 210422 Rel.082129",
+        "via_device_id": null
+      },
+      {
+        "area_id": "kitchen",
+        "config_entries": [
+          "47ddfe8fcd3bfa1a0b86468280d195a8"
+        ],
+        "configuration_url": null,
+        "connections": [
+          [
+            "mac",
+            "3c:84:6a:38:94:3f"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": "3.0",
+        "id": "dfff7c7476e932991e0fe2b99c379f50",
+        "identifiers": [
+          [
+            "tplink",
+            "3C:84:6A:38:94:3F"
+          ]
+        ],
+        "manufacturer": "TP-Link",
+        "model": "HS200(US)",
+        "name_by_user": null,
+        "name": "Kitchen Light",
+        "sw_version": "1.1.5 Build 210422 Rel.082129",
+        "via_device_id": null
+      },
+      {
+        "area_id": "living_room",
+        "config_entries": [
+          "e48a27d60ed34dd8d2f11d2743ba4b5f"
+        ],
+        "configuration_url": null,
+        "connections": [
+          [
+            "zigbee",
+            "00:15:8d:00:09:46:49:96"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "337e5c5ca4b651488d5bf33c368cebaf",
+        "identifiers": [
+          [
+            "zha",
+            "00:15:8d:00:09:46:49:96"
+          ]
+        ],
+        "manufacturer": "LUMI",
+        "model": "lumi.remote.b1acn01",
+        "name_by_user": "Living Room Front Light Button",
+        "name": "LUMI lumi.remote.b1acn01",
+        "sw_version": null,
+        "via_device_id": "36b6e0151a70911742b53979a787edee"
+      },
+      {
+        "area_id": "bedroom",
+        "config_entries": [
+          "e48a27d60ed34dd8d2f11d2743ba4b5f"
+        ],
+        "configuration_url": null,
+        "connections": [
+          [
+            "zigbee",
+            "00:15:8d:00:09:f4:9e:35"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "27b7195188337d0ccf48e1477d71cb65",
+        "identifiers": [
+          [
+            "zha",
+            "00:15:8d:00:09:f4:9e:35"
+          ]
+        ],
+        "manufacturer": "LUMI",
+        "model": "lumi.remote.b1acn01",
+        "name_by_user": "Bedroom Light Button",
+        "name": "LUMI lumi.remote.b1acn01",
+        "sw_version": null,
+        "via_device_id": "36b6e0151a70911742b53979a787edee"
+      },
+      {
+        "area_id": "living_room",
+        "config_entries": [
+          "e48a27d60ed34dd8d2f11d2743ba4b5f"
+        ],
+        "configuration_url": null,
+        "connections": [
+          [
+            "zigbee",
+            "00:15:8d:00:09:3e:22:44"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "306f507b5f864d595458ae58ab5b4f23",
+        "identifiers": [
+          [
+            "zha",
+            "00:15:8d:00:09:3e:22:44"
+          ]
+        ],
+        "manufacturer": "LUMI",
+        "model": "lumi.sensor_magnet.aq2",
+        "name_by_user": "Dog Gate Senor",
+        "name": "LUMI lumi.sensor_magnet.aq2",
+        "sw_version": null,
+        "via_device_id": "36b6e0151a70911742b53979a787edee"
+      },
+      {
+        "area_id": "bathroom",
+        "config_entries": [
+          "e48a27d60ed34dd8d2f11d2743ba4b5f"
+        ],
+        "configuration_url": null,
+        "connections": [
+          [
+            "zigbee",
+            "00:15:8d:00:09:26:fb:bb"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "a22e589da09cbccb89a6e82b89711633",
+        "identifiers": [
+          [
+            "zha",
+            "00:15:8d:00:09:26:fb:bb"
+          ]
+        ],
+        "manufacturer": "LUMI",
+        "model": "lumi.remote.b1acn01",
+        "name_by_user": "Bathroom Lamp Light Button",
+        "name": "LUMI lumi.remote.b1acn01",
+        "sw_version": null,
+        "via_device_id": "36b6e0151a70911742b53979a787edee"
+      },
+      {
+        "area_id": "living_room",
+        "config_entries": [
+          "e48a27d60ed34dd8d2f11d2743ba4b5f"
+        ],
+        "configuration_url": null,
+        "connections": [
+          [
+            "zigbee",
+            "00:15:8d:00:09:13:a2:1d"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "78054f3eb3dbdea96ed0ff1a20e303d8",
+        "identifiers": [
+          [
+            "zha",
+            "00:15:8d:00:09:13:a2:1d"
+          ]
+        ],
+        "manufacturer": "LUMI",
+        "model": "lumi.weather",
+        "name_by_user": "Temperature Senor",
+        "name": "LUMI lumi.weather",
+        "sw_version": null,
+        "via_device_id": "36b6e0151a70911742b53979a787edee"
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "4cafb4e6e7be4f282f85c3dd5572c05a"
+        ],
+        "configuration_url": "homeassistant://hacs",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "68cf9c1e99d9bc3f77449953b027eb1c",
+        "identifiers": [
+          [
+            "hacs",
+            "0717a0cd-745c-48fd-9b16-c8534c9704f9-bc944b0f-fd42-4a58-a072-ade38d1444cd"
+          ]
+        ],
+        "manufacturer": "hacs.xyz",
+        "model": "",
+        "name_by_user": null,
+        "name": "HACS",
+        "sw_version": "1.32.1",
+        "via_device_id": null
+      },
+      {
+        "area_id": "living_room",
+        "config_entries": [
+          "f5ed2e80bb51f6f1a85eb86db844586a"
+        ],
+        "configuration_url": null,
+        "connections": [
+          [
+            "mac",
+            "a4:cf:99:ea:c3:5b"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "1f960866185e0138825adef0239dc29e",
+        "identifiers": [
+          [
+            "apple_tv",
+            "A4:CF:99:EA:C3:5B"
+          ]
+        ],
+        "manufacturer": "Apple",
+        "model": "Apple TV 4K (gen 3)",
+        "name_by_user": null,
+        "name": "Living Room Apple TV",
+        "sw_version": "16.5",
+        "via_device_id": null
+      },
+      {
+        "area_id": "living_room",
+        "config_entries": [
+          "b4f3f88a4c6fd3c4ce465ab79aae8994"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "97fb0db15f1624fad9baa4a63a3b6924",
+        "identifiers": [
+          [
+            "webostv",
+            "119fd634-262e-21e8-71bd-3747e7780df0"
+          ]
+        ],
+        "manufacturer": "LG",
+        "model": "55UP8000PUA",
+        "name_by_user": null,
+        "name": "Living Room LG TV",
+        "sw_version": "03.34.95",
+        "via_device_id": null
+      },
+      {
+        "area_id": "living_room",
+        "config_entries": [
+          "db3840899ab9816a58c2bca0952cb774"
+        ],
+        "configuration_url": null,
+        "connections": [
+          [
+            "upnp",
+            "uuid:ebf5a0a0-1dd1-11b2-a90f-909d7db732d4"
+          ],
+          [
+            "mac",
+            "90:9d:7d:b7:32:d4"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "81ea7291624cccac8c88342d733200af",
+        "identifiers": [
+          [
+            "upnp_host",
+            "192.168.0.1"
+          ],
+          [
+            "upnp_serial_number",
+            "76A2C26B2B41528"
+          ],
+          [
+            "upnp",
+            "uuid:ebf5a0a0-1dd1-11b2-a90f-909d7db732d4::urn:schemas-upnp-org:device:InternetGatewayDevice:1"
+          ]
+        ],
+        "manufacturer": "Arris Group, Inc",
+        "model": "TG1682G",
+        "name_by_user": null,
+        "name": "Arris TG1682G",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "5e1229887dfa1ce48b58455acbbe1543"
+        ],
+        "configuration_url": null,
+        "connections": [
+          [
+            "mac",
+            "a4:7f:d3:39:ef:07"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "8e29586f6aee85da3cbafc0a995ded9d",
+        "identifiers": [
+          [
+            "homekit",
+            "5e1229887dfa1ce48b58455acbbe1543",
+            "homekit.bridge"
+          ]
+        ],
+        "manufacturer": "Home Assistant",
+        "model": "HomeKit Bridge",
+        "name_by_user": null,
+        "name": "HASS Bridge:21064",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "ab8de576444c7397aae711ef48024930"
+        ],
+        "configuration_url": null,
+        "connections": [
+          [
+            "bluetooth",
+            "4C:1D:96:B5:72:B3"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": "usb:v1D6Bp0246d0540",
+        "id": "91ee39ae480943b703f50221b2de1202",
+        "identifiers": [],
+        "manufacturer": "Intel Corporate",
+        "model": "0aaa (8087:0aaa)",
+        "name_by_user": null,
+        "name": "hci0 (4C:1D:96:B5:72:B3)",
+        "sw_version": "NUC",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "c08a8743de9b81b32004079a714348cc"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "fa945ff1426b49e8d2c6d63900935f94",
+        "identifiers": [
+          [
+            "bluetooth",
+            "40:22:D8:79:21:6A"
+          ]
+        ],
+        "manufacturer": "SNOOZ, LLC",
+        "model": "SNOOZ White Noise Machine",
+        "name_by_user": null,
+        "name": "Snooz 216A",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "living_room",
+        "config_entries": [
+          "dd636b1bfeb8c97314368970a1362566"
+        ],
+        "configuration_url": null,
+        "connections": [
+          [
+            "mac",
+            "04:99:b9:86:89:33"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "d98ddf494864d0adefe1976f9ec946af",
+        "identifiers": [
+          [
+            "apple_tv",
+            "04:99:B9:86:89:33"
+          ]
+        ],
+        "manufacturer": "Apple",
+        "model": "HomePod Mini",
+        "name_by_user": null,
+        "name": "Living Room",
+        "sw_version": "16.6",
+        "via_device_id": null
+      },
+      {
+        "area_id": "bedroom",
+        "config_entries": [
+          "2dc567ab613002ffe9650e95617d4aef"
+        ],
+        "configuration_url": null,
+        "connections": [
+          [
+            "mac",
+            "04:99:b9:9b:de:3d"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "2dabe97447fcfc23749f91ae987a7743",
+        "identifiers": [
+          [
+            "apple_tv",
+            "04:99:B9:9B:DE:3D"
+          ]
+        ],
+        "manufacturer": "Apple",
+        "model": "HomePod Mini",
+        "name_by_user": null,
+        "name": "Bedroom",
+        "sw_version": "16.6",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "ec4bc2c476af46bfa990c7154ed061a8"
+        ],
+        "configuration_url": null,
+        "connections": [
+          [
+            "mac",
+            "50:14:79:34:6c:5f"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "b53b8a3a8ae92788f19ea2a8d7be8b10",
+        "identifiers": [
+          [
+            "roomba",
+            "roomba_B5577C401A944D58B858313382CE6496"
+          ]
+        ],
+        "manufacturer": "iRobot",
+        "model": "i355020",
+        "name_by_user": null,
+        "name": "Roomba",
+        "sw_version": "daredevil+2.4.7+daredevil-release+150",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "531e83c759f4c56ba40e3ee1a01dd665"
+        ],
+        "configuration_url": null,
+        "connections": [
+          [
+            "mac",
+            "50:14:79:e5:0e:b0"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "c0434002d2f0d016071ba23560f1cd2a",
+        "identifiers": [
+          [
+            "roomba",
+            "roomba_4835FD142DA346B68319801BA3BA7113"
+          ]
+        ],
+        "manufacturer": "iRobot",
+        "model": "m611020",
+        "name_by_user": null,
+        "name": "Braava jet",
+        "sw_version": "sanmarino+22.29.6+2022-12-01-82f3372a65c+Firmware-Build+2321",
+        "via_device_id": null
+      }
+    ],
+    "deleted_devices": [
+      {
+        "config_entries": [],
+        "connections": [],
+        "identifiers": [
+          [
+            "cast",
+            "2eabe95af60b3dc3ddb675c34424fb28"
+          ]
+        ],
+        "id": "07c54a4dbb9e41c49d4af73d6bf9f685",
+        "orphaned_timestamp": 1690269599.7042994
+      },
+      {
+        "config_entries": [],
+        "connections": [],
+        "identifiers": [
+          [
+            "cast",
+            "0e60fe64ea7837862735525503b56b93"
+          ]
+        ],
+        "id": "d81ebbcf1836d9eddcd8f87676ee8ee4",
+        "orphaned_timestamp": 1690269599.7042994
+      },
+      {
+        "config_entries": [],
+        "connections": [],
+        "identifiers": [
+          [
+            "cast",
+            "8ef0a6d1599d4495a03e39d86bf8d8a8"
+          ]
+        ],
+        "id": "09d2185a19ebdb01728527919bfe061b",
+        "orphaned_timestamp": 1690269599.7042994
+      },
+      {
+        "config_entries": [
+          "41718a2cc40839b8f7b50310e16dfa06"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "cast",
+            "d9bbaf1a31cad85c1f42505b1ed762ec"
+          ]
+        ],
+        "id": "24d40a403290dc22f79d661dd240e1e7",
+        "orphaned_timestamp": null
+      },
+      {
+        "config_entries": [],
+        "connections": [
+          [
+            "mac",
+            "10:59:32:ef:a2:ed"
+          ]
+        ],
+        "identifiers": [
+          [
+            "roku",
+            "YL00F1905846"
+          ]
+        ],
+        "id": "2332e4f837c5ae53e37869fe5d378975",
+        "orphaned_timestamp": 1690674644.2861314
+      }
+    ]
+  }
+}
