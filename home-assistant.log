@@ -64,3 +64,6 @@ custom_components.hacs.exceptions.HacsException: Bad credentials
 2023-07-30 14:36:00.921 ERROR (SyncWorker_3) [roombapy.remote_client] Can't connect to 192.168.0.212, error: [Errno 113] Host is unreachable
 2023-07-30 14:36:00.922 ERROR (SyncWorker_3) [roombapy.remote_client] Unable to connect to 192.168.0.212
 2023-07-30 14:37:24.441 ERROR (SyncWorker_4) [roombapy.remote_client] Can't connect to 192.168.0.212, error: [Errno 113] Host is unreachable
+2023-07-30 14:37:27.513 ERROR (SyncWorker_4) [roombapy.remote_client] Can't connect to 192.168.0.212, error: [Errno 113] Host is unreachable
+2023-07-30 14:37:30.585 ERROR (SyncWorker_4) [roombapy.remote_client] Can't connect to 192.168.0.212, error: [Errno 113] Host is unreachable
+2023-07-30 14:37:30.586 ERROR (SyncWorker_4) [roombapy.remote_client] Unable to connect to 192.168.0.212
