@@ -42,8 +42,8 @@
   condition: []
   action:
   - type: toggle
-    device_id: 861be6962ec8cbcd256fc8ebcf1f6b51
-    entity_id: e0b4baf7dfa54a54c1b25fbcb0e4d65c
+    device_id: f2557c1eb637c99a9ab4753f0a98d706
+    entity_id: 63982d8556c11de4f138e3f207a1bf1e
     domain: switch
   mode: single
 - id: '1690008585480'
@@ -59,11 +59,14 @@
       hours: 0
       minutes: 5
       seconds: 0
-  condition: []
+  condition:
+  - condition: time
+    after: 09:00:00
+    before: '21:00:00'
   action:
   - service: media_player.play_media
     target:
-      entity_id: media_player.all_speakers
+      entity_id: media_player.living_room
     data:
       media_content_id: media-source://tts/tts.google_en_com?message=The+dog+gate+is+open.&language=en-us
       media_content_type: provider

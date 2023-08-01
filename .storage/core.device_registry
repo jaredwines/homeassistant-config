@@ -569,35 +569,6 @@
         "via_device_id": null
       },
       {
-        "area_id": "bedroom",
-        "config_entries": [
-          "a26dc77a43892218d8b7c206f9d5e795"
-        ],
-        "configuration_url": null,
-        "connections": [
-          [
-            "mac",
-            "10:59:32:ef:a2:ed"
-          ]
-        ],
-        "disabled_by": null,
-        "entry_type": null,
-        "hw_version": "9102RW",
-        "id": "2332e4f837c5ae53e37869fe5d378975",
-        "identifiers": [
-          [
-            "roku",
-            "YL00F1905846"
-          ]
-        ],
-        "manufacturer": "Roku",
-        "model": "Roku Streambar",
-        "name_by_user": null,
-        "name": "Fran’s Roku Streambar",
-        "sw_version": "12.0.0",
-        "via_device_id": null
-      },
-      {
         "area_id": "living_room",
         "config_entries": [
           "b4f3f88a4c6fd3c4ce465ab79aae8994"
@@ -643,16 +614,16 @@
         "id": "81ea7291624cccac8c88342d733200af",
         "identifiers": [
           [
+            "upnp_serial_number",
+            "76A2C26B2B41528"
+          ],
+          [
             "upnp",
             "uuid:ebf5a0a0-1dd1-11b2-a90f-909d7db732d4::urn:schemas-upnp-org:device:InternetGatewayDevice:1"
           ],
           [
             "upnp_host",
             "192.168.0.1"
-          ],
-          [
-            "upnp_serial_number",
-            "76A2C26B2B41528"
           ]
         ],
         "manufacturer": "Arris Group, Inc",
@@ -768,6 +739,93 @@
         "name": "Living Room",
         "sw_version": "16.6",
         "via_device_id": null
+      },
+      {
+        "area_id": "bedroom",
+        "config_entries": [
+          "2dc567ab613002ffe9650e95617d4aef"
+        ],
+        "configuration_url": null,
+        "connections": [
+          [
+            "mac",
+            "04:99:b9:9b:de:3d"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "2dabe97447fcfc23749f91ae987a7743",
+        "identifiers": [
+          [
+            "apple_tv",
+            "04:99:B9:9B:DE:3D"
+          ]
+        ],
+        "manufacturer": "Apple",
+        "model": "HomePod Mini",
+        "name_by_user": null,
+        "name": "Bedroom",
+        "sw_version": "16.6",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "ec4bc2c476af46bfa990c7154ed061a8"
+        ],
+        "configuration_url": null,
+        "connections": [
+          [
+            "mac",
+            "50:14:79:34:6c:5f"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "b53b8a3a8ae92788f19ea2a8d7be8b10",
+        "identifiers": [
+          [
+            "roomba",
+            "roomba_B5577C401A944D58B858313382CE6496"
+          ]
+        ],
+        "manufacturer": "iRobot",
+        "model": "i355020",
+        "name_by_user": null,
+        "name": "Roomba",
+        "sw_version": "daredevil+2.4.7+daredevil-release+150",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "531e83c759f4c56ba40e3ee1a01dd665"
+        ],
+        "configuration_url": null,
+        "connections": [
+          [
+            "mac",
+            "50:14:79:e5:0e:b0"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "c0434002d2f0d016071ba23560f1cd2a",
+        "identifiers": [
+          [
+            "roomba",
+            "roomba_4835FD142DA346B68319801BA3BA7113"
+          ]
+        ],
+        "manufacturer": "iRobot",
+        "model": "m611020",
+        "name_by_user": null,
+        "name": "Braava jet",
+        "sw_version": "sanmarino+22.29.6+2022-12-01-82f3372a65c+Firmware-Build+2321",
+        "via_device_id": null
       }
     ],
     "deleted_devices": [
@@ -808,7 +866,9 @@
         "orphaned_timestamp": 1690269599.7042994
       },
       {
-        "config_entries": [],
+        "config_entries": [
+          "41718a2cc40839b8f7b50310e16dfa06"
+        ],
         "connections": [],
         "identifiers": [
           [
@@ -817,7 +877,24 @@
           ]
         ],
         "id": "24d40a403290dc22f79d661dd240e1e7",
-        "orphaned_timestamp": 1690269599.7042994
+        "orphaned_timestamp": null
+      },
+      {
+        "config_entries": [],
+        "connections": [
+          [
+            "mac",
+            "10:59:32:ef:a2:ed"
+          ]
+        ],
+        "identifiers": [
+          [
+            "roku",
+            "YL00F1905846"
+          ]
+        ],
+        "id": "2332e4f837c5ae53e37869fe5d378975",
+        "orphaned_timestamp": 1690674644.2861314
       }
     ]
   }

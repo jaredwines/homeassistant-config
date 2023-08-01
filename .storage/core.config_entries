@@ -235,7 +235,7 @@
         "domain": "hacs",
         "title": "",
         "data": {
-          "token": "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"
+          "token": "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"
         },
         "options": {},
         "pref_disable_new_entities": false,
@@ -268,22 +268,6 @@
         "pref_disable_polling": false,
         "source": "zeroconf",
         "unique_id": "A4:CF:99:EA:C3:5B",
-        "disabled_by": null
-      },
-      {
-        "entry_id": "a26dc77a43892218d8b7c206f9d5e795",
-        "version": 1,
-        "domain": "roku",
-        "title": "Fran’s Roku Streambar",
-        "data": {
-          "host": "192.168.0.59",
-          "name": "Fran’s Roku Streambar"
-        },
-        "options": {},
-        "pref_disable_new_entities": false,
-        "pref_disable_polling": false,
-        "source": "ssdp",
-        "unique_id": "YL00F1905846",
         "disabled_by": null
       },
       {
@@ -375,7 +359,8 @@
           "filter": {
             "include_domains": [
               "climate",
-              "fan"
+              "fan",
+              "vacuum"
             ],
             "exclude_domains": [],
             "include_entities": [],
@@ -440,6 +425,95 @@
         "pref_disable_polling": false,
         "source": "zeroconf",
         "unique_id": "04:99:B9:86:89:33",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "2dc567ab613002ffe9650e95617d4aef",
+        "version": 1,
+        "domain": "apple_tv",
+        "title": "Bedroom",
+        "data": {
+          "name": "Bedroom",
+          "credentials": {
+            "3": null,
+            "5": null
+          },
+          "address": "192.168.0.101",
+          "identifiers": [
+            "04:99:B9:9B:DE:3D",
+            "0499B99BDE3D"
+          ]
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "zeroconf",
+        "unique_id": "04:99:B9:9B:DE:3D",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "194c3011bd2641878b3c83acf7c7152e",
+        "version": 1,
+        "domain": "group",
+        "title": "All Speakers",
+        "data": {},
+        "options": {
+          "group_type": "media_player",
+          "name": "All Speakers",
+          "entities": [
+            "media_player.living_room",
+            "media_player.bedroom"
+          ],
+          "hide_members": false
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "ec4bc2c476af46bfa990c7154ed061a8",
+        "version": 1,
+        "domain": "roomba",
+        "title": "Roomba",
+        "data": {
+          "host": "192.168.0.212",
+          "blid": "B5577C401A944D58B858313382CE6496",
+          "password": ":1:1690594458:L1EfcKJIffsmUyP7",
+          "continuous": true,
+          "delay": 1
+        },
+        "options": {
+          "continuous": true,
+          "delay": 1
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "dhcp",
+        "unique_id": "B5577C401A944D58B858313382CE6496",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "531e83c759f4c56ba40e3ee1a01dd665",
+        "version": 1,
+        "domain": "roomba",
+        "title": "Braava jet",
+        "data": {
+          "host": "192.168.0.114",
+          "blid": "4835FD142DA346B68319801BA3BA7113",
+          "password": ":1:1679016159:1KeakqUfjuvIbU45",
+          "continuous": true,
+          "delay": 1
+        },
+        "options": {
+          "continuous": true,
+          "delay": 1
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "zeroconf",
+        "unique_id": "4835FD142DA346B68319801BA3BA7113",
         "disabled_by": null
       }
     ]

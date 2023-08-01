@@ -1,5 +1,30 @@
-2023-07-25 09:46:51.464 WARNING (SyncWorker_1) [homeassistant.loader] We found a custom integration hacs which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
-2023-07-25 09:46:51.465 WARNING (SyncWorker_1) [homeassistant.loader] We found a custom integration snooz which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
-2023-07-25 09:46:51.465 WARNING (SyncWorker_1) [homeassistant.loader] We found a custom integration dreo which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
-2023-07-25 09:46:52.017 WARNING (Recorder) [homeassistant.components.recorder.util] The system could not validate that the sqlite3 database at //config/home-assistant_v2.db was shutdown cleanly
-2023-07-25 09:46:52.033 WARNING (Recorder) [homeassistant.components.recorder.util] Ended unfinished session (id=26 from 2023-07-24 21:51:48.959387)
+2023-07-31 10:47:04.696 WARNING (SyncWorker_3) [homeassistant.loader] We found a custom integration hacs which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2023-07-31 10:47:04.696 WARNING (SyncWorker_3) [homeassistant.loader] We found a custom integration snooz which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2023-07-31 10:47:04.696 WARNING (SyncWorker_3) [homeassistant.loader] We found a custom integration dreo which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2023-07-31 10:47:07.840 ERROR (MainThread) [custom_components.hacs] HACS is disabled - invalid_token
+2023-07-31 10:47:07.848 ERROR (MainThread) [custom_components.hacs] Bad credentials
+Traceback (most recent call last):
+  File "/config/custom_components/hacs/base.py", line 464, in async_can_update
+    response = await self.async_github_api_method(self.githubapi.rate_limit)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/config/custom_components/hacs/base.py", line 522, in async_github_api_method
+    raise HacsException(_exception)
+custom_components.hacs.exceptions.HacsException: Bad credentials
+2023-07-31 10:47:12.007 ERROR (SyncWorker_0) [roombapy.remote_client] Can't connect to 192.168.0.114, error: timed out
+2023-07-31 10:47:15.065 ERROR (SyncWorker_0) [roombapy.remote_client] Can't connect to 192.168.0.114, error: [Errno 113] Host is unreachable
+2023-07-31 10:47:17.003 WARNING (MainThread) [homeassistant.config_entries] Config entry 'Braava jet' for roomba integration not ready yet; Retrying in background
+2023-07-31 10:47:17.532 ERROR (MainThread) [homeassistant] Error doing job: Unclosed connection
+2023-07-31 10:47:18.137 ERROR (SyncWorker_1) [roombapy.remote_client] Can't connect to 192.168.0.114, error: [Errno 113] Host is unreachable
+2023-07-31 10:47:18.138 ERROR (SyncWorker_0) [roombapy.remote_client] Can't connect to 192.168.0.114, error: [Errno 113] Host is unreachable
+2023-07-31 10:47:18.141 ERROR (SyncWorker_0) [roombapy.remote_client] Unable to connect to 192.168.0.114
+2023-07-31 10:47:21.209 ERROR (SyncWorker_1) [roombapy.remote_client] Can't connect to 192.168.0.114, error: [Errno 113] Host is unreachable
+2023-07-31 10:47:24.282 ERROR (SyncWorker_1) [roombapy.remote_client] Can't connect to 192.168.0.114, error: [Errno 113] Host is unreachable
+2023-07-31 10:47:24.283 ERROR (SyncWorker_1) [roombapy.remote_client] Unable to connect to 192.168.0.114
+2023-07-31 10:47:36.089 ERROR (SyncWorker_7) [roombapy.remote_client] Can't connect to 192.168.0.114, error: [Errno 113] Host is unreachable
+2023-07-31 10:47:39.161 ERROR (SyncWorker_7) [roombapy.remote_client] Can't connect to 192.168.0.114, error: [Errno 113] Host is unreachable
+2023-07-31 10:47:42.233 ERROR (SyncWorker_7) [roombapy.remote_client] Can't connect to 192.168.0.114, error: [Errno 113] Host is unreachable
+2023-07-31 10:47:42.235 ERROR (SyncWorker_7) [roombapy.remote_client] Unable to connect to 192.168.0.114
+2023-07-31 10:48:05.465 ERROR (SyncWorker_8) [roombapy.remote_client] Can't connect to 192.168.0.114, error: [Errno 113] Host is unreachable
+2023-07-31 10:48:08.537 ERROR (SyncWorker_8) [roombapy.remote_client] Can't connect to 192.168.0.114, error: [Errno 113] Host is unreachable
+2023-07-31 10:48:11.610 ERROR (SyncWorker_8) [roombapy.remote_client] Can't connect to 192.168.0.114, error: [Errno 113] Host is unreachable
+2023-07-31 10:48:11.611 ERROR (SyncWorker_8) [roombapy.remote_client] Unable to connect to 192.168.0.114
