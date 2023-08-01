@@ -29,11 +29,3 @@ Thumbs.db
 # Common
 *~
 __pycache__
-
-.storage
-.HA_VERSION
-home-assistant.log*
-home-assistant_v2.db*
-wget-log*
-tts
-custom_components
